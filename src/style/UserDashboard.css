@@ -1,0 +1,34 @@
+.UserDashboard
+{
+    scroll-behavior: smooth;
+}
+
+.Header {
+    display: flex;
+    align-items: start;
+    width: fit-content;
+}
+
+.Header > p {
+    font-size: 3vmin;
+}
+
+.App-logo {
+    height: 10vmin;
+    pointer-events: none;
+}
+
+.Body {
+    padding-top: 15vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+
+.Body > Button {
+    height: 15vmin;
+    width: 50vmin;
+    font-size: 3vmin;
+    font-weight: bold;
+}
