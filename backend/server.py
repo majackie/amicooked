@@ -43,7 +43,9 @@ def get_users():
         for user_record in users:
             user_list.append({
                 'id': user_record[0],         # Assuming first column is ID
-                'name': user_record[1]    # Assuming second column is Name
+                'username': user_record[1],
+                'password': user_record[2],
+                'isAdmin': user_record[3] # Assuming second column is Name
                 # Add more fields as necessary
             })
 
