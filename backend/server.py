@@ -1,40 +1,63 @@
 import psycopg2
+import os
 from psycopg2 import sql
+from dotenv import load_dotenv
+from flask import Flask, jsonify
+from flask_cors import CORS
+
+app = Flask(__name__)
+CORS(app)  # Enable CORS for all routes
+
+# Load environment variables
+load_dotenv()
 
 # Define your connection parameters
-  # Your database name
-user= 'postgres'
-password= "d1QVQlVnkfeULGNe"
-host= "lazily-forgiving-hairtail.data-1.use1.tembo.io"
-port= '5432'
-dbname= 'postgres'
-idleTimeoutMilli= 30000
+host = os.getenv("DB_HOST")
+port = os.getenv("DB_PORT")
+user = os.getenv("DB_USER")
+password = os.getenv("DB_PASSWORD")
+dbname = os.getenv("DB_NAME")
 
-# Create a connection to the PostgreSQL database
-try:
-    conn = psycopg2.connect(
-        host=host,
-        port=port,
-        user=user,
-        password=password,
-        dbname=dbname
-    )
-    print("Connected to the database successfully.")
+@app.route('/api/users', methods=['GET'])
+def get_users():
+    conn = None
+    cursor = None
+    user_list = []  # Initialize user list
 
-    # Create a cursor object using the connection
-    cursor = conn.cursor()
+    try:
+        # Create a connection to the PostgreSQL database
+        conn = psycopg2.connect(
+            host=host,
+            port=port,
+            user=user,
+            password=password,
+            dbname=dbname
+        )
+        cursor = conn.cursor()
 
-    # Execute a sample query
-    cursor.execute("SELECT * FROM users;")
-    current_time = cursor.fetchall()
-    print("Current time:", current_time)
+        # Execute a query to fetch users
+        cursor.execute("SELECT * FROM users;")
+        users = cursor.fetchall()
 
-except Exception as e:
-    print("Error connecting to the database:", e)
+        # Create a list of users
+        for user_record in users:
+            user_list.append({
+                'id': user_record[0],         # Assuming first column is ID
+                'name': user_record[1]    # Assuming second column is Name
+                # Add more fields as necessary
+            })
 
-finally:
-    # Close the cursor and connection
-    if cursor:
-        cursor.close()
-    if conn:
-        conn.close()
+        return jsonify(user_list)  # Return users as JSON
+
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+    finally:
+        # Close cursor and connection if they were created
+        if cursor is not None:
+            cursor.close()
+        if conn is not None:
+            conn.close()
+
+if __name__ == '__main__':
+    app.run(debug=True)
