@@ -1,0 +1,31 @@
+.Sagwa-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Sagwa-body > * {
+    margin-bottom: 5vmin;
+}
+
+.Subtext {
+    width: 60%;
+}
+
+.Subtext > h3 {
+    font-size: 6vmin;
+}
+
+.Sagwa-body > Button {
+    height: 15vmin;
+    width: 50vmin;
+    font-size: 3vmin;
+    font-weight: bold;
+} 
+
+
+.Sagwa-img {
+    height: 50vmin;
+    pointer-events: none;
+}

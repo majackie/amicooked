@@ -3,16 +3,6 @@
     scroll-behavior: smooth;
 }
 
-.Header {
-    display: flex;
-    align-items: start;
-    width: fit-content;
-}
-
-.Header > p {
-    font-size: 3vmin;
-}
-
 .App-logo {
     height: 10vmin;
     pointer-events: none;
