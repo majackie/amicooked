@@ -1,5 +1,6 @@
 // src/pages/CommunityPage.js
 import React from 'react';
+import AppBar from '../components/AppBar';
 import Header from '../components/Header';
 import SearchBar from '../components/SearchBar';
 import TopCategories from '../components/TopCategories/TopCategories';
@@ -9,6 +10,7 @@ import BackButton from '../components/BackButton';
 function CommunityPage() {
   return (
     <div>
+      <AppBar />
       <Header />
       <SearchBar />
       <TopCategories />
