@@ -11,7 +11,7 @@ function UserDashboard() {
             <AppHeader />
             <div className="Body">
                 <Button theme="primary">Scan for Leaks</Button>
-                <Button theme="primary" onClick={() => navigate("/user-dashboard/safety-lessons")}>Safety Lessons</Button>
+                <Button theme="primary" onClick={() => navigate("/user-dashboard/safety-tools")}>Safety Tools</Button>
                 <Button theme="primary">Community Forums</Button>
                 <Button theme="primary">Edit Profiles</Button>
                 <Button theme="primary">Log Out</Button>

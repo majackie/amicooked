@@ -1,4 +1,4 @@
-.SafetyLessons {
+.SafetyTools {
     scroll-behavior: smooth;
 }
 
@@ -7,9 +7,6 @@
     align-items: center;
     justify-content: center;
     flex-flow: column;
-}
-
-.PrivacyTracker {
     width: 55vmin;
     text-align: center;
 }

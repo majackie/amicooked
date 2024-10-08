@@ -1,12 +1,12 @@
 import { useNavigate } from "react-router-dom";
 import Button from "../shared/Button"
 import AppHeader from "../shared/AppHeader";
-import "../style/SafetyLessons.css"
+import "../style/SafetyTools.css"
 
-function SafetyLessons() {
+function SafetyTools() {
     const navigate = useNavigate();
     return (
-        <div className="SafetyLessons">
+        <div className="SafetyTools">
             <AppHeader />
             <div className="Body">
                 <div className="PrivacyTracker">
@@ -14,14 +14,14 @@ function SafetyLessons() {
                     <h2>SCORE</h2>
                     <p>Check out the lessons and tips below to enhance your score</p>
                 </div>
-                <Button theme="primary">Lessons</Button>
+                <Button theme="primary" onClick={() => navigate('/user-dashboard/safety-tools/lessons-home')}>Lessons</Button>
                 <Button theme="primary">Tips</Button>
                 <Button theme="primary">Suggestions</Button>
-                <Button theme="primary">Check Your Privacy</Button>
+                <Button theme="primary" onClick={() => navigate('/user-dashboard/safety-tools/privacy-checker')}>Check Your Privacy</Button>
                 <Button theme="primary" onClick={() => navigate('/user-dashboard')}>Back</Button>
             </div>
         </div>
     )
 }
 
-export default SafetyLessons;
+export default SafetyTools;
