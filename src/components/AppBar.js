@@ -1,4 +1,3 @@
-// src/components/AppBar.js
 import React from 'react';
 
 function AppBar() {
