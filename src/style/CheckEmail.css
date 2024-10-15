@@ -18,5 +18,5 @@
 .CheckEmail .breach img {
     max-width: 100px;
     display: block;
-    margin: 8px 0;
+    margin: 8px auto;
 }
