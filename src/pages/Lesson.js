@@ -18,6 +18,7 @@ function Lesson(props) {
             <div className="Lesson-body">
                 <div className="Lesson-content">
                     <h2>{props.topicName}</h2>
+                    {/* TODO - Billy: Push this as text to db */}
                     {/* start - This is what details.content should look like */}
                     <h3>What is phishing?</h3>
                     <p>Phishing is an attempt to steal personal information or break in to online accounts using deceptive emails, messages, ads, or sites that look similar to sites you already use. For example, a phishing email might look like it's from your bank and request private information about your bank account.</p>
