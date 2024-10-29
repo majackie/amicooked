@@ -21,7 +21,7 @@
 
 .Lesson-content > p, ul {
     font-size: 4vmin;
-    text-align: justify;
+    /* text-align: justify; */
 }
 
 .Lesson-body > Button {

@@ -10,6 +10,10 @@ const theme = {
     default: "#E81A2F",
     hover: "#9C0A0C",
   },
+  back: {
+    default: "#919191",
+    hover: "#5c5c5c",
+  }
 };
 
 const Button = styled.button`
