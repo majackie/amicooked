@@ -1,6 +1,7 @@
 import {Routes, Route } from "react-router-dom";
 
 // Pages
+import Admin from './Admin.js'
 import Home from './pages/Home';
 import UserDashboard from './pages/UserDashboard'
 import SafetyTools from "./pages/SafetyTools";
@@ -15,7 +16,8 @@ function App() {
     <>
       <Routes>
         {/* Landing Page */}
-        <Route path="/" element={<Home />} /> 
+        <Route path="/" element={<Home />} />
+        <Route path="/admin" element={<Admin />} /> 
         <Route path="/home" element={<Home />} /> 
         {/* Add pages here */}
         <Route path="/user-dashboard" element={<UserDashboard />} />
@@ -24,9 +26,9 @@ function App() {
         <Route path="/user-dashboard/safety-tools/sagwa" element={<Sagwa />} />
         <Route path="/user-dashboard/safety-tools/lessons-home" element={<LessonsHome />} />
         {/* TODO: Turn this into a loop to generate Route component with path lesson/id */}
-        <Route path="/user-dashboard/safety-tools/lesson/1" element={<Lesson topicId="1" topicName="Phishing Email" />} />
-        <Route path="/user-dashboard/safety-tools/lesson/1/interactive" element={<Phishing topicId="1" topicName="Phishing Email" />} />
-        <Route path="/user-dashboard/safety-tools/lesson/2" element={<Lesson topicId="2" topicName="Password" />} />
+        <Route path="/user-dashboard/safety-tools/lesson/:topicId" element={<Lesson />} />
+        <Route path="/user-dashboard/safety-tools/lesson/:topicIdid/interactive" element={<Phishing />} />
+        <Route path="/user-dashboard/safety-tools/lesson/:topicId" element={<Lesson />} />
       </Routes>
     </>
   );

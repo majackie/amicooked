@@ -61,5 +61,43 @@ def get_users():
         if conn is not None:
             conn.close()
 
+@app.route('/lesson/<int:id>', methods=['GET'])
+def get_lesson(id):
+    conn = None
+    cursor = None
+
+    try:
+        # Create a connection to the PostgreSQL database
+        conn = psycopg2.connect(
+            host=host,
+            port=port,
+            user=user,
+            password=password,
+            dbname=dbname
+        )
+        cursor = conn.cursor()
+
+        # Execute a query to fetch users
+        cursor.execute("SELECT * FROM lessons WHERE topicId = %s", (id,))
+        lesson = cursor.fetchone()
+
+        lesson_data = {
+            "topicId": lesson[0],
+            "topicName": lesson[1],
+            "topicContent": lesson[2]
+        }
+
+        return jsonify(lesson_data)  # Return users as JSON
+
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+    finally:
+        # Close cursor and connection if they were created
+        if cursor is not None:
+            cursor.close()
+        if conn is not None:
+            conn.close()
+
 if __name__ == '__main__':
     app.run(debug=True)

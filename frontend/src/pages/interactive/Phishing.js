@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import AppHeader from "../../shared/AppHeader";
 import '../../style/Phishing.css';
 
-function Phishing(props) {
+function Phishing() {
     // const [isOpen, setIsOpen] = useState(false);
     const highlights = [
         "support@bankofamericaupdates.com",
@@ -11,18 +11,19 @@ function Phishing(props) {
         "If you do not complete verification within 24 hours, your account will be permanently disabled.",
         "chose"
     ];
-    const [openDropdownIndex, setOpenDropdownIndex] = useState(0);
+    const [openDropdownIndex, setOpenDropdownIndex] = useState(-1);
     const dropdownRefs = useRef([]);
 
     const handleToggleDropdown = (index) => {
         setOpenDropdownIndex(openDropdownIndex === index ? null : index);
     };
+
     
     return (
         <div className="Phishing">
             <AppHeader />
             <div className="Phishing-body">
-                <h2>{props.topicName}</h2>
+                <h2>Phishing email</h2>
                 <p>Here’s an example of a phishing email that’s designed to look like it’s from a bank. Click on the highlighted areas to see their red flag.</p>
                 <div className="Phishing-example">
                     

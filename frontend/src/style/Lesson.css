@@ -19,9 +19,8 @@
     font-size: 5vmin;
 }
 
-.Lesson-content > p, ul {
+.Lesson-content > p, ul, ol {
     font-size: 4vmin;
-    /* text-align: justify; */
 }
 
 .Lesson-body > Button {
