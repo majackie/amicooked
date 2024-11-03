@@ -1,9 +1,10 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef } from 'react';
+import { useNavigate } from "react-router-dom";
 import AppHeader from "../../shared/AppHeader";
 import '../../style/Phishing.css';
 
 function Phishing() {
-    // const [isOpen, setIsOpen] = useState(false);
+    const navigate = useNavigate();
     const highlights = [
         "support@bankofamericaupdates.com",
         "Verify My Account",
@@ -43,7 +44,7 @@ function Phishing() {
                             <p>We detected suspicious activity on your account and temporarily suspended it to protect your information. To prevent further issues, please verify your account immediately.</p>
                             <p>Follow the steps below:</p>
                             <ol>
-                                <li>Click on the secure link to verify your account: <span className="Redflag" onClick={() => handleToggleDropdown(1)}><a href="">{highlights[1]}</a></span></li>
+                                <li>Click on the secure link to verify your account: <span className="Redflag" onClick={() => handleToggleDropdown(1)}><a href="" onClick={() => navigate(`/dangerous-phishing-url`)}>{highlights[1]}</a></span></li>
                                 <div 
                                 ref={(el) => dropdownRefs.current[1] = el}
                                 className={`dropdown ${openDropdownIndex === 1 ? 'open' : ''}`}
@@ -87,26 +88,6 @@ function Phishing() {
             {/* TODO - Billy: Implement Lesson Conclusion */}
         </div>
     );
-}
-
-function fakeEmail() {
-    console.log("This is a fake email address.")
-}
-
-function urgency() {
-    console.log("Sense of urgency or threats.")
-}
-
-function suspiciousLink() {
-    console.log("Suspicious link or attachment.")
-}
-
-function sensitiveInfo() {
-    console.log("Request for personal/financial/senstive information.")
-}
-
-function mispelling() {
-    console.log("Spelling or grammar mistake.")
 }
 
 export default Phishing;
