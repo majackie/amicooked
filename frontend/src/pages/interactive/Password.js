@@ -38,6 +38,7 @@ function Password(props) {
                 <h2>{props.topicName}</h2>
                 <br />
                 {/* <HtmlRenderer classNameString="Lesson-content" htmlString={lesson.topicContent} /> */}
+                {/* TODO - Billy: Add content (Terms&Conditions) to DB */}
                 <div className="Lesson-content">
                     <h3>Why Should You Always Read The Terms And Conditions Carefully?</h3>
                     <p>When you sign up for a new website or you download an app, you are usually presented with a long list of terms and conditions that you need to agree to before you can proceed. For many years now, people have been blindly agreeing to terms and conditions to save the time that would be typically spent reading through them. This has led to numerous problems involving privacy and moreover the years.</p>
