@@ -36,10 +36,7 @@ function Lesson() {
             <AppHeader />
             <div className="Lesson-body">
                 <h2>{lesson.topicName}</h2>
-                {/* TODO - Billy: Push this as text to db */}
-                {/* start - This is what details.content should look like */}
                 <HtmlRenderer classNameString="Lesson-content" htmlString={lesson.topicContent} />
-                {/* end - This is what details.content should look like */}
                 <Button theme="primary" onClick={() => navigate(`/user-dashboard/safety-tools/lesson/${topicId}/interactive`)}>See example</Button>
                 <Button theme="back" onClick={() => navigate('/user-dashboard/safety-tools/lessons-home')}>Back</Button>
             </div>
