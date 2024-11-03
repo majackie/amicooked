@@ -5,7 +5,7 @@ import Button from "../shared/Button"
 import AppHeader from "../shared/AppHeader";
 
 function CheckEmail() {
-	const url = "http://127.0.0.1:5000/api/breachedaccount/";
+	const url = "http://127.0.0.1:5000/api/hibp/email/";
 	const [email, setEmail] = useState("");
 	const [result, setResult] = useState(null);
 
