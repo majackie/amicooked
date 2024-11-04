@@ -1,13 +1,13 @@
 import { useNavigate } from "react-router-dom";
 import Button from "../shared/Button"
-import AppHeader from "../shared/AppHeader";
+import Navbar from "../shared/Navbar";
 import "../style/SafetyTools.css"
 
 function SafetyTools() {
     const navigate = useNavigate();
     return (
         <div className="SafetyTools">
-            <AppHeader />
+            <Navbar type={"default"} />
             <div className="Body">
                 <div className="PrivacyTracker">
                     <h3>YOUR PRIVACY SCORE</h3>

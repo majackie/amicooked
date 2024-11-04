@@ -1,10 +1,10 @@
-import AppHeader from "../../shared/AppHeader";
+import Navbar from "../../shared/Navbar";
 import "../../style/PhishingUrl.css"
 
 function PhisingUrl() {
     return (
         <div className="PhishingUrl">
-            <AppHeader />
+            <Navbar type={"default"} />
             <div className="PhishingUrl-body">
                 {/* <img src={ScamAlert} className="Scam-alert" alt="scam-alert"/> */}
                 <div className="Scam-alert">

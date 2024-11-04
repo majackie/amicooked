@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 
-import AppHeader from "../shared/AppHeader";
+import Navbar from "../shared/Navbar";
 import { useNavigate, useParams } from "react-router-dom";
 import Button from "../shared/Button"
 import "../style/Lesson.css";
@@ -33,7 +33,7 @@ function Lesson() {
 
     return (
         <div className="Lesson">
-            <AppHeader />
+            <Navbar type={"default"} />
             <div className="Lesson-body">
                 <h2>{lesson.topicName}</h2>
                 {/* TODO - Billy: Push this as text to db */}

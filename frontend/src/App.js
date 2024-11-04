@@ -29,11 +29,11 @@ function App() {
         <Route path="/user-dashboard/safety-tools/lessons-home" element={<LessonsHome />} />
         {/* Lesson pages */}
         <Route path="/user-dashboard/safety-tools/lesson/:topicId" element={<Lesson />} />
-        <Route path="/user-dashboard/safety-tools/lesson/:topicIdid/interactive" element={<Phishing />} />
+        <Route path="/user-dashboard/safety-tools/lesson/:topicId/interactive" element={<Phishing />} />
         <Route path="/user-dashboard/safety-tools/lesson/:topicId" element={<Lesson />} />
         <Route path="/dangerous-phishing-url" element={<PhishingUrl/>} />
         {/* Tips */}
-        <Route path="/user-dashboard/safety-tools/tips" element={<Tips />} />
+        <Route path="/user-dashboard/safety-tools/tips/1" element={<Tips />} />
       </Routes>
     </>
   );

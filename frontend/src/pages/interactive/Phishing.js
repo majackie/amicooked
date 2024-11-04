@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
 import { useNavigate } from "react-router-dom";
-import AppHeader from "../../shared/AppHeader";
+import Navbar from "../../shared/Navbar";
 import '../../style/Phishing.css';
 
 function Phishing() {
@@ -22,7 +22,7 @@ function Phishing() {
     
     return (
         <div className="Phishing">
-            <AppHeader />
+            <Navbar type={"default"} />
             <div className="Phishing-body">
                 <h2>Phishing email</h2>
                 <p>Here’s an example of a phishing email that’s designed to look like it’s from a bank. Click on the highlighted areas to see their red flag.</p>

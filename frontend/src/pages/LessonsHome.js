@@ -1,13 +1,13 @@
 import { useNavigate } from "react-router-dom";
 import Button from "../shared/Button"
-import AppHeader from "../shared/AppHeader";
+import Navbar from "../shared/Navbar";
 // import "../style/LessonsHome.css"
 
 function LessonsHome() {
     const navigate = useNavigate();
     return (
         <div className="LessonsHome">
-            <AppHeader />
+            <Navbar type={"default"} />
             <div className="Body">
                 <div className="PrivacyTracker">
                     <h3>YOUR PRIVACY SCORE</h3>

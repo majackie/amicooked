@@ -1,6 +1,14 @@
+h2 {
+    font-size: 6vmin;
+}
+
 .Tips-body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     margin: 5vmin;
-    height: 100vmin;
+    /* height: 100vmin; */
 }
 
 Button {
