@@ -1,0 +1,13 @@
+.Tips-body {
+    margin: 5vmin;
+    height: 100vmin;
+}
+
+Button {
+    height: 40px;
+}
+
+.Carousel-item {
+    height: 100vmin;
+    width: 100%;
+}
