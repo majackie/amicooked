@@ -1,4 +1,3 @@
-import AppHeader from "../shared/AppHeader"
 import "../style/Tips.css"
 import { Carousel } from '@trendyol-js/react-carousel';
 import Button from "../shared/Button"

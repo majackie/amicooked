@@ -18,13 +18,13 @@ export const SidebarData = [
   },
   {
     title: "Lessons",
-    path: "/user-dashboard/safety-tools/lessons",
+    path: "/user-dashboard/safety-tools/lessons-home",
     icon: <AiIcons.AiOutlineBook />,
     cName: "Nav-text",
   },
   {
     title: "Tips",
-    path: "/user-dashboard/safety-tools/tips/1",
+    path: "/user-dashboard/safety-tools/tips",
     icon: <AiIcons.AiOutlinePaperClip />,
     cName: "Nav-text",
   },

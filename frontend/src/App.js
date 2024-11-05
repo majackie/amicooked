@@ -10,7 +10,8 @@ import Sagwa from "./pages/Sagwa";
 import LessonsHome from "./pages/LessonsHome";
 import Lesson from "./pages/Lesson";
 import Phishing from "./pages/interactive/Phishing";
-import PhishingUrl from "./pages/interactive/PhishingUrl";
+import TermsNConditions from "./pages/interactive/TermsNConditions"
+import PhishingUrl from "./pages/interactive/PhishingUrl.js";
 import Tips from "./pages/Tips";
 
 function App() {
@@ -26,14 +27,13 @@ function App() {
         <Route path="/user-dashboard/safety-tools" element={<SafetyTools />} />
         <Route path="/user-dashboard/safety-tools/privacy-checker" element={<PrivacyChecker />}/>
         <Route path="/user-dashboard/safety-tools/sagwa" element={<Sagwa />} />
-        <Route path="/user-dashboard/safety-tools/lessons-home" element={<LessonsHome />} />
         {/* Lesson pages */}
+        <Route path="/user-dashboard/safety-tools/lessons-home" element={<LessonsHome />} />
         <Route path="/user-dashboard/safety-tools/lesson/:topicId" element={<Lesson />} />
-        <Route path="/user-dashboard/safety-tools/lesson/:topicId/interactive" element={<Phishing />} />
-        <Route path="/user-dashboard/safety-tools/lesson/:topicId" element={<Lesson />} />
+        <Route path="/user-dashboard/safety-tools/lesson/1/interactive" element={<Phishing />} />
+        <Route path="/user-dashboard/safety-tools/lesson/3/interactive" element={<TermsNConditions />} />
         <Route path="/dangerous-phishing-url" element={<PhishingUrl/>} />
-        {/* Tips */}
-        <Route path="/user-dashboard/safety-tools/tips/1" element={<Tips />} />
+        <Route path="/user-dashboard/safety-tools/tips" element={<Tips />} />
       </Routes>
     </>
   );

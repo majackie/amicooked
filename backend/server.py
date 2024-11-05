@@ -84,7 +84,8 @@ def get_lesson(id):
         lesson_data = {
             "topicId": lesson[0],
             "topicName": lesson[1],
-            "topicContent": lesson[2]
+            "topicContent": lesson[2],
+            "isInteractive": lesson[3]
         }
 
         return jsonify(lesson_data)  # Return users as JSON
