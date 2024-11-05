@@ -45,7 +45,7 @@ function Phishing() {
                         <p>We detected suspicious activity on your account and temporarily suspended it to protect your information. To prevent further issues, please verify your account immediately.</p>
                         <p>Follow the steps below:</p>
                         <ol>
-                            <li>Click on the secure link to verify your account: <span className="Redflag" onClick={() => handleToggleDropdown(1)}><a href="">{highlights[1]}</a></span></li>
+                            <li>Click on the secure link to verify your account: <span className="Redflag" onClick={() => handleToggleDropdown(1)}><a href="" onClick={() => navigate('/dangerous-phishing-url')}>{highlights[1]}</a></span></li>
                             <div 
                             ref={(el) => dropdownRefs.current[1] = el}
                             className={`dropdown ${openDropdownIndex === 1 ? 'open' : ''}`}

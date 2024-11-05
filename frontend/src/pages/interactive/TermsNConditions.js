@@ -9,8 +9,8 @@ function TermsNConditions() {
     const navigate = useNavigate();
     const [value, setValue] = useState([]);
     const handleChange = (val) => setValue(val);
+    const [text, setText] = useState("")
 
-    console.log("value selected: "+value)
     const options = [
         { label: "1. Data Collection and Sharing", value: 1},
         { label: "2. Content Ownership", value: 2},
@@ -20,22 +20,24 @@ function TermsNConditions() {
         { label: "6. Non-Disparagement", value: 6},
         { label: "7. Changes to Terms", value: 7},
     ];
-    const [openDropdownIndex, setOpenDropdownIndex] = useState(-1);
-    const dropdownRefs = useRef([]);
 
-    const handleToggleDropdown = (index) => {
-        setOpenDropdownIndex(openDropdownIndex === index ? null : index);
-    };
+    const handleAnswer = (value) => {
+        // console.log("Length: "+value.length)
+        const result = checkAnswer(value);
+    
+        if (result) {
+            console.log("Correct")
+            setText("Correct! All of the clauses are either dangerous or concerning");
+        } else {
+            console.log("False")
+            setText("Wrong. Please try again, you must not accept the Terms And Conditions even if one clause is concerning.");
+        }
+    }
 
-    // <span className="Redflag" onClick={() => handleToggleDropdown(0)}><u>{highlights[0]}</u></span></p>
-    // <div 
-    //     ref={(el) => dropdownRefs.current[0] = el}
-    //     className={`dropdown ${openDropdownIndex === 0 ? 'open' : ''}`}
-    //     style={{
-    //         maxHeight: openDropdownIndex === 0 ? `${dropdownRefs.current[0]?.scrollHeight}px` : '0px',}}
-    // >
-    //     <p>Email Address: The email is from "support@bankofamericaupdates.com", which is not the official Bank of America domain.</p>
-    // </div>
+    const checkAnswer = (value) => {
+        console.log("value selected: "+value)
+        return (value.length == 7);
+    }
 
     return (
         <div className="TermsNConditions">
@@ -73,8 +75,9 @@ function TermsNConditions() {
                         onChange={handleChange}>
                             {renderToggleButtons(options)}
                     </ToggleButtonGroup>
+                    <h3>Answer: {text}</h3>
                 </div>
-                <Button theme="primary" onClick={handleAnswer}>Check Answer</Button>
+                <Button theme="primary" onClick={() => handleAnswer(value)}>Check Answer</Button>
                 <Button theme="back" onClick={() => navigate('/user-dashboard/safety-tools/lessons-home')}>Back to Lessons</Button>
             </div>
         </div>
@@ -88,16 +91,5 @@ const renderToggleButtons = (optionsArray) => {
         </ToggleButton>
     ));
 };
-
-function handleAnswer(value) {
-    if (value.length == 7) {
-        console.log("Correct")
-        // return true
-    } else {
-        console.log("False")
-    }
-    
-    // return false
-}
 
 export default TermsNConditions;
