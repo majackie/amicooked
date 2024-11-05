@@ -91,24 +91,4 @@ function Phishing() {
     );
 }
 
-function fakeEmail() {
-    console.log("This is a fake email address.")
-}
-
-function urgency() {
-    console.log("Sense of urgency or threats.")
-}
-
-function suspiciousLink() {
-    console.log("Suspicious link or attachment.")
-}
-
-function sensitiveInfo() {
-    console.log("Request for personal/financial/senstive information.")
-}
-
-function mispelling() {
-    console.log("Spelling or grammar mistake.")
-}
-
 export default Phishing;

@@ -11,6 +11,7 @@ import LessonsHome from "./pages/LessonsHome";
 import Lesson from "./pages/Lesson";
 import Phishing from "./pages/interactive/Phishing";
 import TermsNConditions from "./pages/interactive/TermsNConditions"
+import PhishingUrl from "./pages/interactive/PhishingUrl.js";
 
 function App() {
   return (
@@ -30,6 +31,8 @@ function App() {
         <Route path="/user-dashboard/safety-tools/lesson/:topicId" element={<Lesson />} />
         <Route path="/user-dashboard/safety-tools/lesson/1/interactive" element={<Phishing />} />
         <Route path="/user-dashboard/safety-tools/lesson/3/interactive" element={<TermsNConditions />} />
+        <Route path="/dangerous-phishing-url" element={<PhishingUrl/>} />
+        
       </Routes>
     </>
   );
