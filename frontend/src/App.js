@@ -25,8 +25,8 @@ function App() {
         <Route path="/user-dashboard/safety-tools" element={<SafetyTools />} />
         <Route path="/user-dashboard/safety-tools/privacy-checker" element={<PrivacyChecker />}/>
         <Route path="/user-dashboard/safety-tools/sagwa" element={<Sagwa />} />
+        {/* Lesson pages */}
         <Route path="/user-dashboard/safety-tools/lessons-home" element={<LessonsHome />} />
-        {/* TODO: Turn this into a loop to generate Route component with path lesson/id */}
         <Route path="/user-dashboard/safety-tools/lesson/:topicId" element={<Lesson />} />
         <Route path="/user-dashboard/safety-tools/lesson/1/interactive" element={<Phishing />} />
         <Route path="/user-dashboard/safety-tools/lesson/3/interactive" element={<TermsNConditions />} />
