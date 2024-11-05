@@ -1,21 +1,21 @@
-import "../style/CheckEmail.css"
+import "../style/CheckDomain.css"
 
 import { useState } from "react";
 import Button from "../shared/Button"
 import AppHeader from "../shared/AppHeader";
 
-function CheckEmail() {
-	const url = "http://127.0.0.1:5000/api/hibp/email/";
-	const [email, setEmail] = useState("");
+function CheckDomain() {
+	const url = "http://127.0.0.1:5000/api/hibp/domain/";
+	const [domain, setDomain] = useState("");
 	const [result, setResult] = useState(null);
 
-	const handleEmailChange = (event) => {
-		setEmail(event.target.value);
+	const handleDomainChange = (event) => {
+		setDomain(event.target.value);
 	};
 
 	const handleSubmit = async () => {
 		try {
-			const response = await fetch(url + email, {
+			const response = await fetch(url + domain, {
 				method: "GET",
 				headers: {
 					"Content-Type": "application/json"
@@ -36,15 +36,15 @@ function CheckEmail() {
 	};
 
 	return (
-		<div className="CheckEmail">
+		<div className="CheckDomain">
 			<AppHeader />
 			<div className="Body">
 				<form onSubmit={(e) => e.preventDefault()}>
-					<label className="form-element">Enter your email:</label>
-					<input className="form-element" type="email" id="email" name="email" value={email} onChange={handleEmailChange}></input>
+					<label className="form-element">Enter domain:</label>
+					<input className="form-element" type="text" id="domain" name="domain" value={domain} onChange={handleDomainChange}></input>
 					<Button className="form-element" theme="primary" onClick={handleSubmit}>Submit</Button>
 				</form>
-				<div id="check-email-result">
+				<div id="check-domain-result">
 					{result && result.length > 0 ? (
 						result.map((breach, index) => (
 							<div key={index} className="breach">
@@ -57,7 +57,7 @@ function CheckEmail() {
 							</div>
 						))
 					) : (
-						<p>No breaches found for this email.</p>
+						<p>No breaches found for this domain.</p>
 					)}
 				</div>
 			</div>
@@ -65,4 +65,4 @@ function CheckEmail() {
 	);
 }
 
-export default CheckEmail;
+export default CheckDomain;

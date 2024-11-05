@@ -67,6 +67,27 @@ app.get("/api/hibp/password/:password", async (req, res) => {
 	}
 });
 
+app.get("/api/hibp/domain/:domain", async (req, res) => {
+	const domain = req.params.domain;
+	try {
+		const response = await fetch(`https://haveibeenpwned.com/api/v3/breaches/?Domain=${domain}`, {
+			method: "GET",
+			headers: {
+				"hibp-api-key": process.env.HIBP_API_KEY,
+				"Content-Type": "application/json"
+			}
+		});
+		if (response.ok) {
+			const data = await response.json();
+			res.json(data);
+		} else {
+			res.status(response.status).json({ error: "Error fetching data" });
+		}
+	} catch (error) {
+		res.status(500).json({ error: "Internal Server Error" });
+	}
+});
+
 app.listen(port, () => {
 	console.log(`Server running at http://localhost:${port}`);
 });

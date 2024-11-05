@@ -3,7 +3,7 @@
     margin-bottom: 10px;
 }
 
-.CheckEmail .breach {
+.CheckDomain .breach {
     border: 1px solid #ccc;
     padding: 16px;
     margin: 0 auto 20px auto;
@@ -12,11 +12,11 @@
 	max-width: 80%;
 }
 
-.CheckEmail .breach h2 {
+.CheckDomain .breach h2 {
     margin-top: 0;
 }
 
-.CheckEmail .breach img {
+.CheckDomain .breach img {
     max-width: 100px;
     display: block;
     margin: 8px auto;
