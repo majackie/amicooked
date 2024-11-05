@@ -2,7 +2,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 
-import AppHeader from "../shared/AppHeader";
+import Navbar from "../shared/Navbar";
 import Button from "../shared/Button"
 import "../style/Lesson.css";
 import HtmlRenderer from "../shared/HtmlRenderer";
@@ -30,7 +30,7 @@ function Lesson() {
 
     return (
         <div className="Lesson">
-            <AppHeader />
+            <Navbar type={"default"} />
             <div className="Lesson-body">
                 {/* Ensure lesson obj is ready before rendering */}
                 {lesson && (

@@ -2,13 +2,13 @@ import "../style/UserDashboard.css"
 
 import { useNavigate } from "react-router-dom";
 import Button from "../shared/Button"
-import AppHeader from "../shared/AppHeader";
+import Navbar from "../shared/Navbar";
 
 function UserDashboard() {
     const navigate = useNavigate();
     return (
         <div className="UserDashboard">
-            <AppHeader />
+            <Navbar type={"default"} />
             <div className="Body">
                 <Button theme="primary">Scan for Leaks</Button>
                 <Button theme="primary" onClick={() => navigate("/user-dashboard/safety-tools")}>Safety Tools</Button>
