@@ -45,19 +45,21 @@ function CheckEmail() {
 					<Button className="form-element" theme="primary" onClick={handleSubmit}>Submit</Button>
 				</form>
 				<div id="check-email-result">
-					{result && result.length > 0 ? (
-						result.map((breach, index) => (
-							<div key={index} className="breach">
-								<h2>{breach.Title}</h2>
-								<p><strong>Breach Date:</strong> {breach.BreachDate}</p>
-								<p><strong>Affected Accounts:</strong> {breach.PwnCount ? breach.PwnCount.toLocaleString() : "N/A"}</p>
-								<p><strong>Description:</strong> <span dangerouslySetInnerHTML={{ __html: breach.Description }} /></p>
-								<p><strong>Compromised Data:</strong> {breach.DataClasses ? breach.DataClasses.join(', ') : "N/A"}</p>
-								<img src={breach.LogoPath} alt={`${breach.Title} logo`} />
-							</div>
-						))
-					) : (
-						<p>No breaches found for this email.</p>
+					{result && (
+						result.length > 0 ? (
+							result.map((breach, index) => (
+								<div key={index} className="breach">
+									<h2>{breach.Title}</h2>
+									<p><strong>Breach Date:</strong> {breach.BreachDate}</p>
+									<p><strong>Affected Accounts:</strong> {breach.PwnCount ? breach.PwnCount.toLocaleString() : "N/A"}</p>
+									<p><strong>Description:</strong> <span dangerouslySetInnerHTML={{ __html: breach.Description }} /></p>
+									<p><strong>Compromised Data:</strong> {breach.DataClasses ? breach.DataClasses.join(', ') : "N/A"}</p>
+									<img src={breach.LogoPath} alt={`${breach.Title} logo`} />
+								</div>
+							))
+						) : (
+							<p>No breaches found for this domain.</p>
+						)
 					)}
 				</div>
 			</div>
