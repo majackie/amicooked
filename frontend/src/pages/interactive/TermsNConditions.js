@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from "react-router-dom";
 import { ToggleButton, ToggleButtonGroup } from 'react-bootstrap';
-import AppHeader from "../../shared/AppHeader";
+import Navbar from "../../shared/Navbar";
 import '../../style/TermsNConditions.css';
 import Button from "../../shared/Button";
 
@@ -41,7 +41,7 @@ function TermsNConditions() {
 
     return (
         <div className="TermsNConditions">
-            <AppHeader />
+            <Navbar type="default" />
             <div className="TermsNConditions-body">
                 <h2>Terms And Conditions</h2>
                 <p>Here’s an example of a Terms and Conditions. After reading through the sample, please answer below the clause number that you think it is dangerous/concerning.</p>
