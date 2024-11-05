@@ -15,7 +15,8 @@ function LessonsHome() {
                     <p>Check out the lessons below to enhance your score</p>
                 </div>
                 <Button theme="primary" onClick={() => navigate('/user-dashboard/safety-tools/lesson/1')}>Phishing Emails</Button>
-                <Button theme="primary" onClick={() => navigate('/user-dashboard/safety-tools/lesson/2')}>Password</Button>
+                <Button theme="primary" onClick={() => navigate('/user-dashboard/safety-tools/lesson/2')}>Password Management</Button>
+                <Button theme="primary" onClick={() => navigate('/user-dashboard/safety-tools/lesson/3')}>Terms And Conditions</Button>
                 <Button theme="primary" onClick={() => navigate('/user-dashboard/safety-tools')}>Back</Button>
             </div>
         </div>
