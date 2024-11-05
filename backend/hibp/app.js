@@ -18,7 +18,7 @@ app.use(cors({
 app.get("/api/hibp/email/:email", async (req, res) => {
 	const email = req.params.email;
 	try {
-		const response = await fetch(`https://haveibeenpwned.com/api/v3/breachedaccount/${email}`, {
+		const response = await fetch(`https://haveibeenpwned.com/api/v3/breachedaccount/${email}/?truncateResponse=false`, {
 			method: "GET",
 			headers: {
 				"hibp-api-key": process.env.HIBP_API_KEY,
