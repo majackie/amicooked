@@ -22,5 +22,11 @@ export const SidebarTipData = [
     icon: <AiIcons.AiOutlineFile />,
     cName: "Nav-text",
   },
+  {
+    title: "Back to Safety Tools",
+    path: "/user-dashboard/safety-tools",
+    icon: <AiIcons.AiFillHome />,
+    cName: "Nav-text",
+  },
 // More tips here
 ];
