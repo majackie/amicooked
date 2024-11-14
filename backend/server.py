@@ -118,7 +118,7 @@ def get_tips(id):
         cursor = conn.cursor(cursor_factory=RealDictCursor)
 
         # Execute a query to fetch users
-        cursor.execute("SELECT * FROM tips WHERE topicId = %s", (id,))
+        cursor.execute("SELECT tips.tipId, tips.topicId, tips.tipContent, lessons.topicName FROM tips JOIN lessons ON tips.topicId = lessons.topicId WHERE tips.topicId = %s", (id,))
         tips = cursor.fetchall()
 
         return jsonify(tips)  # Return tips as JSON list
