@@ -1,6 +1,7 @@
 import psycopg2
 import os
 from psycopg2 import sql
+from psycopg2.extras import RealDictCursor  # Fetch rows as dictionaries
 from dotenv import load_dotenv
 from flask import Flask, jsonify
 from flask_cors import CORS
@@ -88,7 +89,39 @@ def get_lesson(id):
             "isInteractive": lesson[3]
         }
 
-        return jsonify(lesson_data)  # Return users as JSON
+        return jsonify(lesson_data)  # Return lesson as JSON
+
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+    finally:
+        # Close cursor and connection if they were created
+        if cursor is not None:
+            cursor.close()
+        if conn is not None:
+            conn.close()
+
+@app.route('/tips/<int:id>', methods=['GET'])
+def get_tips(id):
+    conn = None
+    cursor = None
+
+    try:
+        # Create a connection to the PostgreSQL database
+        conn = psycopg2.connect(
+            host=host,
+            port=port,
+            user=user,
+            password=password,
+            dbname=dbname
+        )
+        cursor = conn.cursor(cursor_factory=RealDictCursor)
+
+        # Execute a query to fetch users
+        cursor.execute("SELECT * FROM tips WHERE topicId = %s", (id,))
+        tips = cursor.fetchall()
+
+        return jsonify(tips)  # Return tips as JSON list
 
     except Exception as e:
         return jsonify({'error': str(e)}), 500
