@@ -24,7 +24,7 @@ export const SidebarData = [
   },
   {
     title: "Tips",
-    path: "/user-dashboard/safety-tools/tips",
+    path: "/user-dashboard/safety-tools/tips/1",
     icon: <AiIcons.AiOutlinePaperClip />,
     cName: "Nav-text",
   },

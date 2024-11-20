@@ -84,7 +84,7 @@ function Phishing() {
                         </div>
                         <p><b>Bank of America Security Team</b></p>                  
                 </div>
-                <Button theme="back" onClick={() => navigate('/user-dashboard/safety-tools/lessons-home')}>Back to Lessons</Button>
+                <Button theme="secondary" onClick={() => navigate('/user-dashboard/safety-tools/lessons-home')}>Finish Lesson</Button>
             </div>
         </div>
     );

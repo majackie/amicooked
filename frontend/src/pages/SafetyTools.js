@@ -15,7 +15,7 @@ function SafetyTools() {
                     <p>Check out the lessons and tips below to enhance your score</p>
                 </div>
                 <Button theme="primary" onClick={() => navigate('/user-dashboard/safety-tools/lessons-home')}>Lessons</Button>
-                <Button theme="primary" onClick={() => navigate('/user-dashboard/safety-tools/tips')}>Tips</Button>
+                <Button theme="primary" onClick={() => navigate('/user-dashboard/safety-tools/tips/1')}>Tips</Button>
                 <Button theme="primary">Suggestions</Button>
                 <Button theme="primary" onClick={() => navigate('/user-dashboard/safety-tools/privacy-checker')}>Check Your Privacy</Button>
                 <Button theme="primary" onClick={() => navigate('/user-dashboard')}>Back</Button>
