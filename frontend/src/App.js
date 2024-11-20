@@ -2,7 +2,6 @@ import {Routes, Route } from "react-router-dom";
 
 // Pages
 import Admin from './Admin.js'
-import Home from './pages/Home';
 import UserDashboard from './pages/UserDashboard'
 import SafetyTools from "./pages/SafetyTools";
 import PrivacyChecker from "./pages/PrivacyChecker";
@@ -19,9 +18,9 @@ function App() {
     <>
       <Routes>
         {/* Landing Page */}
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<UserDashboard />} />
         <Route path="/admin" element={<Admin />} /> 
-        <Route path="/home" element={<Home />} /> 
+        {/* <Route path="/home" element={<Home />} />  */}
         {/* Add pages here */}
         <Route path="/user-dashboard" element={<UserDashboard />} />
         <Route path="/user-dashboard/safety-tools" element={<SafetyTools />} />
@@ -33,7 +32,7 @@ function App() {
         <Route path="/user-dashboard/safety-tools/lesson/1/interactive" element={<Phishing />} />
         <Route path="/user-dashboard/safety-tools/lesson/3/interactive" element={<TermsNConditions />} />
         <Route path="/dangerous-phishing-url" element={<PhishingUrl/>} />
-        <Route path="/user-dashboard/safety-tools/tips" element={<Tips />} />
+        <Route path="/user-dashboard/safety-tools/tips/:topicId" element={<Tips />} />
       </Routes>
     </>
   );

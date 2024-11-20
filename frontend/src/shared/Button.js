@@ -26,7 +26,7 @@ const theme = {
     borderRadius: "50%",
     margin: "0vmin 2vmin",
     top: "100%",
-    transformY: "50vmin",
+    transformY: "15vmin",
   }
 };
 
