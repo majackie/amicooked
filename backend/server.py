@@ -3,7 +3,7 @@ import os
 from psycopg2 import sql
 from psycopg2.extras import RealDictCursor  # Fetch rows as dictionaries
 from dotenv import load_dotenv
-from flask import Flask, jsonify
+from flask import Flask, request, jsonify
 from flask_cors import CORS
 
 app = Flask(__name__)
@@ -67,6 +67,8 @@ def get_lesson(id):
     conn = None
     cursor = None
 
+    # TODO - Billy: Input validation id
+
     try:
         # Create a connection to the PostgreSQL database
         conn = psycopg2.connect(
@@ -106,6 +108,8 @@ def get_tips(id):
     conn = None
     cursor = None
 
+    # TODO - Billy: Input validation id
+
     try:
         # Create a connection to the PostgreSQL database
         conn = psycopg2.connect(
@@ -122,6 +126,88 @@ def get_tips(id):
         tips = cursor.fetchall()
 
         return jsonify(tips)  # Return tips as JSON list
+
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+    finally:
+        # Close cursor and connection if they were created
+        if cursor is not None:
+            cursor.close()
+        if conn is not None:
+            conn.close()
+
+@app.route('/user/<int:id>', methods=['GET'])
+def get_score(id):
+    conn = None
+    cursor = None
+
+    # TODO - Billy: Input validation id
+
+    try:
+        # Create a connection to the PostgreSQL database
+        conn = psycopg2.connect(
+            host=host,
+            port=port,
+            user=user,
+            password=password,
+            dbname=dbname
+        )
+        cursor = conn.cursor()
+
+        # Execute a query to fetch users
+        cursor.execute("SELECT SUM(user_points.points) as total_points FROM user_points WHERE user_points.userid = %s", (id,))
+        points = cursor.fetchone()
+
+        point_data = {
+            "total_points": points[0]
+        }
+
+        return jsonify(point_data)  # Return total point as JSON
+
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+    finally:
+        # Close cursor and connection if they were created
+        if cursor is not None:
+            cursor.close()
+        if conn is not None:
+            conn.close()
+
+@app.route('/update_points', methods=['POST'])
+def update_points():
+    conn = None
+    cursor = None
+
+    # TODO - Billy: Input validation
+    data = request.get_json()
+
+    if not data:
+        return jsonify({"error": "Invalid JSON"}), 400
+
+    userid = data.get('userid')
+    topicid = data.get('topicid')
+    points = data.get('points', 0)
+
+    if not userid or not topicid:
+        return jsonify({"error": "Missing userid or topicid"}), 400
+
+    try:
+        # Create a connection to the PostgreSQL database
+        conn = psycopg2.connect(
+            host=host,
+            port=port,
+            user=user,
+            password=password,
+            dbname=dbname
+        )
+        cursor = conn.cursor()
+
+        # Execute a query to fetch users
+        cursor.execute("INSERT INTO user_points (userid, topicid, points) VALUES (%s, %s, %s) ON CONFLICT (userid, topicid) DO UPDATE SET points = user_points.points + EXCLUDED.points, updated_at = CURRENT_TIMESTAMP;", (userid, topicid, points,))
+        conn.commit()
+        return jsonify({"message":"Points updated successfully for userid = {userid}"}), 200 
 
     except Exception as e:
         return jsonify({'error': str(e)}), 500

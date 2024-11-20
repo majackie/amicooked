@@ -1,3 +1,4 @@
+import axios from "axios";
 import React, { useState, useRef } from 'react';
 import { useNavigate } from "react-router-dom";
 import Navbar from "../../shared/Navbar";
@@ -17,9 +18,25 @@ function Phishing() {
     const dropdownRefs = useRef([]);
 
     const handleToggleDropdown = (index) => {
+        // TODO - Billy: Find a way to only allow point increment on first-clicked items/buttons
+        // TODO - Billy: Replace with userid
+        // Interactive phishing - topicId: 1
+        updatePoints(8, 1, 10)
         setOpenDropdownIndex(openDropdownIndex === index ? null : index);
     };
 
+    const updatePoints = async (user_id, topic_id, new_points) => {
+        try {
+            const response = await axios.post(`http://127.0.0.1:5000/update_points`, {
+                userid: parseInt(user_id),
+                topicid: parseInt(topic_id),
+                points: parseInt(new_points),
+            });
+            console.log(response.data)
+        } catch (error) {
+            console.error("Error updating points:", error);
+        }
+    }
     
     return (
         <div className="Phishing">
@@ -28,7 +45,7 @@ function Phishing() {
                 <h2>Phishing email</h2>
                 <p>Here’s an example of a phishing email that’s designed to look like it’s from a bank. Click on the highlighted areas to see their red flag.</p>
                 <div className="Phishing-example">
-                        <p><b>From:</b> <span className="Redflag" onClick={() => handleToggleDropdown(0)}><u>{highlights[0]}</u></span></p>
+                        <p><b>From:</b> <span className="Redflag" onClick={() => handleToggleDropdown(0, )}><u>{highlights[0]}</u></span></p>
                         <div 
                             ref={(el) => dropdownRefs.current[0] = el}
                             className={`dropdown ${openDropdownIndex === 0 ? 'open' : ''}`}
