@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 import Navbar from "../../shared/Navbar";
 import Button from "../../shared/Button";
 import '../../style/Phishing.css';
+import { handleFinishLesson } from "../../utils/lessonHelper";
 
 function Phishing() {
     const navigate = useNavigate();
@@ -18,25 +19,10 @@ function Phishing() {
     const dropdownRefs = useRef([]);
 
     const handleToggleDropdown = (index) => {
-        // TODO - Billy: Find a way to only allow point increment on first-clicked items/buttons
-        // TODO - Billy: Replace with userid
-        // Interactive phishing - topicId: 1
-        updatePoints(8, 1, 10)
         setOpenDropdownIndex(openDropdownIndex === index ? null : index);
     };
 
-    const updatePoints = async (user_id, topic_id, new_points) => {
-        try {
-            const response = await axios.post(`http://127.0.0.1:5000/update_points`, {
-                userid: parseInt(user_id),
-                topicid: parseInt(topic_id),
-                points: parseInt(new_points),
-            });
-            console.log(response.data)
-        } catch (error) {
-            console.error("Error updating points:", error);
-        }
-    }
+    
     
     return (
         <div className="Phishing">
@@ -101,7 +87,11 @@ function Phishing() {
                         </div>
                         <p><b>Bank of America Security Team</b></p>                  
                 </div>
-                <Button theme="secondary" onClick={() => navigate('/user-dashboard/safety-tools/lessons-home')}>Finish Lesson</Button>
+                {/* TODO - Replace with dynamic user_id */}
+                <Button theme="secondary" onClick={() => {
+                    handleFinishLesson(8, 1, 50)
+                    navigate('/user-dashboard/safety-tools/lessons-home')
+                }}>Finish Lesson</Button>
             </div>
         </div>
     );

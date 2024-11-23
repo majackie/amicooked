@@ -219,5 +219,95 @@ def update_points():
         if conn is not None:
             conn.close()
 
+@app.route('/get_lesson_status', methods=['GET'])
+def get_lesson_status():
+    conn = None
+    cursor = None
+
+    data = request.get_json()
+
+    if not data:
+        return jsonify({"error": "Invalid JSON"}), 400
+
+    userid = data.get('userid')
+    topicid = data.get('topicid')
+
+    if not userid or not topicid:
+        return jsonify({"error": "Missing userid or topicid"}), 400
+
+    try:
+        # Create a connection to the PostgreSQL database
+        conn = psycopg2.connect(
+            host=host,
+            port=port,
+            user=user,
+            password=password,
+            dbname=dbname
+        )
+        cursor = conn.cursor()
+
+        # Execute a query to fetch users
+        cursor.execute("SELECT completed FROM user_lessons WHERE user_lessons.userid = %s AND user_lessons.topicid = %s", (userid, topicid))
+        status = cursor.fetchone()
+
+        lesson_data = {
+            "lesson_status": status[0]
+        }
+
+        return jsonify(lesson_data)  # Return total point as JSON
+
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+    finally:
+        # Close cursor and connection if they were created
+        if cursor is not None:
+            cursor.close()
+        if conn is not None:
+            conn.close()
+
+@app.route('/complete_lesson', methods=['POST'])
+def complete_lesson():
+    conn = None
+    cursor = None
+
+    # TODO - Billy: Input validation
+    data = request.get_json()
+
+    if not data:
+        return jsonify({"error": "Invalid JSON"}), 400
+
+    userid = data.get('userid')
+    topicid = data.get('topicid')
+
+    if not userid or not topicid:
+        return jsonify({"error": "Missing userid or topicid"}), 400
+
+    try:
+        # Create a connection to the PostgreSQL database
+        conn = psycopg2.connect(
+            host=host,
+            port=port,
+            user=user,
+            password=password,
+            dbname=dbname
+        )
+        cursor = conn.cursor()
+
+        # Execute a query to fetch users
+        cursor.execute("INSERT INTO user_lessons (userid, topicid, completed) VALUES (%s, %s, TRUE) ON CONFLICT (userid, topicid) DO UPDATE SET completed = TRUE, updated_at = CURRENT_TIMESTAMP;", (userid, topicid,))
+        conn.commit()
+        return jsonify({"message":"Lesson status updated successfully for userid = {userid}"}), 200 
+
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+    finally:
+        # Close cursor and connection if they were created
+        if cursor is not None:
+            cursor.close()
+        if conn is not None:
+            conn.close()
+
 if __name__ == '__main__':
     app.run(debug=True)

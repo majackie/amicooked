@@ -7,6 +7,7 @@ import Navbar from "../shared/Navbar";
 import Button from "../shared/Button"
 import "../style/Lesson.css";
 import HtmlRenderer from "../shared/HtmlRenderer";
+import { getLessonStatus, updatePoints } from "../utils/lessonHelper";
 
 function Lesson() {
     const { topicId } = useParams();
@@ -38,19 +39,6 @@ function Lesson() {
         return <><Loading /></>
     }
 
-    const updatePoints = async (user_id, topic_id, new_points) => {
-        try {
-            const response = await axios.post(`http://127.0.0.1:5000/update_points`, {
-                userid: parseInt(user_id),
-                topicid: parseInt(topic_id),
-                points: parseInt(new_points),
-            });
-            console.log(response.data)
-        } catch (error) {
-            console.error("Error updating points:", error);
-        }
-    }
-
     return (
         <div className="Lesson">
             <Navbar type={"default"} />
@@ -62,7 +50,10 @@ function Lesson() {
                         <HtmlRenderer classNameString="Lesson-content" htmlString={lesson.topicContent} />
                         <Button style={{ display: lesson.isInteractive ? 'block' : 'none'}} theme="primary" onClick={() => {
                             // TODO - Billy: replace "8" with dynamic userid
-                            updatePoints(8, topicId, 50)
+                            if (getLessonStatus(8, topicId))
+                            {
+                                updatePoints(8, topicId, 50)
+                            }
                             navigate(`/user-dashboard/safety-tools/lesson/${topicId}/interactive`)
                             }
                         }>Continue</Button>
