@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import Navbar from "../../shared/Navbar";
 import Button from "../../shared/Button";
 import '../../style/Phishing.css';
+import { handleFinishLesson } from "../../utils/LessonHelper";
 
 function Phishing() {
     const navigate = useNavigate();
@@ -20,7 +21,6 @@ function Phishing() {
         setOpenDropdownIndex(openDropdownIndex === index ? null : index);
     };
 
-    
     return (
         <div className="Phishing">
             <Navbar type={"default"} />
@@ -28,7 +28,7 @@ function Phishing() {
                 <h2>Phishing email</h2>
                 <p>Here’s an example of a phishing email that’s designed to look like it’s from a bank. Click on the highlighted areas to see their red flag.</p>
                 <div className="Phishing-example">
-                        <p><b>From:</b> <span className="Redflag" onClick={() => handleToggleDropdown(0)}><u>{highlights[0]}</u></span></p>
+                        <p><b>From:</b> <span className="Redflag" onClick={() => handleToggleDropdown(0, )}><u>{highlights[0]}</u></span></p>
                         <div 
                             ref={(el) => dropdownRefs.current[0] = el}
                             className={`dropdown ${openDropdownIndex === 0 ? 'open' : ''}`}
@@ -84,7 +84,11 @@ function Phishing() {
                         </div>
                         <p><b>Bank of America Security Team</b></p>                  
                 </div>
-                <Button theme="back" onClick={() => navigate('/user-dashboard/safety-tools/lessons-home')}>Back to Lessons</Button>
+                {/* TODO - Replace with dynamic user_id */}
+                <Button theme="secondary" onClick={() => {
+                    handleFinishLesson(8, 1, 50)
+                    navigate('/user-dashboard/safety-tools/lessons-home')
+                }}>Finish Lesson</Button>
             </div>
         </div>
     );

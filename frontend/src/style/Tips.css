@@ -15,7 +15,11 @@ Button {
     width: 10vmin;
 }
 
+.Carousel {
+    margin-top: 3vmin
+}
+
 .Carousel-item {
-    height: 100vmin;
+    height: 40vmin;
     width: 100%;
 }

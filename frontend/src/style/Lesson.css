@@ -8,7 +8,7 @@
 }
 
 .Lesson-content {
-    padding-top: 0;
+    padding: 0;
 }
 
 .Lesson-content > h2 {
@@ -19,8 +19,8 @@
     font-size: 5vmin;
 }
 
-.Lesson-content > p, ul, ol {
-    font-size: 4vmin;
+.Lesson-content > ol {
+    margin-left: 5vmin;
 }
 
 .Lesson-body > Button {

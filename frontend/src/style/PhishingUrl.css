@@ -1,8 +1,4 @@
 .PhishingUrl-body {
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column; */
     margin: 5vmin;
     scroll-behavior: smooth;
 }
@@ -17,5 +13,19 @@
 }
 
 p {
+    font-size: 4vmin;
+}
+
+.PhishingUrl-backBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.PhishingUrl-backBtn > Button {
+    height: 15vmin;
+    width: 50vmin;
     font-size: 3vmin;
+    font-weight: bold;
 }
