@@ -47,7 +47,7 @@ function PrivacyTracker() {
         fetchScore();
         fetchTotalLessons();
         
-    }, [loading]);
+    }, []);
 
     if (loading)
     {
