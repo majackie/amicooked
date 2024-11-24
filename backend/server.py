@@ -82,6 +82,8 @@ def signup():
     data = request.get_json()
     username = data.get("username")
     password = data.get("password")
+    subscribe = data.get("subscribe", False)
+    email = data.get("email")
     
     # Hash the password
     hashed_password = generate_password_hash(password)
@@ -101,8 +103,8 @@ def signup():
         
         # Insert the new user
         cursor.execute(
-            "INSERT INTO users (username, password, admin) VALUES (%s, %s, %s) RETURNING userid;",
-            (username, hashed_password, False)
+            "INSERT INTO users (username, password, admin, subscribe, email) VALUES (%s, %s, %s, %s, %s) RETURNING userid;",
+            (username, hashed_password, False, subscribe, email)
         )
         user_id = cursor.fetchone()[0]
         conn.commit()
