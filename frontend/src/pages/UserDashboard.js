@@ -32,7 +32,7 @@ function UserDashboard() {
                 <Button theme="primary" onClick={() => navigate("/user-dashboard/safety-tools")}>Safety Tools</Button>
                 <Button theme="primary">Community Forums</Button>
                 <Button style={{display: isAuthenticated() ? 'block' : 'none'}} theme="primary">Edit Profiles</Button>
-                <Button style={{display: isAuthenticated() ? 'block' : 'none'}} theme="secondary">Log Out</Button>
+                <Button style={{display: isAuthenticated() ? 'block' : 'none'}} theme="secondary" onClick={() => navigate("/logout")}>Log Out</Button>
             </div>
             <div style={{display: !isAuthenticated() ? 'block' : 'none'}} className={`Tip ${isVisible ? 'fade-in' : ''} ${isCollapsed ? 'collapsed' : ''}`}>
                 <IoIcons.IoMdArrowDropdown className="ToggleButton" onClick={toggleParagraph}/>

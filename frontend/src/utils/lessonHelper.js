@@ -1,16 +1,20 @@
 import axios from "axios";
 
 const token = localStorage.getItem("token");
+// console.log("token "+token)
 
 export const updatePoints = async (user_id, topic_id, new_points) => {
+    const data = {
+        userid: parseInt(user_id),
+        topicid: parseInt(topic_id),
+        points: parseInt(new_points)
+    }
+
     try {
-        const response = await axios.post(`http://127.0.0.1:5000/update_points`, {
+        const response = await axios.post(`http://127.0.0.1:5000/update_points`, data, {
             headers: {
                 Authorization: `Bearer ${token}`
             },
-            userid: parseInt(user_id),
-            topicid: parseInt(topic_id),
-            points: parseInt(new_points),
         });
         console.log(response.data)
     } catch (error) {
@@ -19,13 +23,15 @@ export const updatePoints = async (user_id, topic_id, new_points) => {
 }
 
 export const completeLesson = async (user_id, topic_id) => {
+    const data = {
+        userid: parseInt(user_id),
+        topicid: parseInt(topic_id)
+    }
     try {
-        const response = await axios.post(`http://127.0.0.1:5000/complete_lesson`, {
+        const response = await axios.post(`http://127.0.0.1:5000/complete_lesson`, data, {
             headers: {
                 Authorization: `Bearer ${token}`
             },
-            userid: parseInt(user_id),
-            topicid: parseInt(topic_id),
         });
         console.log(response.data)
     } catch (error) {
@@ -47,7 +53,6 @@ export const getLessonStatus = async (user_id, topic_id) => {
 }
 
 export const handleFinishLesson = (user_id, topic_id, points) => {
-    var lessonStatus = null
 
     const fetchStatus = async () => {
         try {

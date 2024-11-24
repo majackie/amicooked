@@ -5,7 +5,7 @@ import "../style/PrivacyTracker.css";
 import logo from '../asset/logo.png';
 
 function PrivacyTracker() {
-    const token = localStorage.getItem("token");
+    const token = localStorage.getItem("token")
     const userid = localStorage.getItem("id")
     const [loading, setLoading] = useState(false);
     const [totalLessons, setTotalLessons] = useState();
@@ -44,14 +44,10 @@ function PrivacyTracker() {
                 setLoading(false)
             }
         };
-
-        // Fetch twice to ensure scores are up-to-date
-        for (let i = 0; i < 2; i++)
-        {
-            fetchScore();
-            fetchTotalLessons();
-        }
-    }, []);
+        fetchScore();
+        fetchTotalLessons();
+        
+    }, [loading]);
 
     if (loading)
     {

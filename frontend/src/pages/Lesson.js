@@ -8,7 +8,6 @@ import Button from "../shared/Button"
 import "../style/Lesson.css";
 import HtmlRenderer from "../shared/HtmlRenderer";
 import { getLessonStatus, handleFinishLesson, updatePoints } from "../utils/lessonHelper";
-import { FaAssistiveListeningSystems } from "react-icons/fa";
 
 function Lesson() {
     const token = localStorage.getItem("token");

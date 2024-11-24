@@ -7,7 +7,7 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 from flask_jwt_extended import JWTManager, create_access_token, jwt_required, get_jwt_identity
 from werkzeug.security import generate_password_hash, check_password_hash
-
+from datetime import timedelta
 import input_validator
 
 app = Flask(__name__)
@@ -139,7 +139,7 @@ def login():
 
         if user_record and check_password_hash(user_record[1], password):
             # Password is correct, create a JWT token
-            access_token = create_access_token(identity=str(user_record[0]))
+            access_token = create_access_token(identity=str(user_record[0]), fresh=True, expires_delta=timedelta(hours=1))
             return jsonify(access_token=access_token, userid=user_record[0]), 200
         else:
             return jsonify({"msg": "Invalid credentials"}), 401
