@@ -5,6 +5,8 @@ import "../style/PrivacyTracker.css";
 import logo from '../asset/logo.png';
 
 function PrivacyTracker() {
+    const token = localStorage.getItem("token");
+    const userid = localStorage.getItem("id")
     const [loading, setLoading] = useState(false);
     const [totalLessons, setTotalLessons] = useState();
     const [score, setScore] = useState();
@@ -13,9 +15,13 @@ function PrivacyTracker() {
         setLoading(true)
         const fetchScore = async () => {
             try {
-                // TODO - Billy: Replace with dynamic /userid
-                const response = await axios.get(`http://127.0.0.1:5000/get_score/8`);
+                const response = await axios.get(`http://127.0.0.1:5000/get_score/${userid}`, {
+                    headers: {
+                        Authorization: `Bearer ${token}`
+                    }
+                });
                 setScore(response.data.total_points)
+                console.log("total score "+score)
             } catch (error) {
                 console.error("Error getting user total points]:", error);
             } finally {
@@ -26,7 +32,11 @@ function PrivacyTracker() {
         const fetchTotalLessons = async () => {
             setLoading(true)
             try {
-                const response = await axios.get(`http://127.0.0.1:5000/get_total_lessons`);
+                const response = await axios.get(`http://127.0.0.1:5000/get_total_lessons`, {
+                    headers: {
+                        Authorization: `Bearer ${token}`
+                    }
+                });
                 setTotalLessons(response.data.total_lessons)
             } catch (error) {
                 console.error("Error getting total lessons:", error);
@@ -70,7 +80,7 @@ function PrivacyTracker() {
                 <IoIcons.IoMdArrowDropup className="Pointer"/>
                 <img src={logo} className="App-logo-pointer" alt="logo" />
             </div>
-            <p>Check out the tools below to help enhance your score.</p>
+            <p>Check out the tools below to help enhance your privacy.</p>
         </div>
     )
 }

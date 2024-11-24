@@ -3,9 +3,10 @@ import { useNavigate } from "react-router-dom";
 import Navbar from "../../shared/Navbar";
 import Button from "../../shared/Button";
 import '../../style/Phishing.css';
-import { handleFinishLesson } from "../../utils/LessonHelper";
+import { handleFinishLesson } from "../../utils/lessonHelper";
 
 function Phishing() {
+    const userid = localStorage.getItem("id")
     const navigate = useNavigate();
     const highlights = [
         "support@bankofamericaupdates.com",
@@ -84,9 +85,8 @@ function Phishing() {
                         </div>
                         <p><b>Bank of America Security Team</b></p>                  
                 </div>
-                {/* TODO - Replace with dynamic user_id */}
                 <Button theme="secondary" onClick={() => {
-                    handleFinishLesson(8, 1, 50)
+                    handleFinishLesson(userid, 1, 50)
                     navigate('/user-dashboard/safety-tools/lessons-home')
                 }}>Finish Lesson</Button>
             </div>

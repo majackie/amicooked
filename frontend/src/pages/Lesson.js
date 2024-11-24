@@ -7,10 +7,13 @@ import Navbar from "../shared/Navbar";
 import Button from "../shared/Button"
 import "../style/Lesson.css";
 import HtmlRenderer from "../shared/HtmlRenderer";
-import { getLessonStatus, handleFinishLesson, updatePoints } from "../utils/LessonHelper";
+import { getLessonStatus, handleFinishLesson, updatePoints } from "../utils/lessonHelper";
 import { FaAssistiveListeningSystems } from "react-icons/fa";
 
 function Lesson() {
+    const token = localStorage.getItem("token");
+    const userid = localStorage.getItem("id")
+
     const { topicId } = useParams();
     const [lesson, setLesson] = useState();
     const [loading, setLoading] = useState(false);
@@ -21,7 +24,11 @@ function Lesson() {
         setLoading(true)
         const fetchLesson = async () => {
             try {
-                const response = await axios.get(`http://127.0.0.1:5000/lesson/${topicId}`);
+                const response = await axios.get(`http://127.0.0.1:5000/lesson/${topicId}`, {
+                    headers: {
+                        Authorization: `Bearer ${token}`
+                    }
+                });
                 // console.log("@@@ Retrieved lesson "+response.data.topicName)
                 setLesson(response.data)
             } catch (error) {
@@ -33,7 +40,7 @@ function Lesson() {
         
         const fetchStatus = async () => {
             try {
-                const status = await getLessonStatus(8, topicId)
+                const status = await getLessonStatus(userid, topicId)
                 setLessonStatus(status)
             } catch (error) {
                 console.error("Error fetching lesson:", error);
@@ -62,11 +69,10 @@ function Lesson() {
                         <h2>{lesson.topicName}</h2>
                         <HtmlRenderer classNameString="Lesson-content" htmlString={lesson.topicContent} />
                         <Button style={{ display: lesson.isInteractive ? 'block' : 'none'}} theme="primary" onClick={() => {
-                            // TODO - Billy: replace "8" with dynamic userid
                             if (!lessonStatus)
                             {
                                 console.log("Update score")
-                                updatePoints(8, topicId, 50)
+                                updatePoints(userid, topicId, 50)
                             }
                             else
                             {
@@ -78,8 +84,7 @@ function Lesson() {
                         <Button theme="back" onClick={() => {
                             if (!lessonStatus && !lesson.isInteractive)
                             {
-                                // TODO - Billy: replace "8" with dynamic userid
-                                handleFinishLesson(8, topicId, 100)
+                                handleFinishLesson(userid, topicId, 100)
                             }
                             navigate('/user-dashboard/safety-tools/lessons-home')
 

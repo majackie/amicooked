@@ -41,8 +41,6 @@ function Tips() {
         return <><Loading /></>
     }
 
-    // TODO - Billy: Find a way to reload the tips data.
-    // Check out https://chatgpt.com/share/6735bf07-df48-800e-b200-254206d99fea
     return (
         <div className="Tips">
             <Navbar />
