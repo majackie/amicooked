@@ -1,7 +1,6 @@
 import {Routes, Route } from "react-router-dom";
 
 // Pages
-import Admin from './Admin.js'
 import UserDashboard from './pages/UserDashboard'
 import SafetyTools from "./pages/SafetyTools";
 import PrivacyChecker from "./pages/PrivacyChecker";
@@ -19,7 +18,6 @@ function App() {
       <Routes>
         {/* Landing Page */}
         <Route path="/" element={<UserDashboard />} />
-        <Route path="/admin" element={<Admin />} /> 
         {/* <Route path="/home" element={<Home />} />  */}
         {/* Add pages here */}
         <Route path="/user-dashboard" element={<UserDashboard />} />
