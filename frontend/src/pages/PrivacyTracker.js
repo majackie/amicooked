@@ -4,6 +4,13 @@ import * as IoIcons from "react-icons/io";
 import "../style/PrivacyTracker.css";
 import logo from '../asset/logo.png';
 
+// TODO - Billy:
+// 1. Try to get reload working for privacy tracker
+// 2. Add links or buttons to login and signup from user-dashboard when user does not have an account
+// 3. Cleanup unused
+// 4. More input validation, implement more from lectures
+// 5. Implement CI/CD (let team know)
+
 function PrivacyTracker() {
     const token = localStorage.getItem("token")
     const userid = localStorage.getItem("id")
