@@ -58,6 +58,16 @@ const Signup = () => {
                         required={subscribe}
                     />
                 </div>
+                <div>
+                    <label>
+                        <input
+                            type="checkbox"
+                            checked={subscribe}
+                            onChange={(e) => setSubscribe(e.target.checked)}
+                        />
+                        Subscribe to our newsletter
+                    </label>
+                </div>
                 <button type="submit">Sign Up</button>
             </form>
             {message && <p>{message}</p>}
