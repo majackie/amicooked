@@ -14,7 +14,6 @@ import Lesson from "./pages/Lesson";
 import Phishing from "./pages/interactive/Phishing";
 import TermsNConditions from "./pages/interactive/TermsNConditions"
 import PhishingUrl from "./pages/interactive/PhishingUrl.js";
-import Login from "./Login";
 import Tips from "./pages/Tips";
 import ProtectedRoute from "./shared/ProtectedRoute.js";
 
