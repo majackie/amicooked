@@ -141,7 +141,7 @@ def login():
             return jsonify(access_token=access_token), 200
         else:
             return jsonify({"msg": "Invalid credentials"}), 401
-
+    
     except Exception as e:
         return jsonify({'error': str(e)}), 500
 
@@ -151,6 +151,32 @@ def login():
             cursor.close()
         if conn is not None:
             conn.close()
+        
+
+@app.route('/lesson/<int:id>', methods=['GET'])
+def get_lesson(id):
+    conn = psycopg2.connect(
+        host=host,
+        port=port,
+        user=user,
+        password=password,
+        dbname=dbname
+    )
+    cursor = conn.cursor()
+
+    # Execute a query to fetch users
+    cursor.execute("SELECT * FROM lessons WHERE topicId = %s", (id,))
+    lesson = cursor.fetchone()
+
+    lesson_data = {
+        "topicId": lesson[0],
+        "topicName": lesson[1],
+        "topicContent": lesson[2],
+        "isInteractive": lesson[3]
+    }
+
+    return jsonify(lesson_data)  # Return users as JSON
+
 
 # Create a simple in-memory blacklist
 token_blacklist = set()

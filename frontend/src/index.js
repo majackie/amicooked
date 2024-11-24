@@ -10,7 +10,12 @@ import Protected from "./Protected";
 import Signup from "./Signup";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
+import './index.css';
+import reportWebVitals from './reportWebVitals';
+
+import App from './App';
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
@@ -24,6 +29,7 @@ root.render(
     </BrowserRouter>
   </React.StrictMode>
 );
+
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
