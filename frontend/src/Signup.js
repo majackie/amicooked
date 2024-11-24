@@ -49,6 +49,15 @@ const Signup = () => {
                         required
                     />
                 </div>
+                <div>
+                    <label>Email:</label>
+                    <input
+                        type="email"
+                        value={email}
+                        onChange={(e) => setEmail(e.target.value)}
+                        required={subscribe}
+                    />
+                </div>
                 <button type="submit">Sign Up</button>
             </form>
             {message && <p>{message}</p>}
