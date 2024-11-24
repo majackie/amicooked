@@ -45,8 +45,6 @@ function PrivacyTracker() {
 
     if (loading)
     {
-
-        // return <><Loading /></>
         return (
             <div className="PrivacyTracker" style={{height: "50vmin"}}>
                 <h1 style={{fontWeight: "bold"}}>Calculating your score...</h1>
