@@ -2,13 +2,14 @@ import "../style/PrivacyChecker.css"
 
 import { useNavigate } from "react-router-dom";
 import Button from "../shared/Button"
-import AppHeader from "../shared/AppHeader";
+import Navbar from "../shared/Navbar";
 
 function PrivacyChecker() {
 	const navigate = useNavigate();
 	return (
 		<div className="PrivacyChecker">
-			<AppHeader />
+			{/* <AppHeader /> */}
+			<Navbar type={"default"} />
 			<div className="Body">
 				<div className="Subtext">
 					<p>Click below to see if your info is compromised in the dark web!</p>

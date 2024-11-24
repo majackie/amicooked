@@ -1,13 +1,13 @@
 import { useNavigate } from "react-router-dom";
 import Button from "../shared/Button"
-import AppHeader from "../shared/AppHeader";
+import Navbar from "../shared/Navbar";
 // import "../style/LessonsHome.css"
 
 function LessonsHome() {
     const navigate = useNavigate();
     return (
         <div className="LessonsHome">
-            <AppHeader />
+            <Navbar type={"default"} />
             <div className="Body">
                 <div className="PrivacyTracker">
                     <h3>YOUR PRIVACY SCORE</h3>
@@ -15,7 +15,8 @@ function LessonsHome() {
                     <p>Check out the lessons below to enhance your score</p>
                 </div>
                 <Button theme="primary" onClick={() => navigate('/user-dashboard/safety-tools/lesson/1')}>Phishing Emails</Button>
-                <Button theme="primary" onClick={() => navigate('/user-dashboard/safety-tools/lesson/2')}>Password</Button>
+                <Button theme="primary" onClick={() => navigate('/user-dashboard/safety-tools/lesson/2')}>Password Management</Button>
+                <Button theme="primary" onClick={() => navigate('/user-dashboard/safety-tools/lesson/3')}>Terms And Conditions</Button>
                 <Button theme="primary" onClick={() => navigate('/user-dashboard/safety-tools')}>Back</Button>
             </div>
         </div>

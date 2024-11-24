@@ -1,6 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 
 // Pages
+import Admin from './Admin.js'
 import Home from './pages/Home';
 import UserDashboard from './pages/UserDashboard'
 import SafetyTools from "./pages/SafetyTools";
@@ -11,6 +12,10 @@ import CheckDomain from "./pages/CheckDomain";
 import Sagwa from "./pages/Sagwa";
 import LessonsHome from "./pages/LessonsHome";
 import Lesson from "./pages/Lesson";
+import Phishing from "./pages/interactive/Phishing";
+import TermsNConditions from "./pages/interactive/TermsNConditions"
+import PhishingUrl from "./pages/interactive/PhishingUrl.js";
+import Tips from "./pages/Tips";
 
 function App() {
   return (
@@ -18,7 +23,8 @@ function App() {
       <Routes>
         {/* Landing Page */}
         <Route path="/" element={<Home />} />
-        <Route path="/home" element={<Home />} />
+        <Route path="/admin" element={<Admin />} /> 
+        <Route path="/home" element={<Home />} /> 
         {/* Add pages here */}
         <Route path="/user-dashboard" element={<UserDashboard />} />
         <Route path="/user-dashboard/safety-tools" element={<SafetyTools />} />
@@ -27,10 +33,13 @@ function App() {
 		<Route path="/user-dashboard/safety-tools/privacy-checker/check-password" element={<CheckPassword />} />
 		<Route path="/user-dashboard/safety-tools/privacy-checker/check-domain" element={<CheckDomain />} />
         <Route path="/user-dashboard/safety-tools/sagwa" element={<Sagwa />} />
+        {/* Lesson pages */}
         <Route path="/user-dashboard/safety-tools/lessons-home" element={<LessonsHome />} />
-        {/* TODO: Turn this into a loop to generate Route component with path lesson/id */}
-        <Route path="/user-dashboard/safety-tools/lesson/1" element={<Lesson topicId="1" topicName="Phishing Email" />} />
-        <Route path="/user-dashboard/safety-tools/lesson/2" element={<Lesson topicId="2" topicName="Password" />} />
+        <Route path="/user-dashboard/safety-tools/lesson/:topicId" element={<Lesson />} />
+        <Route path="/user-dashboard/safety-tools/lesson/1/interactive" element={<Phishing />} />
+        <Route path="/user-dashboard/safety-tools/lesson/3/interactive" element={<TermsNConditions />} />
+        <Route path="/dangerous-phishing-url" element={<PhishingUrl/>} />
+        <Route path="/user-dashboard/safety-tools/tips" element={<Tips />} />
       </Routes>
     </>
   );

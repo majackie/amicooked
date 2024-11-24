@@ -3,13 +3,13 @@ import "../style/Sagwa.css"
 import sagwa from '../asset/sagwa.png';
 import { useNavigate } from "react-router-dom";
 import Button from "../shared/Button"
-import AppHeader from "../shared/AppHeader";
+import Navbar from "../shared/Navbar";
 
 function Sagwa() {
     const navigate = useNavigate();
     return (
         <div className="Sagwa">
-            <AppHeader />
+            <Navbar type={"default"} />
             <div className="Sagwa-body">
                 <img src={sagwa} className="Sagwa-img" alt="Sagwa the cat" />
                 <div className="Subtext">
