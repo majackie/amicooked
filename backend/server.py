@@ -59,7 +59,9 @@ def get_users():
                 'id': user_record[0],         # Assuming first column is ID
                 'username': user_record[1],
                 'password': user_record[2],
-                'admin': user_record[3] # Assuming second column is Name
+                'admin': user_record[3], # Assuming second column is Name
+                'subscribe': user_record[4],
+                'email': user_record[5]
                 # Add more fields as necessary
             })
 
