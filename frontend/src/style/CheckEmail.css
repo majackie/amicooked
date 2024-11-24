@@ -1,0 +1,23 @@
+.form-element {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.CheckEmail .breach {
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin: 0 auto 20px auto;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+	max-width: 80%;
+}
+
+.CheckEmail .breach h2 {
+    margin-top: 0;
+}
+
+.CheckEmail .breach img {
+    max-width: 100px;
+    display: block;
+    margin: 8px auto;
+}
