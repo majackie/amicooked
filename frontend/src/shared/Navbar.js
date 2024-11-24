@@ -32,7 +32,7 @@ function Navbar(props) {
                 </li>
                 {(props.type === "default" ? SidebarData : SidebarTipData).map((item, index) => {
                     return (
-                    <li key={index} className={item.cName}>
+                    <li key={index} className={item.cName} style={{display: item.display}}>
                         <Link to={item.path}>
                         {item.icon}
                         <span>{item.title}</span>

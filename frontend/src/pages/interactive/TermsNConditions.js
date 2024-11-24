@@ -5,9 +5,10 @@ import Navbar from "../../shared/Navbar";
 import '../../style/TermsNConditions.css';
 import Button from "../../shared/Button";
 
-import { handleFinishLesson } from '../../utils/LessonHelper';
+import { handleFinishLesson } from '../../utils/lessonHelper';
 
 function TermsNConditions() {
+    const userid = localStorage.getItem("id")
     const navigate = useNavigate();
     const [value, setValue] = useState([]);
     const handleChange = (val) => setValue(val);
@@ -81,7 +82,7 @@ function TermsNConditions() {
                 </div>
                 <Button theme="primary" onClick={() => handleAnswer(value)}>Check Answer</Button>
                 <Button theme="secondary" onClick={() => {
-                    handleFinishLesson(8, 3, 50)
+                    handleFinishLesson(userid, 3, 50)
                     navigate('/user-dashboard/safety-tools/lessons-home')
                 }}>Finish Lesson</Button>
             </div>

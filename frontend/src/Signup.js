@@ -12,7 +12,7 @@ const Signup = () => {
         e.preventDefault();
 
         try {
-            const response = await axios.post('http://localhost:5000/api/signup', {
+            const response = await axios.post('http://127.0.0.1:5000/api/signup', {
                 username,
                 password,
             });

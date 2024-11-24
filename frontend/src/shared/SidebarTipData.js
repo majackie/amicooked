@@ -9,12 +9,14 @@ export const SidebarTipData = [
     path: "/user-dashboard/safety-tools/tips/1",
     icon: <AiIcons.AiOutlineMail />,
     cName: "Nav-text",
+    display: "block",
   },
   {
     title: "Password Management",
     path: "/user-dashboard/safety-tools/tips/2",
     icon: <AiIcons.AiOutlineLock />,
     cName: "Nav-text",
+    display: "block",
   },
   {
     title: "Terms and Conditions",
@@ -27,6 +29,7 @@ export const SidebarTipData = [
     path: "/user-dashboard/safety-tools",
     icon: <AiIcons.AiFillHome />,
     cName: "Nav-text",
+    display: "block",
   },
 // More tips here
 ];

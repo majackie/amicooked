@@ -17,6 +17,44 @@
     margin: 0vmin 15vmin;
 }
 
+.Tip {
+    position: fixed;
+    bottom: 20px;
+    width: 30%;
+    right: 10px;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 5px 0px grey;
+    transform: translateY(100%);
+    opacity: 0;
+    transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+}
+
+.ToggleButton{
+    font-size: 3vmin;
+}
+
+.fade-in {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.collapsed {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+
+.ToggleButton {
+    cursor: pointer;
+    font-size: 3vmin;
+}
+
+.ToggleButton:hover {
+    background-color: #949494;
+}
+
 .Body {
     padding-top: 15vmin;
     display: flex;
