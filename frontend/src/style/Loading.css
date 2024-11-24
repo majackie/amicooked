@@ -1,5 +1,6 @@
 .Loading {
   text-align: center;
+  height: 100%;
 }
 
 .App-logo-loading {
@@ -21,6 +22,8 @@
 .App-name {
   color: #1A73E8;
   font-weight: bold;
+  margin-top: 10px;
+  z-index: 10;
 
 }
 
