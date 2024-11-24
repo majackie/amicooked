@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom'; // Import useNavigate
 import axios from 'axios';
 
 const Signup = () => {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
     const [message, setMessage] = useState('');
+    const navigate = useNavigate(); // Initialize navigate
 
     const handleSignup = async (e) => {
         e.preventDefault();
@@ -14,13 +16,20 @@ const Signup = () => {
                 username,
                 password,
             });
-            
-            setMessage(response.data.msg);  // Set success message from the server response
+
+            setMessage('Signup successful! Redirecting to login...');
+
+            // Clear the form
             setUsername('');
             setPassword('');
+
+            // Redirect to login page after a short delay (2 seconds)
+            setTimeout(() => {
+                navigate('/login');
+            }, 2000);
         } catch (error) {
             if (error.response && error.response.data.msg) {
-                setMessage(error.response.data.msg);  // Error message from the server
+                setMessage(error.response.data.msg);
             } else {
                 setMessage('Signup failed. Please try again.');
             }

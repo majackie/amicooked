@@ -12,6 +12,7 @@ import Lesson from "./pages/Lesson";
 import Phishing from "./pages/interactive/Phishing";
 import TermsNConditions from "./pages/interactive/TermsNConditions"
 import PhishingUrl from "./pages/interactive/PhishingUrl.js";
+import Login from "./Login";
 import Tips from "./pages/Tips";
 
 function App() {
@@ -34,6 +35,9 @@ function App() {
         <Route path="/user-dashboard/safety-tools/lesson/3/interactive" element={<TermsNConditions />} />
         <Route path="/dangerous-phishing-url" element={<PhishingUrl/>} />
         <Route path="/user-dashboard/safety-tools/tips" element={<Tips />} />
+
+        
+        <Route path="/login" element={<Login />}></Route>
       </Routes>
     </>
   );
