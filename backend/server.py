@@ -103,6 +103,42 @@ def get_lesson(id):
         if conn is not None:
             conn.close()
 
+@app.route('/get_total_lessons', methods=['GET'])
+def get_total_lessons():
+    conn = None
+    cursor = None
+
+    try:
+        # Create a connection to the PostgreSQL database
+        conn = psycopg2.connect(
+            host=host,
+            port=port,
+            user=user,
+            password=password,
+            dbname=dbname
+        )
+        cursor = conn.cursor()
+
+        # Execute a query to fetch users
+        cursor.execute("SELECT COUNT(*) FROM lessons;")
+        lesson = cursor.fetchone()
+
+        lesson_data = {
+            "total_lessons": lesson[0]
+        }
+
+        return jsonify(lesson_data)  # Return lesson as JSON
+
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+    finally:
+        # Close cursor and connection if they were created
+        if cursor is not None:
+            cursor.close()
+        if conn is not None:
+            conn.close()
+
 @app.route('/tips/<int:id>', methods=['GET'])
 def get_tips(id):
     conn = None
@@ -137,12 +173,10 @@ def get_tips(id):
         if conn is not None:
             conn.close()
 
-@app.route('/user/<int:id>', methods=['GET'])
-def get_score(id):
+@app.route('/get_score/<int:userid>', methods=['GET'])
+def get_score(userid):
     conn = None
     cursor = None
-
-    # TODO - Billy: Input validation id
 
     try:
         # Create a connection to the PostgreSQL database
@@ -156,7 +190,7 @@ def get_score(id):
         cursor = conn.cursor()
 
         # Execute a query to fetch users
-        cursor.execute("SELECT SUM(user_points.points) as total_points FROM user_points WHERE user_points.userid = %s", (id,))
+        cursor.execute("SELECT SUM(user_points.points) as total_points FROM user_points WHERE user_points.userid = %s", (userid,))
         points = cursor.fetchone()
 
         point_data = {
@@ -219,21 +253,10 @@ def update_points():
         if conn is not None:
             conn.close()
 
-@app.route('/get_lesson_status', methods=['GET'])
-def get_lesson_status():
+@app.route('/get_lesson_status/<int:userid>/<int:topicid>', methods=['GET'])
+def get_lesson_status(userid, topicid):
     conn = None
     cursor = None
-
-    data = request.get_json()
-
-    if not data:
-        return jsonify({"error": "Invalid JSON"}), 400
-
-    userid = data.get('userid')
-    topicid = data.get('topicid')
-
-    if not userid or not topicid:
-        return jsonify({"error": "Missing userid or topicid"}), 400
 
     try:
         # Create a connection to the PostgreSQL database

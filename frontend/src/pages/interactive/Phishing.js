@@ -1,10 +1,9 @@
-import axios from "axios";
 import React, { useState, useRef } from 'react';
 import { useNavigate } from "react-router-dom";
 import Navbar from "../../shared/Navbar";
 import Button from "../../shared/Button";
 import '../../style/Phishing.css';
-import { handleFinishLesson } from "../../utils/lessonHelper";
+import { handleFinishLesson } from "../../utils/LessonHelper";
 
 function Phishing() {
     const navigate = useNavigate();
@@ -22,8 +21,6 @@ function Phishing() {
         setOpenDropdownIndex(openDropdownIndex === index ? null : index);
     };
 
-    
-    
     return (
         <div className="Phishing">
             <Navbar type={"default"} />
