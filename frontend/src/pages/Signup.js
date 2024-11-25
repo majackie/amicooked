@@ -8,6 +8,8 @@ const Signup = () => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [message, setMessage] = useState("");
+  const [email, setEmail] = useState('');
+  const [subscribe, setSubscribe] = useState('')
   const navigate = useNavigate();
 
   const handleSignup = async (e) => {
@@ -17,6 +19,8 @@ const Signup = () => {
       const response = await axios.post("http://127.0.0.1:5000/api/signup", {
         username,
         password,
+        email,
+        subscribe,
       });
 
       setMessage("Signup successful! Redirecting to login...");
@@ -24,6 +28,8 @@ const Signup = () => {
       // Clear the form
       setUsername("");
       setPassword("");
+      setEmail('');
+      setSubscribe(false);
 
       // Redirect to login page after a short delay
       setTimeout(() => {
@@ -59,6 +65,21 @@ const Signup = () => {
               onChange={(e) => setPassword(e.target.value)}
               required
             />
+            <label>Email:</label>
+            <input
+            type="email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            required={subscribe}
+            />
+            <label>
+            <input
+            type="checkbox"
+            checked={subscribe}
+            onChange={(e) => setSubscribe(e.target.checked)}
+             />
+            Subscribe to our newsletter
+            </label>
             <button type="submit">Sign Up</button>
           </form>
           {message && <p>{message}</p>}
