@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom'; // Import useNavigate
+import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
+import './style/Signup.css';
 
 const Signup = () => {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
     const [message, setMessage] = useState('');
-    const navigate = useNavigate(); // Initialize navigate
+    const navigate = useNavigate();
 
     const handleSignup = async (e) => {
         e.preventDefault();
@@ -23,7 +24,7 @@ const Signup = () => {
             setUsername('');
             setPassword('');
 
-            // Redirect to login page after a short delay (2 seconds)
+            // Redirect to login page after a short delay
             setTimeout(() => {
                 navigate('/login');
             }, 2000);
@@ -37,10 +38,10 @@ const Signup = () => {
     };
 
     return (
-        <div>
-            <h2>Signup</h2>
-            <form onSubmit={handleSignup}>
-                <div>
+        <div className="SignupPage">
+            <div className="SignupContainer">
+                <h2>Signup</h2>
+                <form onSubmit={handleSignup}>
                     <label>Username:</label>
                     <input
                         type="text"
@@ -48,8 +49,6 @@ const Signup = () => {
                         onChange={(e) => setUsername(e.target.value)}
                         required
                     />
-                </div>
-                <div>
                     <label>Password:</label>
                     <input
                         type="password"
@@ -57,10 +56,10 @@ const Signup = () => {
                         onChange={(e) => setPassword(e.target.value)}
                         required
                     />
-                </div>
-                <button type="submit">Sign Up</button>
-            </form>
-            {message && <p>{message}</p>}
+                    <button type="submit">Sign Up</button>
+                </form>
+                {message && <p>{message}</p>}
+            </div>
         </div>
     );
 };
