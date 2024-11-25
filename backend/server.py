@@ -182,6 +182,36 @@ def get_lesson(id):
     return jsonify(lesson_data)  # Return users as JSON
 
 
+@app.route('/api/subscribed_users', methods=['GET'])
+def get_subscribed_users():
+    conn = None
+    cursor = None
+    user_list = []
+
+    try:
+        conn = psycopg2.connect(
+            host=host,
+            port=port,
+            user=user,
+            password=password,
+            dbname=dbname
+        )
+        cursor = conn.cursor()
+
+
+        return jsonify(user_list), 200 
+
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+    finally:
+        # Close cursor and connection if they were created
+        if cursor is not None:
+            cursor.close()
+        if conn is not None:
+            conn.close()
+
+
 # Create a simple in-memory blacklist
 token_blacklist = set()
 
@@ -209,4 +239,4 @@ def protected():
     return jsonify(logged_in_as=current_user), 200
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, host='0.0.0.0', port=5001)
