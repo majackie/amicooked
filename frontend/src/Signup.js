@@ -4,20 +4,31 @@ import axios from 'axios';
 const Signup = () => {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
+    const [email, setEmail] = useState('');
+    const [subscribe, setSubscribe] = useState('')
     const [message, setMessage] = useState('');
 
     const handleSignup = async (e) => {
         e.preventDefault();
 
+        if (subscribe && !email) {
+            setMessage('Email is required if you are subscribing.');
+            return;
+        }
+
         try {
             const response = await axios.post('http://localhost:5000/api/signup', {
                 username,
                 password,
+                email,
+                subscribe,
             });
             
             setMessage(response.data.msg);  // Set success message from the server response
             setUsername('');
             setPassword('');
+            setEmail('');
+            setSubscribe(false);
         } catch (error) {
             if (error.response && error.response.data.msg) {
                 setMessage(error.response.data.msg);  // Error message from the server
@@ -48,6 +59,25 @@ const Signup = () => {
                         onChange={(e) => setPassword(e.target.value)}
                         required
                     />
+                </div>
+                <div>
+                    <label>Email:</label>
+                    <input
+                        type="email"
+                        value={email}
+                        onChange={(e) => setEmail(e.target.value)}
+                        required={subscribe}
+                    />
+                </div>
+                <div>
+                    <label>
+                        <input
+                            type="checkbox"
+                            checked={subscribe}
+                            onChange={(e) => setSubscribe(e.target.checked)}
+                        />
+                        Subscribe to our newsletter
+                    </label>
                 </div>
                 <button type="submit">Sign Up</button>
             </form>
