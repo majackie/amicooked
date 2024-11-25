@@ -1,0 +1,72 @@
+/* General Styling for Signup Page */
+.SignupPage {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom right, #f8f9fa, #e9ecef);
+    font-family: 'Arial', sans-serif;
+}
+
+.SignupContainer {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+}
+
+.SignupContainer h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #343a40;
+}
+
+.SignupContainer label {
+    display: block;
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 1rem;
+    color: #495057;
+}
+
+.SignupContainer input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.SignupContainer input:focus {
+    border-color: #495057;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.SignupContainer button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.SignupContainer button:hover {
+    background-color: #218838;
+}
+
+.SignupContainer p {
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #343a40;
+}

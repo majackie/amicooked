@@ -11,6 +11,10 @@
     font-size: 8vmin;
 }
 
+.TermsNConditions-body > p {
+    font-size: 4vmin
+}
+
 h3 {
     font-size: 5vmin
 }
@@ -19,17 +23,9 @@ p, ul, ol {
     font-size: 4vmin;
 }
 
-Button {
-    height: 15vmin;
-    width: 50vmin;
-    font-size: 3vmin;
-    font-weight: bold;
-
-}
-
 .TermsNConditions-example {
     border: 2px solid black;
-    padding: 10px;
+    padding: 5vmin 10vmin;
 }
 
 .TermsNConditions-quiz {
@@ -49,24 +45,9 @@ Button {
     box-shadow: 1px 1px 10px 0px black;
 }
 
-/* .Lesson-content {
-    padding-top: 0;
-}
-
-
-
-.Lesson-content > h3 {
-    font-size: 5vmin;
-}
-
-.Lesson-content > p, ul {
-    font-size: 4vmin;
-    text-align: justify;
-}
-
-.Lesson-body > Button {
+.TermsNConditions-body > Button {
     height: 15vmin;
     width: 50vmin;
     font-size: 3vmin;
     font-weight: bold;
-} */
+}

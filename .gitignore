@@ -2,4 +2,6 @@ node_modules
 .DS_Store
 build
 .env
-myenv/*
+backend/__pycache__
+backend/__pycache__/*
+*.pyc
