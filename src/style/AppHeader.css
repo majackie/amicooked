@@ -1,9 +1,0 @@
-.AppHeader {
-    display: flex;
-    align-items: start;
-    width: fit-content;
-}
-
-.AppHeader > p {
-    font-size: 3vmin;
-}

@@ -8,7 +8,11 @@
 }
 
 .Lesson-content {
+<<<<<<< HEAD
     padding-top: 0;
+=======
+    padding: 0;
+>>>>>>> Develop
 }
 
 .Lesson-content > h2 {
@@ -19,9 +23,14 @@
     font-size: 5vmin;
 }
 
+<<<<<<< HEAD
 .Lesson-content > p, ul {
     font-size: 4vmin;
     text-align: justify;
+=======
+.Lesson-content > ol {
+    margin-left: 5vmin;
+>>>>>>> Develop
 }
 
 .Lesson-body > Button {

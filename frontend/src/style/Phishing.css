@@ -1,0 +1,53 @@
+.Phishing-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5vmin;
+    scroll-behavior: smooth;
+}
+
+.Phishing-body > h2 {
+    font-size: 8vmin;
+}
+
+.Phishing-body > p {
+    font-size: 4vmin;
+}
+
+.Phishing-example > p, ul, ol {
+    font-size: 4vmin;
+}
+
+.Phishing-example {
+    border: 2px solid black;
+    padding: 10vmin;
+}
+
+.Redflag {
+    background-color: #ffde3a;
+    border-radius: 5px;
+    padding: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.dropdown {
+    overflow: hidden;
+    transition: height 0.3s ease;
+    background-color: #f0f0f0;
+    margin-top: 10px;
+}
+
+.dropdown.open {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+
+.Phishing-body > Button {
+    height: 15vmin;
+    width: 50vmin;
+    font-size: 4vmin;
+    font-weight: bold;
+}
