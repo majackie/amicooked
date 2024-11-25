@@ -7,6 +7,23 @@
   pointer-events: none;
 }
 
+.logo-spin {
+	animation: App-logo-spin infinite 2s linear;
+	width: 100px;
+	height: 100px;
+	margin-bottom: 15px;
+	pointer-events: none;
+}
+
+@keyframes App-logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
 /* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

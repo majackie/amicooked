@@ -9,7 +9,9 @@ function AppHeader() {
     return (
         <div className="AppHeader" onClick={() => navigate("/home")}>
             <img src={logo} className="App-logo" alt="logo"/>
-            <p>amicooked</p>
+			<p className="App-name">
+				amicooked
+			</p>
         </div>
     );
 }
