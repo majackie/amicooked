@@ -1,10 +1,10 @@
 import {Routes, Route } from "react-router-dom";
 
 // Pages
-import Admin from "./Admin.js";
-import Login from "./Login";
-import Logout from "./Logout";
-import Signup from "./Signup";
+import Admin from "./pages/Admin.js";
+import Login from "./pages/Login.js";
+import Logout from "./pages/Logout.js";
+import Signup from "./pages/Signup.js";
 import UserDashboard from './pages/UserDashboard'
 import SafetyTools from "./pages/SafetyTools";
 import PrivacyChecker from "./pages/PrivacyChecker";
