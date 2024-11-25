@@ -15,8 +15,7 @@ function SafetyTools() {
                     <PrivacyTracker />
                 ) : (
                     <>
-                        <h2>Safety Tools</h2>
-                        <p>Check out the tools below to help enhance your privacy.</p>
+                        <h3>Check out the tools below to help enhance your privacy.</h3>
                     </>
                 )}
                 <Button style={{display: isAuthenticated() ? 'block' : 'none'}} theme="primary" onClick={() => navigate('/user-dashboard/safety-tools/lessons-home')}>Lessons</Button>

@@ -5,6 +5,7 @@ import Admin from "./Admin.js";
 import Login from "./Login";
 import Logout from "./Logout";
 import Signup from "./Signup";
+import Home from "./pages/Home.js"
 import UserDashboard from './pages/UserDashboard'
 import SafetyTools from "./pages/SafetyTools";
 import PrivacyChecker from "./pages/PrivacyChecker";
@@ -25,9 +26,9 @@ function App() {
     <>
       <Routes>
         {/* Landing Page */}
-        {/* <Route path="/" element={<Home />} /> */}
-        {/* <Route path="/home" element={<Home />} />  */}
-        <Route path="/" element={<Login />}></Route>
+        <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} /> 
+        {/* <Route path="/" element={<Login />}></Route> */}
         <Route path="/admin" element={<Admin/>}></Route>
         <Route path="/login" element={<Login />}></Route>
         <Route path="/logout" element={<Logout />}></Route>

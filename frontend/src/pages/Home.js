@@ -1,28 +1,38 @@
 import { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import logo from '../asset/logo.png';
+import AppHeader from '../shared/AppHeader';
 import '../style/Home.css';
+import Button from '../shared/Button'
 
 function Home() {
 	const navigate = useNavigate();
 
 	useEffect(() => {
 		const timer = setTimeout(() => {
-			// update route to login/signup
 			navigate('/user-dashboard');
-		}, 2000);
+		}, 60000); // after 1 minute, redirect user to dashboard
 
 		return () => clearTimeout(timer);
 	}, [navigate]);
 
 	return (
 		<div className="Home">
-			<header className="Home-header">
-				<img src={logo} className="logo-spin" alt="logo" />
-				<p className="App-name">
-					amicooked
-				</p>
-			</header>
+			<AppHeader />
+			<div className="Dashboard-container">
+				<h1>ARE YOU REALLY COOKED?</h1>
+				<Button theme="primary" onClick={() => navigate("/user-dashboard")}>Check Now</Button>
+				<p>We offer safety tools where you can view tips, and check your privacy.</p>
+				<h3>- OR -</h3>
+			</div>
+
+			<div className="Account-container">
+				<h2>Join the amicooked® community to protect yourself from privacy risks.</h2>
+				<p>You will get access to educational materials, and your own privacy point tracker.</p>
+				<div className="Btn-container">
+					<Button theme="primaryInverse" onClick={() => navigate("/login")}>Log in</Button>
+					<Button theme="primaryOutline" onClick={() => navigate("/signup")}>Sign up</Button>
+				</div>
+			</div>
 		</div>
 	);
 }
