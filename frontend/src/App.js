@@ -21,6 +21,7 @@ import Tips from "./pages/Tips";
 import ProtectedRoute from "./shared/ProtectedRoute.js";
 import LoadingPage from "./pages/LoadingPage";
 import About from "./pages/About";
+import Home from "./pages/Home";
 
 function App() {
   return (
@@ -29,7 +30,7 @@ function App() {
         {/* Landing Page */}
         {/* <Route path="/" element={<Home />} /> */}
         {/* <Route path="/home" element={<Home />} />  */}
-        <Route path="/" element={<Login />}></Route>
+        <Route path="/" element={<LoadingPage />}></Route>
         <Route path="/admin" element={<Admin/>}></Route>
         <Route path="/login" element={<Login />}></Route>
         <Route path="/logout" element={<Logout />}></Route>
