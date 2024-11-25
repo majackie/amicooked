@@ -7,6 +7,7 @@ const Logout = () => {
     const handleLogout = () => {
         // Remove token from local storage
         localStorage.removeItem('token');
+        localStorage.removeItem('id');
 
         // Optionally, clear other user data here, like profile info, etc.
 
