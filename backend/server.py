@@ -198,6 +198,15 @@ def get_subscribed_users():
         )
         cursor = conn.cursor()
 
+        cursor.execute("SELECT username, email FROM users WHERE subscribe = TRUE;")
+        users = cursor.fetchall()
+
+        # Create a list of users
+        for user_record in users:
+            user_list.append({
+                'username': user_record[0],
+                'email': user_record[1]
+            })
 
         return jsonify(user_list), 200 
 
