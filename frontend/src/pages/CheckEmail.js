@@ -2,7 +2,7 @@ import "../style/CheckEmail.css"
 
 import { useState } from "react";
 import Button from "../shared/Button"
-import AppHeader from "../shared/AppHeader";
+import Navbar from "../shared/Navbar";
 
 function CheckEmail() {
 	const url = "http://127.0.0.1:5000/api/hibp/email/";
@@ -37,7 +37,7 @@ function CheckEmail() {
 
 	return (
 		<div className="CheckEmail">
-			<AppHeader />
+			<Navbar type={"default"} />
 			<div className="Body">
 				<form onSubmit={(e) => e.preventDefault()}>
 					<label className="form-element">Enter your email:</label>

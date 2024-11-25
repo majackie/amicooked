@@ -2,7 +2,7 @@ import "../style/CheckDomain.css"
 
 import { useState } from "react";
 import Button from "../shared/Button"
-import AppHeader from "../shared/AppHeader";
+import Navbar from "../shared/Navbar";
 
 function CheckDomain() {
 	const url = "http://127.0.0.1:5000/api/hibp/domain/";
@@ -37,7 +37,7 @@ function CheckDomain() {
 
 	return (
 		<div className="CheckDomain">
-			<AppHeader />
+			<Navbar type={"default"} />
 			<div className="Body">
 				<form onSubmit={(e) => e.preventDefault()}>
 					<label className="form-element">Enter domain:</label>

@@ -18,7 +18,7 @@ function PrivacyChecker() {
                 <Button theme="primary" onClick={() => navigate('/user-dashboard/safety-tools/sagwa')}>SIN</Button>
                 <Button theme="primary" onClick={() => navigate('/user-dashboard/safety-tools/sagwa')}>Driver's License</Button>
                 <Button theme="primary" onClick={() => navigate('/user-dashboard/safety-tools/sagwa')}>Credit Card</Button>
-                <Button theme="primary" onClick={() => navigate('/user-dashboard/safety-tools')}>Back</Button>
+                <Button theme="back" onClick={() => navigate('/user-dashboard/safety-tools')}>Back</Button>
             </div>
         </div>
     );
