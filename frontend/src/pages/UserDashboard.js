@@ -16,7 +16,6 @@ function UserDashboard() {
     }
 
     useEffect(() => {
-        console.log("isVisible")
         setIsVisible(true);
     }, []);
 

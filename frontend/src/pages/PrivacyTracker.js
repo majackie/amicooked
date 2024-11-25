@@ -28,7 +28,6 @@ function PrivacyTracker() {
                     }
                 });
                 setScore(response.data.total_points)
-                console.log("total score "+score)
             } catch (error) {
                 console.error("Error getting user total points]:", error);
             } finally {

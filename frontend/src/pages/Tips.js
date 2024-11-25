@@ -16,7 +16,6 @@ function Tips() {
     const [loading, setLoading] = useState(false)
     
     useEffect(() => {
-        console.log("fetching data for topicId="+topicId)
         setLoading(true)
         const fetchTips = async () => {
             try {

@@ -6,7 +6,6 @@ const Login = () => {
     const [password, setPassword] = useState("");
 
     const handleLogin = async () => {
-        console.log("handleLogin")
         try {
             const response = await axios.post(`http://127.0.0.1:5000/api/login`, { 
                 username: username, 
@@ -14,10 +13,9 @@ const Login = () => {
             });
             localStorage.setItem("token", response.data.access_token);
             localStorage.setItem("id", response.data.userid)
-            console.log("access token "+localStorage.getItem("token"))
             alert("Login successful!");
         } catch (error) {
-            alert("Login failed: " + error);
+            alert("Login failed: " + error.response.data.msg);
         }
     };
 
