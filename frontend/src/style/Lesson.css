@@ -1,0 +1,31 @@
+.Lesson-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5vmin;
+    scroll-behavior: smooth;
+}
+
+.Lesson-content {
+    padding-top: 0;
+}
+
+.Lesson-content > h2 {
+    font-size: 8vmin;
+}
+
+.Lesson-content > h3 {
+    font-size: 5vmin;
+}
+
+.Lesson-content > p, ul, ol {
+    font-size: 4vmin;
+}
+
+.Lesson-body > Button {
+    height: 15vmin;
+    width: 50vmin;
+    font-size: 3vmin;
+    font-weight: bold;
+}
