@@ -6,4 +6,17 @@
 
 .AppHeader > p {
     font-size: 3vmin;
+	margin: auto;
+}
+
+.AppHeader > img {
+	height: 50px;
+	width: 50px;
+    padding-right: 5px;
+}
+
+.App-name {
+	color: #1A73E8;
+	font-weight: bold;
+  
 }
