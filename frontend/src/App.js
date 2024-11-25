@@ -16,15 +16,18 @@ import Phishing from "./pages/interactive/Phishing";
 import TermsNConditions from "./pages/interactive/TermsNConditions"
 import PhishingUrl from "./pages/interactive/PhishingUrl.js";
 import Tips from "./pages/Tips";
+import LoadingPage from "./pages/LoadingPage";
+import About from "./pages/About";
 
 function App() {
   return (
     <>
       <Routes>
         {/* Landing Page */}
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<LoadingPage />} />
         <Route path="/admin" element={<Admin />} /> 
         <Route path="/home" element={<Home />} /> 
+		<Route path="/about" element={<About />} /> 
         {/* Add pages here */}
         <Route path="/user-dashboard" element={<UserDashboard />} />
         <Route path="/user-dashboard/safety-tools" element={<SafetyTools />} />

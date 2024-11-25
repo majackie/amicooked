@@ -1,30 +1,20 @@
-import { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import logo from '../asset/logo.png';
+import Button from "../shared/Button"
+import Navbar from "../shared/Navbar";
 import '../style/Home.css';
 
 function Home() {
-	const navigate = useNavigate();
-
-	useEffect(() => {
-		const timer = setTimeout(() => {
-			// update route to login/signup
-			navigate('/user-dashboard');
-		}, 2000);
-
-		return () => clearTimeout(timer);
-	}, [navigate]);
-
-	return (
-		<div className="Home">
-			<header className="Home-header">
-				<img src={logo} className="logo-spin" alt="logo" />
-				<p className="App-name">
-					amicooked
-				</p>
-			</header>
-		</div>
-	);
+    const navigate = useNavigate();
+    return (
+        <div className="Home">
+            <Navbar type={"default"} />
+            <div className="Body">
+                <Button theme="primary" onClick={() => navigate('/login')}>Login</Button>
+                <Button theme="primary" onClick={() => navigate('/signup')}>Signup</Button>
+				<Button theme="primary" onClick={() => navigate('/about')}>About</Button>
+            </div>
+        </div>
+    )
 }
 
 export default Home;
