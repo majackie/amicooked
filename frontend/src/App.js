@@ -8,6 +8,9 @@ import Signup from "./Signup";
 import UserDashboard from './pages/UserDashboard'
 import SafetyTools from "./pages/SafetyTools";
 import PrivacyChecker from "./pages/PrivacyChecker";
+import CheckEmail from "./pages/CheckEmail";
+import CheckPassword from "./pages/CheckPassword";
+import CheckDomain from "./pages/CheckDomain";
 import Sagwa from "./pages/Sagwa";
 import LessonsHome from "./pages/LessonsHome";
 import Lesson from "./pages/Lesson";
@@ -34,6 +37,9 @@ function App() {
         <Route path="/user-dashboard" element={<UserDashboard />} />
         <Route path="/user-dashboard/safety-tools" element={<SafetyTools />} />
         <Route path="/user-dashboard/safety-tools/privacy-checker" element={<PrivacyChecker />}/>
+        <Route path="/user-dashboard/safety-tools/privacy-checker/check-email" element={<CheckEmail />} />
+        <Route path="/user-dashboard/safety-tools/privacy-checker/check-password" element={<CheckPassword />} />
+        <Route path="/user-dashboard/safety-tools/privacy-checker/check-domain" element={<CheckDomain />} />
         <Route path="/user-dashboard/safety-tools/sagwa" element={<Sagwa />} />
         {/* Protected Lesson pages */}
         <Route path="/user-dashboard/safety-tools/lessons-home" element={<ProtectedRoute><LessonsHome /></ProtectedRoute>} />
