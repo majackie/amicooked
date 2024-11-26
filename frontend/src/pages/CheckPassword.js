@@ -5,7 +5,7 @@ import Button from "../shared/Button"
 import Navbar from "../shared/Navbar";
 
 function CheckPassword() {
-	const url = "http://127.0.0.1:5555/api/hibp/password/";
+	const url = "http://localhost:5555/api/hibp/password/";
 	const [password, setPassword] = useState("");
 	const [result, setResult] = useState(null);
 
