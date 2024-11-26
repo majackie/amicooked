@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import styled from "styled-components";
 
 const theme = {
@@ -7,18 +6,40 @@ const theme = {
     hover: "#0A529C",
     borderRadius: "5px",
     margin: "10px 0px",
+    fontColor: "white",
+    shadowColor: "lightgrey",
   },
-  secondary: {
-    default: "#E81A2F",
-    hover: "#9C0A0C",
+  primaryInverse: {
+    default: "white",
+    hover: "lightgrey",
     borderRadius: "5px",
     margin: "10px 0px",
+    fontColor: "#1A73E8",
+    shadowColor: "black",
+  },
+  primaryOutline: {
+    default: "#1A73E8",
+    hover: "#0A529C",
+    borderRadius: "5px",
+    margin: "10px 0px",
+    fontColor: "white",
+    shadowColor: "white",
+  },
+  secondary: {
+    default: "#0A529C",
+    hover: "#073768",
+    borderRadius: "5px",
+    margin: "10px 0px",
+    fontColor: "white",
+    shadowColor: "lightgrey",
   },
   back: {
-    default: "#919191",
+    default: "#A4A4A4",
     hover: "#5c5c5c",
     borderRadius: "5px",
     margin: "10px 0px",
+    fontColor: "white",
+    shadowColor: "lightgrey",
   },
   round: {
     default: "#1A73E8",
@@ -27,12 +48,14 @@ const theme = {
     margin: "0vmin 2vmin",
     top: "100%",
     transformY: "15vmin",
-  }
+    fontColor: "white",
+    shadowColor: "lightgrey",
+  },
 };
 
 const Button = styled.button`
   background-color: ${(props) => theme[props.theme].default};
-  color: white;
+  color: ${(props) => theme[props.theme].fontColor};
   padding: 5px 15px;
   border-radius: ${(props) => theme[props.theme].borderRadius};
   outline: 0;
@@ -44,7 +67,7 @@ const Button = styled.button`
   zIndex: 1;
   margin: ${(props) => theme[props.theme].margin};
   cursor: pointer;
-  box-shadow: 0px 2px 2px lightgray;
+  box-shadow: 0px 2px 2px ${(props) => theme[props.theme].shadowColor};
   transition: ease background-color 250ms;
   &:hover {
     background-color: ${(props) => theme[props.theme].hover};
