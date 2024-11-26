@@ -5,7 +5,7 @@ import Button from "../shared/Button"
 import Navbar from "../shared/Navbar";
 
 function CheckPassword() {
-	const url = "http://127.0.0.1:5000/api/hibp/password/";
+	const url = "http://127.0.0.1:5555/api/hibp/password/";
 	const [password, setPassword] = useState("");
 	const [result, setResult] = useState(null);
 
@@ -43,6 +43,7 @@ function CheckPassword() {
 					<label className="form-element">Enter your password:</label>
 					<input className="form-element" type="password" id="password" name="password" value={password} onChange={handlePasswordChange}></input>
 					<Button className="form-element" theme="primary" onClick={handleSubmit}>Submit</Button>
+					{/* <Button theme="primary" onClick={() => navigate('/user-dashboard/safety-tools/privacy-checker')}>Back</Button> */}
 				</form>
 				<div id="check-password-result">
 					{result && (

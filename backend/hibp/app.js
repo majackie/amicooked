@@ -6,7 +6,7 @@ const cors = require("cors");
 const crypto = require('crypto');
 
 const app = express();
-const port = 5000;
+const port = 5555;
 
 app.use(cors({
 	origin: ["http://127.0.0.1:3000", "http://localhost:3000"],

@@ -27,6 +27,7 @@ function UserDashboard() {
                 <p>Check out the following features to help with your journey to privacy.</p>
             </div>
             <div className="Body">
+                <Button theme="primary" onClick={() => navigate("/user-dashboard/safety-tools/privacy-checker/check-domain")}>Check Domain Leaks</Button>
                 <Button theme="primary" onClick={() => navigate("/user-dashboard/safety-tools")}>Safety Tools</Button>
                 <Button theme="primary">Community Forums</Button>
                 <Button style={{display: isAuthenticated() ? 'block' : 'none'}} theme="primary">Edit Profiles</Button>

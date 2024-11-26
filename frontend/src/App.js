@@ -1,11 +1,10 @@
 import {Routes, Route } from "react-router-dom";
 
 // Pages
-import Admin from "./Admin.js";
-import Login from "./Login";
-import Logout from "./Logout";
-import Signup from "./Signup";
-import Home from "./pages/Home.js"
+import Admin from "./pages/Admin.js";
+import Login from "./pages/Login.js";
+import Logout from "./pages/Logout.js";
+import Signup from "./pages/Signup.js";
 import UserDashboard from './pages/UserDashboard'
 import SafetyTools from "./pages/SafetyTools";
 import PrivacyChecker from "./pages/PrivacyChecker";
@@ -20,6 +19,8 @@ import TermsNConditions from "./pages/interactive/TermsNConditions"
 import PhishingUrl from "./pages/interactive/PhishingUrl.js";
 import Tips from "./pages/Tips";
 import ProtectedRoute from "./shared/ProtectedRoute.js";
+import About from "./pages/About";
+import Home from "./pages/Home";
 
 function App() {
   return (
@@ -28,12 +29,13 @@ function App() {
         {/* Landing Page */}
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} /> 
-        {/* <Route path="/" element={<Login />}></Route> */}
         <Route path="/admin" element={<Admin/>}></Route>
         <Route path="/login" element={<Login />}></Route>
         <Route path="/logout" element={<Logout />}></Route>
         <Route path="/signup" element={<Signup />}></Route>
         
+        <Route path="/home" element={<Home />} /> 
+		<Route path="/about" element={<About />} /> 
         {/* Add pages here */}
         <Route path="/user-dashboard" element={<UserDashboard />} />
         <Route path="/user-dashboard/safety-tools" element={<SafetyTools />} />
@@ -48,7 +50,6 @@ function App() {
         <Route path="/user-dashboard/safety-tools/lesson/1/interactive" element={<ProtectedRoute><Phishing /></ProtectedRoute>} />
         <Route path="/user-dashboard/safety-tools/lesson/3/interactive" element={<ProtectedRoute><TermsNConditions /></ProtectedRoute>}/>
         <Route path="/dangerous-phishing-url" element={<ProtectedRoute><PhishingUrl/></ProtectedRoute>} />
-
         <Route path="/user-dashboard/safety-tools/tips/:topicId" element={<Tips />} />
       </Routes>
     </>
