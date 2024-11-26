@@ -37,7 +37,7 @@ return (
             <tr key={user.id}>
               <td>{user.id}</td>
               <td>{user.username}</td>
-              <td>{user.isAdmin ? "Yes" : "No"}</td>
+              <td>{user.admin ? "Yes" : "No"}</td>
             </tr>
           ))}
         </tbody>
