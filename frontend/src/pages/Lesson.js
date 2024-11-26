@@ -28,7 +28,6 @@ function Lesson() {
                         Authorization: `Bearer ${token}`
                     }
                 });
-                // console.log("@@@ Retrieved lesson "+response.data.topicName)
                 setLesson(response.data)
             } catch (error) {
                 console.error("Error fetching lesson:", error);
@@ -50,7 +49,6 @@ function Lesson() {
     
         fetchLesson();
         fetchStatus();
-        console.log("lessonStatus: "+lessonStatus)
     }, []);
 
     if (loading)

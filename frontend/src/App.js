@@ -19,7 +19,6 @@ import TermsNConditions from "./pages/interactive/TermsNConditions"
 import PhishingUrl from "./pages/interactive/PhishingUrl.js";
 import Tips from "./pages/Tips";
 import ProtectedRoute from "./shared/ProtectedRoute.js";
-import LoadingPage from "./pages/LoadingPage";
 import About from "./pages/About";
 import Home from "./pages/Home";
 import CommunityForum from "./pages/Community-Page.js"
@@ -30,9 +29,8 @@ function App() {
     <>
       <Routes>
         {/* Landing Page */}
-        {/* <Route path="/" element={<Home />} /> */}
-        {/* <Route path="/home" element={<Home />} />  */}
-        <Route path="/" element={<LoadingPage />}></Route>
+        <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} /> 
         <Route path="/admin" element={<Admin/>}></Route>
         <Route path="/login" element={<Login />}></Route>
         <Route path="/logout" element={<Logout />}></Route>
@@ -56,7 +54,6 @@ function App() {
         <Route path="/user-dashboard/safety-tools/lesson/1/interactive" element={<ProtectedRoute><Phishing /></ProtectedRoute>} />
         <Route path="/user-dashboard/safety-tools/lesson/3/interactive" element={<ProtectedRoute><TermsNConditions /></ProtectedRoute>}/>
         <Route path="/dangerous-phishing-url" element={<ProtectedRoute><PhishingUrl/></ProtectedRoute>} />
-
         <Route path="/user-dashboard/safety-tools/tips/:topicId" element={<Tips />} />
       </Routes>
     </>

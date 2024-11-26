@@ -25,7 +25,6 @@ function TermsNConditions() {
     ];
 
     const handleAnswer = (value) => {
-        // console.log("Length: "+value.length)
         const result = checkAnswer(value);
     
         if (result) {
@@ -38,7 +37,6 @@ function TermsNConditions() {
     }
 
     const checkAnswer = (value) => {
-        console.log("value selected: "+value)
         return (value.length == 7);
     }
 

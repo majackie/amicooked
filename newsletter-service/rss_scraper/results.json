@@ -1,0 +1,719 @@
+{
+    "timestamp": "2024-11-25T20:58:47.787239",
+    "results": [
+        {
+            "title": "Russian Spies Jumped From One Network to Another Via Wi-Fi in an Unprecedented Hack",
+            "link": "https://www.wired.com/story/russia-gru-apt28-wifi-daisy-chain-breach/",
+            "published": "Fri, 22 Nov 2024 13:00:00 +0000",
+            "summary": "In a first, Russia's APT28 hacking group appears to have remotely breached the Wi-Fi of an espionage target by hijacking a laptop in another building across the street.",
+            "keyword": "hacking"
+        },
+        {
+            "title": "Bitfinex Hacker Gets 5 Years for $10 Billion Bitcoin Heist",
+            "link": "https://www.wired.com/story/bitfinex-hacker-gets-5-years-for-10-billion-bitcoin-heist/",
+            "published": "Sat, 16 Nov 2024 11:30:00 +0000",
+            "summary": "Plus: An \u201cAI granny\u201d is wasting scammers\u2019 time, a lawsuit goes after spyware-maker NSO Group\u2019s executives, and North Korea\u2013linked hackers take a crack at macOS malware.",
+            "keyword": "malware"
+        },
+        {
+            "title": "More Spyware, Fewer Rules: What Trump\u2019s Return Means for US Cybersecurity",
+            "link": "https://www.wired.com/story/trump-administration-cybersecurity-policy-reversals/",
+            "published": "Thu, 14 Nov 2024 10:30:00 +0000",
+            "summary": "Experts expect Donald Trump\u2019s next administration to relax cybersecurity rules on businesses, abandon concerns around human rights, and take an aggressive stance against the cyber armies of US adversaries.",
+            "keyword": "cybersecurity"
+        },
+        {
+            "title": "The Real Problem With Banning Masks at Protests",
+            "link": "https://www.wired.com/story/the-real-problem-with-banning-masks-at-protests/",
+            "published": "Tue, 12 Nov 2024 11:00:00 +0000",
+            "summary": "Privacy advocates worry banning masks at protests will encourage harassment, while cops\u2019 high-tech tools render the rules unnecessary.",
+            "keyword": "privacy"
+        },
+        {
+            "title": "Auto-Rebooting iPhones Are Causing Chaos for Cops",
+            "link": "https://www.wired.com/story/mysterious-iphone-reboot-ios-18-police/",
+            "published": "Sat, 09 Nov 2024 11:30:00 +0000",
+            "summary": "Plus: Hot Topic confirms a customer data breach, Germany arrests a US citizen for allegedly passing military secrets to Chinese intelligence, and more.",
+            "keyword": "data breach"
+        },
+        {
+            "title": "Update now! Apple confirms vulnerabilities are already being exploited",
+            "link": "https://www.malwarebytes.com/blog/news/2024/11/update-now-apple-confirms-vulnerabilities-are-being-exploited",
+            "published": "Wed, 20 Nov 2024 13:12:55 GMT",
+            "summary": "Apple has released security updates that look especially important for Intel-based Macs because they are already being exploited in the wild.",
+            "keyword": "vulnerabilities"
+        },
+        {
+            "title": "QuickBooks popup scam still being delivered via Google ads",
+            "link": "https://www.malwarebytes.com/blog/scams/2024/11/quickbooks-popup-scam-still-being-delivered-via-google-ads",
+            "published": "Mon, 18 Nov 2024 16:00:47 GMT",
+            "summary": "When trying to download QuickBooks via a Google search, users may visit the wrong site and get an installer containing malware.",
+            "keyword": "malware"
+        },
+        {
+            "title": "Malicious QR codes sent in the mail deliver malware",
+            "link": "https://www.malwarebytes.com/blog/news/2024/11/malicious-qr-codes-sent-in-the-mail-deliver-malware",
+            "published": "Fri, 15 Nov 2024 16:25:51 GMT",
+            "summary": "A QR code in a physical letter is a method of spreading malware that may find its way to your mailbox too.",
+            "keyword": "malware"
+        },
+        {
+            "title": "Ransomware Attack on Blue Yonder Hits Starbucks, Supermarkets",
+            "link": "https://www.darkreading.com/cyberattacks-data-breaches/ransomware-attack-blue-yonder-starbucks-supermarkets",
+            "published": "Mon, 25 Nov 2024 21:59:50 GMT",
+            "summary": "The incident is typical of the heightened threats organizations face during the holidays, when most companies reduce their security operations staff by around 50%.",
+            "keyword": "ransomware"
+        },
+        {
+            "title": "Phishing Prevention Framework Reduces Incidents by Half",
+            "link": "https://www.darkreading.com/cybersecurity-operations/phishing-prevention-framework-reduces-incidents-by-half",
+            "published": "Mon, 25 Nov 2024 21:40:27 GMT",
+            "summary": "The anti-fraud plan calls for companies to create a pipeline for compiling attack information, along with formal processes to disseminate that intelligence across business groups.",
+            "keyword": "phishing"
+        },
+        {
+            "title": "BlackBasta Ransomware Brand Picks Up Where Conti Left Off",
+            "link": "https://www.darkreading.com/vulnerabilities-threats/blackbasta-ransomware-group-conti",
+            "published": "Mon, 25 Nov 2024 21:25:35 GMT",
+            "summary": "New analysis says law enforcement efforts against Russian-language ransomware-as-a-service (RaaS) infrastructure helped consolidate influence behind BlackBasta, but some experts aren't so sure the brand means that much.",
+            "keyword": "ransomware"
+        },
+        {
+            "title": "Closing the Cybersecurity Career Diversity Gap",
+            "link": "https://www.darkreading.com/cybersecurity-operations/closing-cybersecurity-career-diversity-gap",
+            "published": "Mon, 25 Nov 2024 15:00:00 GMT",
+            "summary": "Diversity isn't just an issue of fairness \u2014 it's about operational excellence and ensuring we have the best possible teams defending our national security.",
+            "keyword": "cybersecurity"
+        },
+        {
+            "title": "What Talent Gap? Hiring Practices Are the Real Problem",
+            "link": "https://www.darkreading.com/cybersecurity-operations/hiring-gap-not-talent-gap",
+            "published": "Fri, 22 Nov 2024 19:05:01 GMT",
+            "summary": "While the need for cybersecurity talent still exists, the budget may not. Here's how to maximize security staff despite hiring freezes.",
+            "keyword": "cybersecurity"
+        },
+        {
+            "title": "Leaky Cybersecurity Holes Put Water Systems at Risk",
+            "link": "https://www.darkreading.com/vulnerabilities-threats/leaky-cybersecurity-holes-water-systems-risk",
+            "published": "Fri, 22 Nov 2024 16:48:01 GMT",
+            "summary": "At least 97 major water systems in the US have serious cybersecurity vulnerabilities and compliance issues, raising concerns that cyberattacks could disrupt businesses, industry, and the lives of millions of citizens.",
+            "keyword": "cybersecurity"
+        },
+        {
+            "title": "Leaky Cybersecurity Holes Put Water Systems at Risk",
+            "link": "https://www.darkreading.com/vulnerabilities-threats/leaky-cybersecurity-holes-water-systems-risk",
+            "published": "Fri, 22 Nov 2024 16:48:01 GMT",
+            "summary": "At least 97 major water systems in the US have serious cybersecurity vulnerabilities and compliance issues, raising concerns that cyberattacks could disrupt businesses, industry, and the lives of millions of citizens.",
+            "keyword": "vulnerabilities"
+        },
+        {
+            "title": "Leaky Cybersecurity Holes Put Water Systems at Risk",
+            "link": "https://www.darkreading.com/vulnerabilities-threats/leaky-cybersecurity-holes-water-systems-risk",
+            "published": "Fri, 22 Nov 2024 16:48:01 GMT",
+            "summary": "At least 97 major water systems in the US have serious cybersecurity vulnerabilities and compliance issues, raising concerns that cyberattacks could disrupt businesses, industry, and the lives of millions of citizens.",
+            "keyword": "compliance"
+        },
+        {
+            "title": "China's Cyber Offensives Built in Lockstep With Private Firms, Academia",
+            "link": "https://www.darkreading.com/cyber-risk/private-firms-academia-china-cyber-offense-strategy",
+            "published": "Fri, 22 Nov 2024 14:36:42 GMT",
+            "summary": "The scale of Beijing's systematic tapping of private industry and universities to build up its formidable hacking and cyber-warfare capabilities is larger than previously understood.",
+            "keyword": "hacking"
+        },
+        {
+            "title": "Study Finds 76% of Cybersecurity Professionals Believe AI Should Be Heavily Regulated",
+            "link": "https://www.darkreading.com/cloud-security/study-finds-76-of-cybersecurity-professionals-believe-ai-should-be-heavily-regulated",
+            "published": "Thu, 21 Nov 2024 22:44:31 GMT",
+            "summary": "",
+            "keyword": "cybersecurity"
+        },
+        {
+            "title": "Microsoft Takes Action Against Phishing-as-a-Service Platform",
+            "link": "https://www.darkreading.com/cybersecurity-operations/microsoft-takes-action-against-phishing-service-platform",
+            "published": "Thu, 21 Nov 2024 22:29:58 GMT",
+            "summary": "The ONNX infrastructure has been servicing criminal actors as far back as 2017.",
+            "keyword": "phishing"
+        },
+        {
+            "title": "RSA Conference 2025 Innovation Sandbox Contest Celebrates 20th Anniversary",
+            "link": "https://www.darkreading.com/cybersecurity-operations/rsa-conference-2025-innovation-sandbox-contest-celebrates-20th-anniversary",
+            "published": "Thu, 21 Nov 2024 22:07:37 GMT",
+            "summary": "Starting in 2025, the RSAC Innovation Sandbox Top 10 Finalists will each receive a $5 million investment to drive cybersecurity innovation.",
+            "keyword": "cybersecurity"
+        },
+        {
+            "title": "Chinese APT Gelsemium Deploys 'Wolfsbane' Linux Variant",
+            "link": "https://www.darkreading.com/threat-intelligence/chinese-apt-gelsemium-wolfsbane-linux-variant",
+            "published": "Thu, 21 Nov 2024 20:02:21 GMT",
+            "summary": "In a sign of the times, a backdoor malware whose ancestors date back to 2005 has morphed to target Linux systems.",
+            "keyword": "malware"
+        },
+        {
+            "title": "Scattered Spider Cybercrime Members Face Prison Time",
+            "link": "https://www.darkreading.com/cybersecurity-operations/scattered-spider-cybercrime-members-face-prison-time",
+            "published": "Thu, 21 Nov 2024 18:47:58 GMT",
+            "summary": "Four of the arrested individuals of the cybercriminal gang, known for hacking MGM and Caesars, are American, all of whom could face up to 27 years in prison for the charges against them.",
+            "keyword": "hacking"
+        },
+        {
+            "title": "Scattered Spider Cybercrime Members Face Prison Time",
+            "link": "https://www.darkreading.com/cybersecurity-operations/scattered-spider-cybercrime-members-face-prison-time",
+            "published": "Thu, 21 Nov 2024 18:47:58 GMT",
+            "summary": "Four of the arrested individuals of the cybercriminal gang, known for hacking MGM and Caesars, are American, all of whom could face up to 27 years in prison for the charges against them.",
+            "keyword": "cybercrime"
+        },
+        {
+            "title": "How a Mental Health Nonprofit Secures Endpoints for Compassionate Care",
+            "link": "https://www.darkreading.com/endpoint-security/how-a-mental-health-non-profit-secure-systems-for-compassionate-care",
+            "published": "Thu, 21 Nov 2024 18:16:08 GMT",
+            "summary": "Consolidating endpoint management boosts cybersecurity while keeping an Oklahoma-based nonprofit focused on community mental health.",
+            "keyword": "cybersecurity"
+        },
+        {
+            "title": "Cybersecurity Is Critical, but Breaches Don't Have to Be Disasters",
+            "link": "https://www.darkreading.com/cyberattacks-data-breaches/cybersecurity-critical-breaches-disasters",
+            "published": "Thu, 21 Nov 2024 15:00:00 GMT",
+            "summary": "The future of cybersecurity isn't about preventing every breach \u2014 it's about learning and growing stronger with each attack.",
+            "keyword": "cybersecurity"
+        },
+        {
+            "title": "How Can PR Protect Companies During a Cyberattack?",
+            "link": "https://www.darkreading.com/cyberattacks-data-breaches/how-can-pr-protect-companies-during-a-cyberattack-",
+            "published": "Thu, 21 Nov 2024 13:12:23 GMT",
+            "summary": "When a cybersecurity incident occurs, it's not just IT systems and data that are at risk \u2014 a company's reputation is on the line, too.",
+            "keyword": "cybersecurity"
+        },
+        {
+            "title": "It's Near-Unanimous: AI, ML Make the SOC Better",
+            "link": "https://www.darkreading.com/cybersecurity-operations/survey-report-ai-ml-make-soc-better",
+            "published": "Wed, 20 Nov 2024 21:27:02 GMT",
+            "summary": "Efficiency is the name of the game for the security operations center \u2014 and 91% of cybersecurity pros say artificial intelligence and machine learning are winning that game.",
+            "keyword": "cybersecurity"
+        },
+        {
+            "title": "Alleged Ford 'Breach' Encompasses Auto Dealer Info",
+            "link": "https://www.darkreading.com/cyberattacks-data-breaches/alleged-ford-breach-auto-dealer-info",
+            "published": "Wed, 20 Nov 2024 18:10:48 GMT",
+            "summary": "Cybersecurity investigators found the leaked data to be information from a third party, not Ford itself, that is already accessible to the public and not sensitive in nature.",
+            "keyword": "cybersecurity"
+        },
+        {
+            "title": "Small US Cyber Agencies Are Underfunded &amp; That's a Problem",
+            "link": "https://www.darkreading.com/vulnerabilities-threats/us-cyber-agencies-underfunded-problem",
+            "published": "Wed, 20 Nov 2024 15:00:00 GMT",
+            "summary": "If the US wants to maintain its lead in cybersecurity, it needs to make the tough funding decisions that are demanded of it.",
+            "keyword": "cybersecurity"
+        },
+        {
+            "title": "'Water Barghest' Sells Hijacked IoT Devices for Proxy Botnet Misuse",
+            "link": "https://www.darkreading.com/cloud-security/water-barghest-sells-hijacked-iot-devices-proxy-botnet-misuse",
+            "published": "Wed, 20 Nov 2024 14:14:02 GMT",
+            "summary": "An elusive, sophisticated cybercriminal group has used known and zero-day vulnerabilities to compromise more than 20,000 SOHO routers and other IoT devices so far, and then puts them up for sale on a residential proxy marketplace for state-sponsored cyber-espionage actors and others to use.",
+            "keyword": "vulnerabilities"
+        },
+        {
+            "title": "RIIG Launches With Risk Intelligence Solutions",
+            "link": "https://www.darkreading.com/cyber-risk/riig-launches-risk-intelligence-solutions",
+            "published": "Wed, 20 Nov 2024 00:50:33 GMT",
+            "summary": "RIIG is a risk intelligence and cybersecurity solutions provider offering open source intelligence solutions designed for zero-trust environments.",
+            "keyword": "cybersecurity"
+        },
+        {
+            "title": "SWEEPS Educational Initiative Offers Application Security Training",
+            "link": "https://www.darkreading.com/application-security/sweeps-educational-initiative-application-security-training",
+            "published": "Wed, 20 Nov 2024 00:33:51 GMT",
+            "summary": "The secure coding curriculum, funded by a $2.5 million grant, is available for students and professionals at all stages of their careers.",
+            "keyword": "secure coding"
+        },
+        {
+            "title": "Linux Variant of Helldown Ransomware Targets VMware ESXi Systems",
+            "link": "https://www.darkreading.com/cyberattacks-data-breaches/linux-variant-helldown-ransomware-targets-vmware",
+            "published": "Tue, 19 Nov 2024 21:48:38 GMT",
+            "summary": "Since surfacing in August, the likely LockBit variant has claimed more than two dozen victims and appears poised to strike many more.",
+            "keyword": "ransomware"
+        },
+        {
+            "title": "Russian Ransomware Gangs on the Hunt for Pen Testers",
+            "link": "https://www.darkreading.com/vulnerabilities-threats/russian-ransomware-gangs-hunt-pen-testers",
+            "published": "Tue, 19 Nov 2024 18:54:36 GMT",
+            "summary": "In further proof of the professionalization of Russian cybercriminal groups, ransomware gangs have been posting job ads for security positions such as pen testers, looking to boost their ransomware deployment operations.",
+            "keyword": "ransomware"
+        },
+        {
+            "title": "'Phobos' Ransomware Cybercriminal Extradited From South Korea",
+            "link": "https://www.darkreading.com/cyberattacks-data-breaches/phobos-ransomware-cybercriminal-extradited-south-korea",
+            "published": "Tue, 19 Nov 2024 18:09:26 GMT",
+            "summary": "According to the unsealed criminal charges, the operation is believed to have running for nearly four years.",
+            "keyword": "ransomware"
+        },
+        {
+            "title": "Kyndryl &amp; Microsoft Unveil New Services to Advance Cyber Resilience for Customers",
+            "link": "https://www.darkreading.com/cybersecurity-operations/kyndryl-microsoft-unveil-new-services-to-advance-cyber-resilience-for-customers",
+            "published": "Mon, 18 Nov 2024 21:54:40 GMT",
+            "summary": "",
+            "keyword": "cyber resilience"
+        },
+        {
+            "title": "Akira Ransomware Racks Up 30+ Victims in a Single Day",
+            "link": "https://www.darkreading.com/cyberattacks-data-breaches/akira-ransomware-30-victims-single-day",
+            "published": "Mon, 18 Nov 2024 19:49:30 GMT",
+            "summary": "Of the numerous victims, at least three refused to pay the demanded ransom, with the rest seemingly in talks with the cybercriminal group.",
+            "keyword": "ransomware"
+        },
+        {
+            "title": "Feds Charge Five Men in \u2018Scattered Spider\u2019 Roundup",
+            "link": "https://krebsonsecurity.com/2024/11/feds-charge-five-men-in-scattered-spider-roundup/",
+            "published": "Thu, 21 Nov 2024 20:13:08 +0000",
+            "summary": "Federal prosecutors in Los Angeles this week unsealed criminal charges against five men alleged to be members of a hacking group responsible for dozens of cyber intrusions at major U.S. technology companies between 2021 and 2023, including LastPass, MailChimp, Okta, T-Mobile and Twilio.",
+            "keyword": "technology"
+        },
+        {
+            "title": "Feds Charge Five Men in \u2018Scattered Spider\u2019 Roundup",
+            "link": "https://krebsonsecurity.com/2024/11/feds-charge-five-men-in-scattered-spider-roundup/",
+            "published": "Thu, 21 Nov 2024 20:13:08 +0000",
+            "summary": "Federal prosecutors in Los Angeles this week unsealed criminal charges against five men alleged to be members of a hacking group responsible for dozens of cyber intrusions at major U.S. technology companies between 2021 and 2023, including LastPass, MailChimp, Okta, T-Mobile and Twilio.",
+            "keyword": "hacking"
+        },
+        {
+            "title": "Fintech Giant Finastra Investigating Data Breach",
+            "link": "https://krebsonsecurity.com/2024/11/fintech-giant-finastra-investigating-data-breach/",
+            "published": "Wed, 20 Nov 2024 01:12:15 +0000",
+            "summary": "The financial technology firm Finastra is investigating the alleged large-scale theft of information from its internal file transfer platform, KrebsOnSecurity has learned. Finastra, which provides software and services to 45 of the world's top 50 banks, notified customers of a potential breach after a cybercriminal began selling more than 400 gigabytes of data purportedly stolen from the company.",
+            "keyword": "technology"
+        },
+        {
+            "title": "Fintech Giant Finastra Investigating Data Breach",
+            "link": "https://krebsonsecurity.com/2024/11/fintech-giant-finastra-investigating-data-breach/",
+            "published": "Wed, 20 Nov 2024 01:12:15 +0000",
+            "summary": "The financial technology firm Finastra is investigating the alleged large-scale theft of information from its internal file transfer platform, KrebsOnSecurity has learned. Finastra, which provides software and services to 45 of the world's top 50 banks, notified customers of a potential breach after a cybercriminal began selling more than 400 gigabytes of data purportedly stolen from the company.",
+            "keyword": "data breach"
+        },
+        {
+            "title": "Microsoft Patch Tuesday, November 2024 Edition",
+            "link": "https://krebsonsecurity.com/2024/11/microsoft-patch-tuesday-november-2024-edition/",
+            "published": "Tue, 12 Nov 2024 21:59:46 +0000",
+            "summary": "Microsoft today released updates to plug at least 89 security holes in its Windows operating systems and other software. November's patch batch includes fixes for two zero-day vulnerabilities that are already being exploited by attackers, as well as two other flaws that were publicly disclosed prior to today.",
+            "keyword": "vulnerabilities"
+        },
+        {
+            "title": "FBI: Spike in Hacked Police Emails, Fake Subpoenas",
+            "link": "https://krebsonsecurity.com/2024/11/fbi-spike-in-hacked-police-emails-fake-subpoenas/",
+            "published": "Sat, 09 Nov 2024 19:20:26 +0000",
+            "summary": "The Federal Bureau of Investigation (FBI) is urging police departments and governments worldwide to beef up security around their email systems, citing a recent increase in cybercriminal services that use hacked police email accounts to send unauthorized subpoenas and customer data requests to U.S.-based technology companies.",
+            "keyword": "technology"
+        },
+        {
+            "title": "Canadian Man Arrested in Snowflake Data Extortions",
+            "link": "https://krebsonsecurity.com/2024/11/canadian-man-arrested-in-snowflake-data-extortions/",
+            "published": "Tue, 05 Nov 2024 17:10:04 +0000",
+            "summary": "A 26-year-old man in Ontario, Canada has been arrested for allegedly stealing data from and extorting more than 160 companies that used the cloud data service Snowflake.\n\nOn October 30, Canadian authorities arrested Alexander Moucka, a.k.a. Connor Riley Moucka of Kitchener, Ontario, on a provisional arrest warrant from the United States. Bloomberg first reported Moucka's alleged ties to the Snowflake hacks on Monday.\n\nAt the end of 2023, malicious hackers learned that many large companies had uploaded huge volumes of sensitive customer data to Snowflake accounts that were protected with little more than a username and password (no multi-factor authentication required). After scouring darknet markets for stolen Snowflake account credentials, the hackers began raiding the data storage repositories used by some of the world\u2019s largest corporations.",
+            "keyword": "authentication"
+        },
+        {
+            "title": "Booking.com Phishers May Leave You With Reservations",
+            "link": "https://krebsonsecurity.com/2024/11/booking-com-phishers-may-leave-you-with-reservations/",
+            "published": "Fri, 01 Nov 2024 21:12:38 +0000",
+            "summary": "A number of cybercriminal innovations are making it easier for scammers to cash in on your upcoming travel plans. This story examines a recent spear-phishing campaign that ensued when a California hotel had its booking.com credentials stolen. We'll also explore an array of cybercrime services aimed at phishers who target hotels that rely on the world's most visited travel website.",
+            "keyword": "phishing"
+        },
+        {
+            "title": "Booking.com Phishers May Leave You With Reservations",
+            "link": "https://krebsonsecurity.com/2024/11/booking-com-phishers-may-leave-you-with-reservations/",
+            "published": "Fri, 01 Nov 2024 21:12:38 +0000",
+            "summary": "A number of cybercriminal innovations are making it easier for scammers to cash in on your upcoming travel plans. This story examines a recent spear-phishing campaign that ensued when a California hotel had its booking.com credentials stolen. We'll also explore an array of cybercrime services aimed at phishers who target hotels that rely on the world's most visited travel website.",
+            "keyword": "cybercrime"
+        },
+        {
+            "title": "Change Healthcare Breach Hits 100M Americans",
+            "link": "https://krebsonsecurity.com/2024/10/change-healthcare-breach-hits-100m-americans/",
+            "published": "Wed, 30 Oct 2024 13:34:08 +0000",
+            "summary": "Change Healthcare says it has notified approximately 100 million Americans that their personal, financial and healthcare records may have been stolen in a February 2024 ransomware attack that caused the largest ever known data breach of protected health information.",
+            "keyword": "data breach"
+        },
+        {
+            "title": "Change Healthcare Breach Hits 100M Americans",
+            "link": "https://krebsonsecurity.com/2024/10/change-healthcare-breach-hits-100m-americans/",
+            "published": "Wed, 30 Oct 2024 13:34:08 +0000",
+            "summary": "Change Healthcare says it has notified approximately 100 million Americans that their personal, financial and healthcare records may have been stolen in a February 2024 ransomware attack that caused the largest ever known data breach of protected health information.",
+            "keyword": "ransomware"
+        },
+        {
+            "title": "The Global Surveillance Free-for-All in Mobile Ad Data",
+            "link": "https://krebsonsecurity.com/2024/10/the-global-surveillance-free-for-all-in-mobile-ad-data/",
+            "published": "Wed, 23 Oct 2024 11:30:18 +0000",
+            "summary": "Not long ago, the ability to remotely track someone\u2019s daily movements just by knowing their home address, employer, or place of worship was considered a powerful surveillance tool that should only be in the purview of nation states. But a new lawsuit in a likely constitutional battle over a New Jersey privacy law shows that anyone can now access this capability, thanks to a proliferation of commercial services that hoover up the digital exhaust emitted by widely-used mobile apps and websites.",
+            "keyword": "privacy"
+        },
+        {
+            "title": "THN Recap: Top Cybersecurity Threats, Tools, and Practices (Nov 18 - Nov 24)",
+            "link": "https://thehackernews.com/2024/11/thn-recap-top-cybersecurity-threats_25.html",
+            "published": "Mon, 25 Nov 2024 17:00:00 +0530",
+            "summary": "We hear terms like \u201cstate-sponsored attacks\u201d and \u201ccritical vulnerabilities\u201d all the time, but what\u2019s really going on behind those words? This week\u2019s cybersecurity news isn\u2019t just about hackers and headlines\u2014it\u2019s about how digital risks shape our lives in ways we might not even realize.\nFor instance, telecom networks being breached isn\u2019t just about stolen data\u2014it\u2019s about power. Hackers are",
+            "keyword": "cybersecurity"
+        },
+        {
+            "title": "THN Recap: Top Cybersecurity Threats, Tools, and Practices (Nov 18 - Nov 24)",
+            "link": "https://thehackernews.com/2024/11/thn-recap-top-cybersecurity-threats_25.html",
+            "published": "Mon, 25 Nov 2024 17:00:00 +0530",
+            "summary": "We hear terms like \u201cstate-sponsored attacks\u201d and \u201ccritical vulnerabilities\u201d all the time, but what\u2019s really going on behind those words? This week\u2019s cybersecurity news isn\u2019t just about hackers and headlines\u2014it\u2019s about how digital risks shape our lives in ways we might not even realize.\nFor instance, telecom networks being breached isn\u2019t just about stolen data\u2014it\u2019s about power. Hackers are",
+            "keyword": "vulnerabilities"
+        },
+        {
+            "title": "Flying Under the Radar - Security Evasion Techniques",
+            "link": "https://thehackernews.com/2024/11/flying-under-radar-security-evasion.html",
+            "published": "Mon, 25 Nov 2024 17:00:00 +0530",
+            "summary": "Dive into the evolution of phishing and malware evasion techniques and understand how attackers are using increasingly sophisticated methods to bypass security measures.\nThe Evolution of Phishing Attacks\n\u201cI really like the saying that \u2018This is out of scope\u2019 said no hacker ever. Whether it\u2019s tricks, techniques or technologies, hackers will do anything to evade detection and make sure their",
+            "keyword": "malware"
+        },
+        {
+            "title": "Flying Under the Radar - Security Evasion Techniques",
+            "link": "https://thehackernews.com/2024/11/flying-under-radar-security-evasion.html",
+            "published": "Mon, 25 Nov 2024 17:00:00 +0530",
+            "summary": "Dive into the evolution of phishing and malware evasion techniques and understand how attackers are using increasingly sophisticated methods to bypass security measures.\nThe Evolution of Phishing Attacks\n\u201cI really like the saying that \u2018This is out of scope\u2019 said no hacker ever. Whether it\u2019s tricks, techniques or technologies, hackers will do anything to evade detection and make sure their",
+            "keyword": "phishing"
+        },
+        {
+            "title": "Cybersecurity Blind Spots in IaC and PaC Tools Expose Cloud Platforms to New Attacks",
+            "link": "https://thehackernews.com/2024/11/cybersecurity-flaws-in-iac-and-pac.html",
+            "published": "Mon, 25 Nov 2024 16:54:00 +0530",
+            "summary": "Cybersecurity researchers have disclosed two new attack techniques against infrastructure-as-code (IaC) and policy-as-code (PaC) tools like HashiCorp's Terraform and Open Policy Agent (OPA) that leverage dedicated, domain-specific languages (DSLs) to breach cloud platforms and exfiltrate data.\n\"Since these are hardened languages with limited capabilities, they're supposed to be more secure than",
+            "keyword": "cybersecurity"
+        },
+        {
+            "title": "Researchers Uncover Malware Using BYOVD to Bypass Antivirus Protections",
+            "link": "https://thehackernews.com/2024/11/researchers-uncover-malware-using-byovd.html",
+            "published": "Mon, 25 Nov 2024 14:46:00 +0530",
+            "summary": "Cybersecurity researchers have uncovered a new malicious campaign that leverages a technique called Bring Your Own Vulnerable Driver (BYOVD) to disarm security protections and ultimately gain access to the infected system.\n\"This malware takes a more sinister route: it drops a legitimate Avast Anti-Rootkit driver (aswArPot.sys) and manipulates it to carry out its destructive agenda,\" Trellix",
+            "keyword": "cybersecurity"
+        },
+        {
+            "title": "Researchers Uncover Malware Using BYOVD to Bypass Antivirus Protections",
+            "link": "https://thehackernews.com/2024/11/researchers-uncover-malware-using-byovd.html",
+            "published": "Mon, 25 Nov 2024 14:46:00 +0530",
+            "summary": "Cybersecurity researchers have uncovered a new malicious campaign that leverages a technique called Bring Your Own Vulnerable Driver (BYOVD) to disarm security protections and ultimately gain access to the infected system.\n\"This malware takes a more sinister route: it drops a legitimate Avast Anti-Rootkit driver (aswArPot.sys) and manipulates it to carry out its destructive agenda,\" Trellix",
+            "keyword": "malware"
+        },
+        {
+            "title": "North Korean Hackers Steal $10M with AI-Driven Scams and Malware on LinkedIn",
+            "link": "https://thehackernews.com/2024/11/north-korean-hackers-steal-10m-with-ai.html",
+            "published": "Sat, 23 Nov 2024 17:23:00 +0530",
+            "summary": "The North Korea-linked threat actor known as Sapphire Sleet is estimated to have stolen more than $10 million worth of cryptocurrency as part of social engineering campaigns orchestrated over a six-month period.\nThese findings come from Microsoft, which said that multiple threat activity clusters with ties to the country have been observed creating fake profiles on LinkedIn, posing as both",
+            "keyword": "malware"
+        },
+        {
+            "title": "North Korean Hackers Steal $10M with AI-Driven Scams and Malware on LinkedIn",
+            "link": "https://thehackernews.com/2024/11/north-korean-hackers-steal-10m-with-ai.html",
+            "published": "Sat, 23 Nov 2024 17:23:00 +0530",
+            "summary": "The North Korea-linked threat actor known as Sapphire Sleet is estimated to have stolen more than $10 million worth of cryptocurrency as part of social engineering campaigns orchestrated over a six-month period.\nThese findings come from Microsoft, which said that multiple threat activity clusters with ties to the country have been observed creating fake profiles on LinkedIn, posing as both",
+            "keyword": "social engineering"
+        },
+        {
+            "title": "APT-K-47 Uses Hajj-Themed Lures to Deliver Advanced Asyncshell Malware",
+            "link": "https://thehackernews.com/2024/11/apt-k-47-uses-hajj-themed-lures-to.html",
+            "published": "Fri, 22 Nov 2024 22:29:00 +0530",
+            "summary": "The threat actor known as Mysterious Elephant has been observed using an advanced version of malware called Asyncshell.\nThe attack campaign is said to have used Hajj-themed lures to trick victims into executing a malicious payload under the guise of a Microsoft Compiled HTML Help (CHM) file, the Knownsec 404 team said in an analysis published today.\nMysterious Elephant, which is also known as",
+            "keyword": "malware"
+        },
+        {
+            "title": "Russian Hackers Deploy HATVIBE and CHERRYSPY Malware Across Europe and Asia",
+            "link": "https://thehackernews.com/2024/11/russian-hackers-deploy-hatvibe-and.html",
+            "published": "Fri, 22 Nov 2024 22:29:00 +0530",
+            "summary": "Threat actors with ties to Russia have been linked to a cyber espionage campaign aimed at organizations in Central Asia, East Asia, and Europe.\nRecorded Future's Insikt Group, which has assigned the activity cluster the name TAG-110, said it overlaps with a threat group tracked by the Computer Emergency Response Team of Ukraine (CERT-UA) as UAC-0063, which, in turn, overlaps with APT28. The",
+            "keyword": "malware"
+        },
+        {
+            "title": "Microsoft, Meta, and DOJ Disrupt Global Cybercrime and Fraudulent Networks",
+            "link": "https://thehackernews.com/2024/11/microsoft-meta-and-doj-disrupt-global.html",
+            "published": "Fri, 22 Nov 2024 15:07:00 +0530",
+            "summary": "Meta Platforms, Microsoft, and the U.S. Department of Justice (DoJ) have announced independent actions to tackle cybercrime and disrupt services that enable scams, fraud, and phishing attacks.\nTo that end, Microsoft's Digital Crimes Unit (DCU) said it seized 240 fraudulent websites associated with an Egypt-based cybercrime facilitator named Abanoub Nady (aka MRxC0DER and mrxc0derii), who",
+            "keyword": "phishing"
+        },
+        {
+            "title": "Microsoft, Meta, and DOJ Disrupt Global Cybercrime and Fraudulent Networks",
+            "link": "https://thehackernews.com/2024/11/microsoft-meta-and-doj-disrupt-global.html",
+            "published": "Fri, 22 Nov 2024 15:07:00 +0530",
+            "summary": "Meta Platforms, Microsoft, and the U.S. Department of Justice (DoJ) have announced independent actions to tackle cybercrime and disrupt services that enable scams, fraud, and phishing attacks.\nTo that end, Microsoft's Digital Crimes Unit (DCU) said it seized 240 fraudulent websites associated with an Egypt-based cybercrime facilitator named Abanoub Nady (aka MRxC0DER and mrxc0derii), who",
+            "keyword": "cybercrime"
+        },
+        {
+            "title": "PyPI Attack: ChatGPT, Claude Impersonators Deliver JarkaStealer via Python Libraries",
+            "link": "https://thehackernews.com/2024/11/pypi-attack-chatgpt-claude.html",
+            "published": "Fri, 22 Nov 2024 11:45:00 +0530",
+            "summary": "Cybersecurity researchers have discovered two malicious packages uploaded to the Python Package Index (PyPI) repository that impersonated popular artificial intelligence (AI) models like OpenAI ChatGPT and Anthropic Claude to deliver an information stealer called JarkaStealer.\nThe packages, named gptplus and claudeai-eng, were uploaded by a user named \"Xeroline\" in November 2023, attracting",
+            "keyword": "cybersecurity"
+        },
+        {
+            "title": "Chinese APT Gelsemium Targets Linux Systems with New WolfsBane Backdoor",
+            "link": "https://thehackernews.com/2024/11/chinese-apt-gelsemium-targets-linux.html",
+            "published": "Thu, 21 Nov 2024 21:20:00 +0530",
+            "summary": "The China-aligned advanced persistent threat (APT) actor known as Gelsemium has been observed using a new Linux backdoor dubbed WolfsBane as part of cyber attacks likely targeting East and Southeast Asia.\nThat's according to findings from cybersecurity firm ESET based on multiple Linux samples uploaded to the VirusTotal platform from Taiwan, the Philippines, and Singapore in March 2023.",
+            "keyword": "cybersecurity"
+        },
+        {
+            "title": "10 Most Impactful PAM Use Cases for Enhancing Organizational Security",
+            "link": "https://thehackernews.com/2024/11/10-most-impactful-pam-use-cases-for.html",
+            "published": "Thu, 21 Nov 2024 17:53:00 +0530",
+            "summary": "Privileged access management (PAM) plays a pivotal role in building a strong security strategy. PAM empowers you to significantly reduce cybersecurity risks, gain tighter control over privileged access, achieve regulatory compliance, and reduce the burden on your IT team.&nbsp;\nAs an established provider of a PAM solution, we\u2019ve witnessed firsthand how PAM transforms organizational security. In",
+            "keyword": "cybersecurity"
+        },
+        {
+            "title": "10 Most Impactful PAM Use Cases for Enhancing Organizational Security",
+            "link": "https://thehackernews.com/2024/11/10-most-impactful-pam-use-cases-for.html",
+            "published": "Thu, 21 Nov 2024 17:53:00 +0530",
+            "summary": "Privileged access management (PAM) plays a pivotal role in building a strong security strategy. PAM empowers you to significantly reduce cybersecurity risks, gain tighter control over privileged access, achieve regulatory compliance, and reduce the burden on your IT team.&nbsp;\nAs an established provider of a PAM solution, we\u2019ve witnessed firsthand how PAM transforms organizational security. In",
+            "keyword": "compliance"
+        },
+        {
+            "title": "North Korean Front Companies Impersonate U.S. IT Firms to Fund Missile Programs",
+            "link": "https://thehackernews.com/2024/11/north-korean-front-companies.html",
+            "published": "Thu, 21 Nov 2024 17:34:00 +0530",
+            "summary": "Threat actors with ties to the Democratic People's Republic of Korea (DPRK) are impersonating U.S.-based software and technology consulting businesses in order to further their financial objectives as part of a broader information technology (IT) worker scheme.\n\"Front companies, often based in China, Russia, Southeast Asia, and Africa, play a key role in masking the workers' true origins and",
+            "keyword": "technology"
+        },
+        {
+            "title": "5 Scattered Spider Gang Members Indicted in Multi-Million Dollar Cybercrime Scheme",
+            "link": "https://thehackernews.com/2024/11/5-scattered-spider-gang-members.html",
+            "published": "Thu, 21 Nov 2024 14:46:00 +0530",
+            "summary": "Five alleged members of the infamous Scattered Spider cybercrime crew have been indicted in the U.S. for targeting employees of companies across the country using social engineering techniques to harvest credentials and using them to gain unauthorized access to sensitive data and break into crypto accounts to steal digital assets worth millions of dollars.\nAll of the accused parties have been",
+            "keyword": "cybercrime"
+        },
+        {
+            "title": "5 Scattered Spider Gang Members Indicted in Multi-Million Dollar Cybercrime Scheme",
+            "link": "https://thehackernews.com/2024/11/5-scattered-spider-gang-members.html",
+            "published": "Thu, 21 Nov 2024 14:46:00 +0530",
+            "summary": "Five alleged members of the infamous Scattered Spider cybercrime crew have been indicted in the U.S. for targeting employees of companies across the country using social engineering techniques to harvest credentials and using them to gain unauthorized access to sensitive data and break into crypto accounts to steal digital assets worth millions of dollars.\nAll of the accused parties have been",
+            "keyword": "social engineering"
+        },
+        {
+            "title": "Google's AI-Powered OSS-Fuzz Tool Finds 26 Vulnerabilities in Open-Source Projects",
+            "link": "https://thehackernews.com/2024/11/googles-ai-powered-oss-fuzz-tool-finds.html",
+            "published": "Thu, 21 Nov 2024 12:43:00 +0530",
+            "summary": "Google has revealed that its AI-powered fuzzing tool, OSS-Fuzz, has been used to help identify 26 vulnerabilities in various open-source code repositories, including a medium-severity flaw in the OpenSSL cryptographic library.\n\"These particular vulnerabilities represent a milestone for automated vulnerability finding: each was found with AI, using AI-generated and enhanced fuzz targets,\"",
+            "keyword": "vulnerabilities"
+        },
+        {
+            "title": "NodeStealer Malware Targets Facebook Ad Accounts, Harvesting Credit Card Data",
+            "link": "https://thehackernews.com/2024/11/nodestealer-malware-targets-facebook-ad.html",
+            "published": "Thu, 21 Nov 2024 12:04:00 +0530",
+            "summary": "Threat hunters are warning about an updated version of the Python-based NodeStealer that's now equipped to extract more information from victims' Facebook Ads Manager accounts and harvest credit card data stored in web browsers.\n\"They collect budget details of Facebook Ads Manager accounts of their victims, which might be a gateway for Facebook malvertisement,\" Netskope Threat Labs researcher",
+            "keyword": "malware"
+        },
+        {
+            "title": "NHIs Are the Future of Cybersecurity: Meet NHIDR",
+            "link": "https://thehackernews.com/2024/11/nhis-are-future-of-cybersecurity-meet.html",
+            "published": "Wed, 20 Nov 2024 17:00:00 +0530",
+            "summary": "The frequency and sophistication of modern cyberattacks are surging, making it increasingly challenging for organizations to protect sensitive data and critical infrastructure. When attackers compromise a non-human identity (NHI), they can swiftly exploit it to move laterally across systems, identifying vulnerabilities and compromising additional NHIs in minutes. While organizations often take",
+            "keyword": "cybersecurity"
+        },
+        {
+            "title": "NHIs Are the Future of Cybersecurity: Meet NHIDR",
+            "link": "https://thehackernews.com/2024/11/nhis-are-future-of-cybersecurity-meet.html",
+            "published": "Wed, 20 Nov 2024 17:00:00 +0530",
+            "summary": "The frequency and sophistication of modern cyberattacks are surging, making it increasingly challenging for organizations to protect sensitive data and critical infrastructure. When attackers compromise a non-human identity (NHI), they can swiftly exploit it to move laterally across systems, identifying vulnerabilities and compromising additional NHIs in minutes. While organizations often take",
+            "keyword": "vulnerabilities"
+        },
+        {
+            "title": "Decades-Old Security Vulnerabilities Found in Ubuntu's Needrestart Package",
+            "link": "https://thehackernews.com/2024/11/decades-old-security-vulnerabilities.html",
+            "published": "Wed, 20 Nov 2024 14:46:00 +0530",
+            "summary": "Multiple decade-old security vulnerabilities have been disclosed in the needrestart package installed by default in Ubuntu Server (since version 21.04) that could allow a local attacker to gain root privileges without requiring user interaction.\nThe Qualys Threat Research Unit (TRU), which identified and reported the flaws early last month, said they are trivial to exploit, necessitating that",
+            "keyword": "vulnerabilities"
+        },
+        {
+            "title": "China-Backed Hackers Leverage SIGTRAN, GSM Protocols to Infiltrate Telecom Networks",
+            "link": "https://thehackernews.com/2024/11/china-backed-hackers-leverage-sigtran.html",
+            "published": "Wed, 20 Nov 2024 12:28:00 +0530",
+            "summary": "A new China-linked cyber espionage group has been attributed as behind a series of targeted cyber attacks targeting telecommunications entities in South Asia and Africa since at least 2020 with the goal of enabling intelligence collection.\nCybersecurity company CrowdStrike is tracking the adversary under the name Liminal Panda, describing it as possessing deep knowledge about telecommunications",
+            "keyword": "cybersecurity"
+        },
+        {
+            "title": "Apple Releases Urgent Updates to Patch Actively Exploited Zero-Day Vulnerabilities",
+            "link": "https://thehackernews.com/2024/11/apple-releases-urgent-updates-to-patch.html",
+            "published": "Wed, 20 Nov 2024 10:07:00 +0530",
+            "summary": "Apple has released security updates for iOS, iPadOS, macOS, visionOS, and its Safari web browser to address two zero-day flaws that have come under active exploitation in the wild.\nThe flaws are listed below -\n\nCVE-2024-44308 (CVSS score: 8.8)&nbsp;- A vulnerability in JavaScriptCore that could lead to arbitrary code execution when processing malicious web content\nCVE-2024-44309 (CVSS score: 6.1",
+            "keyword": "vulnerabilities"
+        },
+        {
+            "title": "Oracle Warns of Agile PLM Vulnerability Currently Under Active Exploitation",
+            "link": "https://thehackernews.com/2024/11/oracle-warns-of-agile-plm-vulnerability.html",
+            "published": "Wed, 20 Nov 2024 09:54:00 +0530",
+            "summary": "Oracle is warning that a high-severity security flaw impacting the Agile Product Lifecycle Management (PLM) Framework has been exploited in the wild.\nThe vulnerability, tracked as CVE-2024-21287 (CVSS score: 7.5), could be exploited sans authentication to leak sensitive information.\n\"This vulnerability is remotely exploitable without authentication, i.e., it may be exploited over a network",
+            "keyword": "authentication"
+        },
+        {
+            "title": "Ngioweb Botnet Fuels NSOCKS Residential Proxy Network Exploiting IoT Devices",
+            "link": "https://thehackernews.com/2024/11/ngioweb-botnet-fuels-nsocks-residential.html",
+            "published": "Tue, 19 Nov 2024 19:31:00 +0530",
+            "summary": "The malware known as Ngioweb has been used to fuel a notorious residential proxy service called NSOCKS, as well as by other services such as VN5Socks and Shopsocks5, new findings from Lumen Technologies reveal.\n\"At least 80% of NSOCKS bots in our telemetry originate from the Ngioweb botnet, mainly utilizing small office/home office (SOHO) routers and IoT devices,\" the Black Lotus Labs team at",
+            "keyword": "malware"
+        },
+        {
+            "title": "New 'Helldown' Ransomware Variant Expands Attacks to VMware and Linux Systems",
+            "link": "https://thehackernews.com/2024/11/new-helldown-ransomware-expands-attacks.html",
+            "published": "Tue, 19 Nov 2024 15:10:00 +0530",
+            "summary": "Cybersecurity researchers have shed light on a Linux variant of a relatively new ransomware strain called Helldown, suggesting that the threat actors are broadening their attack focus.\n\"Helldown deploys Windows ransomware derived from the LockBit 3.0 code,\" Sekoia said in a report shared with The Hacker News. \"Given the recent development of ransomware targeting ESX, it appears that the group",
+            "keyword": "cybersecurity"
+        },
+        {
+            "title": "New 'Helldown' Ransomware Variant Expands Attacks to VMware and Linux Systems",
+            "link": "https://thehackernews.com/2024/11/new-helldown-ransomware-expands-attacks.html",
+            "published": "Tue, 19 Nov 2024 15:10:00 +0530",
+            "summary": "Cybersecurity researchers have shed light on a Linux variant of a relatively new ransomware strain called Helldown, suggesting that the threat actors are broadening their attack focus.\n\"Helldown deploys Windows ransomware derived from the LockBit 3.0 code,\" Sekoia said in a report shared with The Hacker News. \"Given the recent development of ransomware targeting ESX, it appears that the group",
+            "keyword": "ransomware"
+        },
+        {
+            "title": "Warning: VMware vCenter and Kemp LoadMaster Flaws Under Active Exploitation",
+            "link": "https://thehackernews.com/2024/11/cisa-alert-active-exploitation-of.html",
+            "published": "Tue, 19 Nov 2024 12:01:00 +0530",
+            "summary": "Now-patched security flaws impacting Progress Kemp LoadMaster and VMware vCenter Server have come under active exploitation in the wild, it has emerged.\nThe U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added CVE-2024-1212 (CVSS score: 10.0), a maximum-severity security vulnerability in Progress Kemp LoadMaster to its Known Exploited Vulnerabilities (KEV) catalog. It was",
+            "keyword": "cybersecurity"
+        },
+        {
+            "title": "Warning: VMware vCenter and Kemp LoadMaster Flaws Under Active Exploitation",
+            "link": "https://thehackernews.com/2024/11/cisa-alert-active-exploitation-of.html",
+            "published": "Tue, 19 Nov 2024 12:01:00 +0530",
+            "summary": "Now-patched security flaws impacting Progress Kemp LoadMaster and VMware vCenter Server have come under active exploitation in the wild, it has emerged.\nThe U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added CVE-2024-1212 (CVSS score: 10.0), a maximum-severity security vulnerability in Progress Kemp LoadMaster to its Known Exploited Vulnerabilities (KEV) catalog. It was",
+            "keyword": "vulnerabilities"
+        },
+        {
+            "title": "New Stealthy BabbleLoader Malware Spotted Delivering WhiteSnake and Meduza Stealers",
+            "link": "https://thehackernews.com/2024/11/new-stealthy-babbleloader-malware.html",
+            "published": "Mon, 18 Nov 2024 22:18:00 +0530",
+            "summary": "Cybersecurity researchers have shed light on a new stealthy malware loader called BabbleLoader that has been observed in the wild delivering information stealer families such as WhiteSnake and Meduza.\nBabbleLoader is an \"extremely evasive loader, packed with defensive mechanisms, that is designed to bypass antivirus and sandbox environments to deliver stealers into memory,\" Intezer security",
+            "keyword": "cybersecurity"
+        },
+        {
+            "title": "New Stealthy BabbleLoader Malware Spotted Delivering WhiteSnake and Meduza Stealers",
+            "link": "https://thehackernews.com/2024/11/new-stealthy-babbleloader-malware.html",
+            "published": "Mon, 18 Nov 2024 22:18:00 +0530",
+            "summary": "Cybersecurity researchers have shed light on a new stealthy malware loader called BabbleLoader that has been observed in the wild delivering information stealer families such as WhiteSnake and Meduza.\nBabbleLoader is an \"extremely evasive loader, packed with defensive mechanisms, that is designed to bypass antivirus and sandbox environments to deliver stealers into memory,\" Intezer security",
+            "keyword": "malware"
+        },
+        {
+            "title": "THN Recap: Top Cybersecurity Threats, Tools, and Practices (Nov 11 - Nov 17)",
+            "link": "https://thehackernews.com/2024/11/thn-recap-top-cybersecurity-threats_18.html",
+            "published": "Mon, 18 Nov 2024 17:06:00 +0530",
+            "summary": "What do hijacked websites, fake job offers, and sneaky ransomware have in common? They\u2019re proof that cybercriminals are finding smarter, sneakier ways to exploit both systems and people.\nThis week makes one thing clear: no system, no person, no organization is truly off-limits. Attackers are getting smarter, faster, and more creative\u2014using everything from human trust to hidden flaws in",
+            "keyword": "cybersecurity"
+        },
+        {
+            "title": "THN Recap: Top Cybersecurity Threats, Tools, and Practices (Nov 11 - Nov 17)",
+            "link": "https://thehackernews.com/2024/11/thn-recap-top-cybersecurity-threats_18.html",
+            "published": "Mon, 18 Nov 2024 17:06:00 +0530",
+            "summary": "What do hijacked websites, fake job offers, and sneaky ransomware have in common? They\u2019re proof that cybercriminals are finding smarter, sneakier ways to exploit both systems and people.\nThis week makes one thing clear: no system, no person, no organization is truly off-limits. Attackers are getting smarter, faster, and more creative\u2014using everything from human trust to hidden flaws in",
+            "keyword": "ransomware"
+        },
+        {
+            "title": "Gmail's New Shielded Email Feature Lets Users Create Aliases for Email Privacy",
+            "link": "https://thehackernews.com/2024/11/shielded-email-googles-latest-tool-for.html",
+            "published": "Mon, 18 Nov 2024 16:45:00 +0530",
+            "summary": "Google appears to be readying a new feature called Shielded Email that allows users to create email aliases when signing up for online services and better combat spam.\nThe feature was first reported by Android Authority last week following a teardown of the latest version of Google Play Services for Android.\nThe idea is to create unique, single-use email addresses that forward the messages to",
+            "keyword": "privacy"
+        },
+        {
+            "title": "Beyond Compliance: The Advantage of Year-Round Network Pen Testing",
+            "link": "https://thehackernews.com/2024/11/beyond-compliance-advantage-of-year.html",
+            "published": "Mon, 18 Nov 2024 16:45:00 +0530",
+            "summary": "IT leaders know the drill\u2014regulators and cyber insurers demand regular network penetration testing to keep the bad guys out. But here\u2019s the thing: hackers don\u2019t wait around for compliance schedules.\nMost companies approach network penetration testing on a set schedule, with the most common frequency being twice a year (29%), followed by three to four times per year (23%) and once per year (20%),",
+            "keyword": "compliance"
+        },
+        {
+            "title": "Fake Discount Sites Exploit Black Friday to Hijack Shopper Information",
+            "link": "https://thehackernews.com/2024/11/fake-discount-sites-exploit-black.html",
+            "published": "Mon, 18 Nov 2024 16:26:00 +0530",
+            "summary": "A new phishing campaign is targeting e-commerce shoppers in Europe and the United States with bogus pages that mimic legitimate brands with the goal of stealing their personal information ahead of the Black Friday shopping season.\n\"The campaign leveraged the heightened online shopping activity in November, the peak season for Black Friday discounts. The threat actor used fake discounted products",
+            "keyword": "phishing"
+        },
+        {
+            "title": "Urgent: Critical WordPress Plugin Vulnerability Exposes Over 4 Million Sites",
+            "link": "https://thehackernews.com/2024/11/urgent-critical-wordpress-plugin.html",
+            "published": "Mon, 18 Nov 2024 10:22:00 +0530",
+            "summary": "A critical authentication bypass vulnerability has been disclosed in the Really Simple Security (formerly Really Simple SSL) plugin for WordPress that, if successfully exploited, could grant an attacker to remotely gain full administrative access to a susceptible site.\nThe vulnerability, tracked as CVE-2024-10924 (CVSS score: 9.8), impacts both free and premium versions of the plugin. The",
+            "keyword": "authentication"
+        },
+        {
+            "title": "Warning: DEEPDATA Malware Exploiting Unpatched Fortinet Flaw to Steal VPN Credentials",
+            "link": "https://thehackernews.com/2024/11/warning-deepdata-malware-exploiting.html",
+            "published": "Sat, 16 Nov 2024 11:55:00 +0530",
+            "summary": "A threat actor known as BrazenBamboo has exploited an unresolved security flaw in Fortinet's FortiClient for Windows to extract VPN credentials as part of a modular framework called DEEPDATA.\nVolexity, which disclosed the findings Friday, said it identified the zero-day exploitation of the credential disclosure vulnerability in July 2024, describing BrazenBamboo as the developer behind DEEPDATA,",
+            "keyword": "malware"
+        },
+        {
+            "title": "Iranian Hackers Deploy WezRat Malware in Attacks Targeting Israeli Organizations",
+            "link": "https://thehackernews.com/2024/11/iranian-hackers-deploy-wezrat-malware.html",
+            "published": "Fri, 15 Nov 2024 23:27:00 +0530",
+            "summary": "Cybersecurity researchers have shed light on a new remote access trojan and information stealer used by Iranian state-sponsored actors to conduct reconnaissance of compromised endpoints and execute malicious commands.\nCybersecurity company Check Point has codenamed the malware WezRat, stating it has been detected in the wild since at least September 1, 2023, based on artifacts uploaded to the",
+            "keyword": "cybersecurity"
+        },
+        {
+            "title": "Iranian Hackers Deploy WezRat Malware in Attacks Targeting Israeli Organizations",
+            "link": "https://thehackernews.com/2024/11/iranian-hackers-deploy-wezrat-malware.html",
+            "published": "Fri, 15 Nov 2024 23:27:00 +0530",
+            "summary": "Cybersecurity researchers have shed light on a new remote access trojan and information stealer used by Iranian state-sponsored actors to conduct reconnaissance of compromised endpoints and execute malicious commands.\nCybersecurity company Check Point has codenamed the malware WezRat, stating it has been detected in the wild since at least September 1, 2023, based on artifacts uploaded to the",
+            "keyword": "malware"
+        },
+        {
+            "title": "Researchers Warn of Privilege Escalation Risks in Google's Vertex AI ML Platform",
+            "link": "https://thehackernews.com/2024/11/researchers-warn-of-privilege.html",
+            "published": "Fri, 15 Nov 2024 18:05:00 +0530",
+            "summary": "Cybersecurity researchers have disclosed two security flaws in Google's Vertex machine learning (ML) platform that, if successfully exploited, could allow malicious actors to escalate privileges and exfiltrate models from the cloud.\n\"By exploiting custom job permissions, we were able to escalate our privileges and gain unauthorized access to all data services in the project,\" Palo Alto Networks",
+            "keyword": "cybersecurity"
+        },
+        {
+            "title": "Vietnamese Hacker Group Deploys New PXA Stealer Targeting Europe and Asia",
+            "link": "https://thehackernews.com/2024/11/vietnamese-hacker-group-deploys-new-pxa.html",
+            "published": "Fri, 15 Nov 2024 16:42:00 +0530",
+            "summary": "A Vietnamese-speaking threat actor has been linked to an information-stealing campaign targeting government and education entities in Europe and Asia with a new Python-based malware called PXA Stealer.\nThe malware \"targets victims' sensitive information, including credentials for various online accounts, VPN and FTP clients, financial information, browser cookies, and data from gaming software,\"",
+            "keyword": "malware"
+        },
+        {
+            "title": "QNAP addresses critical flaws across NAS, router software",
+            "link": "https://www.bleepingcomputer.com/news/security/qnap-addresses-critical-flaws-across-nas-router-software/",
+            "published": "Mon, 25 Nov 2024 17:13:59 -0500",
+            "summary": "QNAP has released security bulletins over the weekend, which address multiple vulnerabilities, including three critical severity flaws that users should address as soon as possible. [...]",
+            "keyword": "vulnerabilities"
+        },
+        {
+            "title": "Blue Yonder ransomware attack disrupts grocery store supply chain",
+            "link": "https://www.bleepingcomputer.com/news/security/blue-yonder-ransomware-attack-disrupts-grocery-store-supply-chain/",
+            "published": "Mon, 25 Nov 2024 16:11:09 -0500",
+            "summary": "Supply chain management firm Blue Yonder is warning that a ransomware attack caused significant disruption to its services, with the outages impacting grocery store chains in the UK. [...]",
+            "keyword": "ransomware"
+        },
+        {
+            "title": "DOJ: Man hacked networks to pitch cybersecurity services",
+            "link": "https://www.bleepingcomputer.com/news/security/doj-man-hacked-networks-to-pitch-cybersecurity-services/",
+            "published": "Mon, 25 Nov 2024 14:24:30 -0500",
+            "summary": "A Kansas City man has been indicted for allegedly hacking into computer networks\u00a0and using this access to promote his cybersecurity services. [...]",
+            "keyword": "cybersecurity"
+        },
+        {
+            "title": "DOJ: Man hacked networks to pitch cybersecurity services",
+            "link": "https://www.bleepingcomputer.com/news/security/doj-man-hacked-networks-to-pitch-cybersecurity-services/",
+            "published": "Mon, 25 Nov 2024 14:24:30 -0500",
+            "summary": "A Kansas City man has been indicted for allegedly hacking into computer networks\u00a0and using this access to promote his cybersecurity services. [...]",
+            "keyword": "hacking"
+        },
+        {
+            "title": "Salt Typhoon hackers backdoor telcos with new GhostSpider malware",
+            "link": "https://www.bleepingcomputer.com/news/security/salt-typhoon-hackers-backdoor-telcos-with-new-ghostspider-malware/",
+            "published": "Mon, 25 Nov 2024 11:12:22 -0500",
+            "summary": "The Chinese state-sponsored hacking group Salt Typhoon has been observed utilizing a new \"GhostSpider\" backdoor in attacks against telecommunication service providers. [...]",
+            "keyword": "malware"
+        },
+        {
+            "title": "Salt Typhoon hackers backdoor telcos with new GhostSpider malware",
+            "link": "https://www.bleepingcomputer.com/news/security/salt-typhoon-hackers-backdoor-telcos-with-new-ghostspider-malware/",
+            "published": "Mon, 25 Nov 2024 11:12:22 -0500",
+            "summary": "The Chinese state-sponsored hacking group Salt Typhoon has been observed utilizing a new \"GhostSpider\" backdoor in attacks against telecommunication service providers. [...]",
+            "keyword": "hacking"
+        },
+        {
+            "title": "Microsoft testing Windows 11 support for third-party passkeys",
+            "link": "https://www.bleepingcomputer.com/news/security/microsoft-testing-windows-11-support-for-third-party-passkeys/",
+            "published": "Sat, 23 Nov 2024 11:22:33 -0500",
+            "summary": "\u200bMicrosoft is now testing WebAuthn API updates that add support for support for using third-party passkey providers for Windows 11 passwordless authentication. [...]",
+            "keyword": "authentication"
+        }
+    ]
+}

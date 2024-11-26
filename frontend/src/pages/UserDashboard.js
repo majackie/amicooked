@@ -16,7 +16,6 @@ function UserDashboard() {
     }
 
     useEffect(() => {
-        console.log("isVisible")
         setIsVisible(true);
     }, []);
 
@@ -36,7 +35,7 @@ function UserDashboard() {
             </div>
             <div style={{display: !isAuthenticated() ? 'block' : 'none'}} className={`Tip ${isVisible ? 'fade-in' : ''} ${isCollapsed ? 'collapsed' : ''}`}>
                 <IoIcons.IoMdArrowDropdown className="ToggleButton" onClick={toggleParagraph}/>
-                <p><b>Tip:</b><br/> Join the amicooked crew to access Lessons and more.</p>
+                <p><b>Tip:</b><br/> Join the amicooked community to access Lessons and more.</p>
             </div>
         </div>
     );

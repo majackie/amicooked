@@ -1,7 +1,6 @@
 import axios from "axios";
 
 const token = localStorage.getItem("token");
-// console.log("token "+token)
 
 export const updatePoints = async (user_id, topic_id, new_points) => {
     const data = {
@@ -16,7 +15,6 @@ export const updatePoints = async (user_id, topic_id, new_points) => {
                 Authorization: `Bearer ${token}`
             },
         });
-        console.log(response.data)
     } catch (error) {
         console.error("Error updating points:", error);
     }
@@ -33,7 +31,6 @@ export const completeLesson = async (user_id, topic_id) => {
                 Authorization: `Bearer ${token}`
             },
         });
-        console.log(response.data)
     } catch (error) {
         console.error("Error completing lesson:", error);
     }
@@ -58,7 +55,6 @@ export const handleFinishLesson = (user_id, topic_id, points) => {
         try {
             console.log("fetching status...")
             const status = await getLessonStatus(user_id, topic_id)
-            console.log('@@@ lesson status: '+status)
             if (!status)
             {
                 updatePoints(user_id, topic_id, points)
@@ -66,7 +62,7 @@ export const handleFinishLesson = (user_id, topic_id, points) => {
             }
             else
             {
-                console.log('lesson is already completed. Finishing.')
+                console.log('Lesson is already completed. Finishing.')
             }
 
         } catch (error) {
