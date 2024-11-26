@@ -34,6 +34,10 @@ def get_db_connection():
         dbname=dbname
     )
 
+@app.route('/')
+def home():
+    return "Welcome to the homepage!"
+
 @app.route('/api/users', methods=['GET'])
 def get_users():
     conn = None
