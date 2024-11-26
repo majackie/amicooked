@@ -1,6 +1,8 @@
 import feedparser
 import json
 import re
+import ssl
+from urllib import request
 from datetime import datetime
 
 def load_config(rss_config_file):
@@ -9,7 +11,11 @@ def load_config(rss_config_file):
 
 
 def fetch_rss(feed_url):
-    return feedparser.parse(feed_url)
+    context = ssl.create_default_context()
+    context.check_hostname = False
+    context.verify_mode = ssl.CERT_NONE
+
+    return feedparser.parse(feed_url, handlers=[request.HTTPSHandler(context=context)])
 
 
 def search_keywords(feed, keywords):
