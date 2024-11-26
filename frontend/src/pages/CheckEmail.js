@@ -42,8 +42,8 @@ function CheckEmail() {
 				<form onSubmit={(e) => e.preventDefault()}>
 					<label className="form-element">Enter your email:</label>
 					<input className="form-element" type="email" id="email" name="email" value={email} onChange={handleEmailChange}></input>
-					<Button className="form-element" theme="primary" onClick={handleSubmit}>Submit</Button>
 				</form>
+				<Button className="form-element" theme="primary" onClick={handleSubmit}>Submit</Button>
 				<div id="check-email-result">
 					{result && (
 						result.length > 0 ? (

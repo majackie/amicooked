@@ -42,8 +42,8 @@ function CheckDomain() {
 				<form onSubmit={(e) => e.preventDefault()}>
 					<label className="form-element">Enter domain:</label>
 					<input className="form-element" type="text" id="domain" name="domain" value={domain} onChange={handleDomainChange}></input>
-					<Button className="form-element" theme="primary" onClick={handleSubmit}>Submit</Button>
 				</form>
+				<Button className="form-element" theme="primary" onClick={handleSubmit}>Submit</Button>
 				<div id="check-domain-result">
 					{result && (
 						result.length > 0 ? (
