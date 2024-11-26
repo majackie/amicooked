@@ -15,6 +15,7 @@ load_dotenv()
 
 API_KEY = os.getenv('MAILJET_API_KEY')
 API_SECRET = os.getenv('MAILJET_API_SECRET')
+ARTICLES_TO_SEND = os.getenv('ARTICLES_TO_SEND')
 
 # instance of the Mailjet client
 mailjet = mailjet_rest.Client(auth=(API_KEY, API_SECRET), version='v3.1')
@@ -32,6 +33,7 @@ def load_results(file_path):
 
 def generate_email_content(results, unsubscribe_url):
     current_date = datetime.now().strftime('%Y-%m-%d')
+    count = 0
     html_content = f"""
     <html>
         <body>
@@ -52,6 +54,9 @@ def generate_email_content(results, unsubscribe_url):
         html_content += f"<p style='font-family: Helvetica, sans-serif;'>{summary}</p>"
 
         text_content += f"{title}\n{summary}\nLink: {link}\n\n"
+        count+=1
+        if count >= ARTICLES_TO_SEND:
+            break
 
 
     unsubscribe_html = f"<p style='font-family: Helvetica, sans-serif;'>If you no longer wish to receive these emails, please <a href='{unsubscribe_url}' style='color: #ff0000;'>unsubscribe here</a>.</p>"
