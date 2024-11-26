@@ -15,7 +15,7 @@ load_dotenv()
 
 API_KEY = os.getenv('MAILJET_API_KEY')
 API_SECRET = os.getenv('MAILJET_API_SECRET')
-ARTICLES_TO_SEND = os.getenv('ARTICLES_TO_SEND')
+ARTICLES_TO_SEND = 5
 
 # instance of the Mailjet client
 mailjet = mailjet_rest.Client(auth=(API_KEY, API_SECRET), version='v3.1')
