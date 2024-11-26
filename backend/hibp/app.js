@@ -89,8 +89,6 @@ app.get("/api/hibp/domain/:domain", async (req, res) => {
 	}
 });
 
-console.log("HIBP_API_KEY:", process.env.HIBP_API_KEY);
-
 app.listen(port, () => {
 	console.log(`Server running at http://localhost:${port}`);
 });
