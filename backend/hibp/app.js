@@ -1,9 +1,10 @@
-require("dotenv").config();
+import dotenv from "dotenv";
+import express from "express";
+import fetch from "node-fetch";
+import cors from "cors";
+import crypto from "crypto";
 
-const express = require("express");
-const fetch = require("node-fetch");
-const cors = require("cors");
-const crypto = require('crypto');
+dotenv.config();
 
 const app = express();
 const port = 5555;
@@ -87,6 +88,8 @@ app.get("/api/hibp/domain/:domain", async (req, res) => {
 		res.status(500).json({ error: "Internal Server Error" });
 	}
 });
+
+console.log("HIBP_API_KEY:", process.env.HIBP_API_KEY);
 
 app.listen(port, () => {
 	console.log(`Server running at http://localhost:${port}`);
