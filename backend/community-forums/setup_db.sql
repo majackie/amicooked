@@ -1,28 +1,22 @@
--- Create Database
-CREATE DATABASE community_forums;
+-- Drop existing tables if they exist
+DROP TABLE IF EXISTS comments CASCADE;
+DROP TABLE IF EXISTS posts CASCADE;
 
--- Create User
-CREATE USER admin_user WITH PASSWORD 'password123';
-
--- Grant Privileges
-GRANT ALL PRIVILEGES ON DATABASE community_forums TO admin_user;
-
--- Connect to the database to create tables
-\c community_forums;
-
--- Users Table
-CREATE TABLE users (
-    id SERIAL PRIMARY KEY,
-    name VARCHAR(100) NOT NULL,
-    email VARCHAR(100) UNIQUE NOT NULL,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);
-
--- Posts Table
+-- Create Posts Table
 CREATE TABLE posts (
     id SERIAL PRIMARY KEY,
-    user_id INT REFERENCES users(id) ON DELETE CASCADE,
+    username VARCHAR(100) NOT NULL,
     title VARCHAR(200) NOT NULL,
     content TEXT NOT NULL,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Create Comments Table
+CREATE TABLE comments (
+    id SERIAL PRIMARY KEY,
+    post_id INT NOT NULL,
+    username VARCHAR(100) NOT NULL,
+    content TEXT NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (post_id) REFERENCES posts (id) ON DELETE CASCADE
 );
