@@ -1,4 +1,4 @@
-import {Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 // Pages
 import Admin from "./pages/Admin.js";
@@ -21,6 +21,8 @@ import Tips from "./pages/Tips";
 import ProtectedRoute from "./shared/ProtectedRoute.js";
 import About from "./pages/About";
 import Home from "./pages/Home";
+import CommunityForum from "./pages/Community-Page.js"
+import CreatePost from "./pages/CreatePost.js";
 
 function App() {
   return (
@@ -44,6 +46,8 @@ function App() {
         <Route path="/user-dashboard/safety-tools/privacy-checker/check-password" element={<CheckPassword />} />
         <Route path="/user-dashboard/safety-tools/privacy-checker/check-domain" element={<CheckDomain />} />
         <Route path="/user-dashboard/safety-tools/sagwa" element={<Sagwa />} />
+        <Route path="/user-dashboard/community-page" element={<CommunityForum />} />
+        <Route path="/user-dashboard/community-page/create-post" element={<CreatePost />} />
         {/* Protected Lesson pages */}
         <Route path="/user-dashboard/safety-tools/lessons-home" element={<ProtectedRoute><LessonsHome /></ProtectedRoute>} />
         <Route path="/user-dashboard/safety-tools/lesson/:topicId" element={<ProtectedRoute><Lesson /></ProtectedRoute>} />

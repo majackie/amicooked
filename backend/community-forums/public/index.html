@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posts CRUD Demo</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        input, textarea, button { display: block; margin-top: 10px; }
+        .post { margin-bottom: 15px; padding: 10px; border: 1px solid #ddd; }
+    </style>
+</head>
+<body>
+
+    <h1>Posts CRUD Demo</h1>
+
+    <!-- Form to create or update a post -->
+    <h2>Create or Update Post</h2>
+    <input type="number" id="userId" placeholder="User ID (required)" required>
+    <input type="text" id="postId" placeholder="Post ID (for update)">
+    <input type="text" id="title" placeholder="Title" required>
+    <textarea id="content" placeholder="Content" required></textarea>
+    <button onclick="createOrUpdatePost()">Submit</button>
+
+    <!-- Section to view posts -->
+    <h2>View Posts</h2>
+    <button onclick="fetchPosts()">Refresh Posts</button>
+    <div id="posts"></div>
+
+</body>
+<script>
+    const apiUrl = 'http://localhost:3000/posts';
+
+    // Function to create or update a post
+    async function createOrUpdatePost() {
+        const userId = document.getElementById('userId').value;
+        const postId = document.getElementById('postId').value;
+        const title = document.getElementById('title').value;
+        const content = document.getElementById('content').value;
+
+        const method = postId ? 'PUT' : 'POST';
+        const url = postId ? `${apiUrl}/${postId}` : apiUrl;
+        console.log(`url: ${url}`);
+        
+        const response = await fetch(url, {
+            method,
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ user_id: parseInt(userId), title, content })
+        });
+
+        if (response.ok) {
+            alert('Post saved successfully');
+            fetchPosts();
+            clearForm();
+        } else {
+            alert('Failed to save post');
+        }
+    }
+
+    // Function to fetch and display posts
+    // async function fetchPosts() {
+    //     console.log(`apiUrl: ${apiUrl}`);
+    //     const response = await fetch(apiUrl);
+    //     const posts = await response.json();
+        
+    //     const postsContainer = document.getElementById('posts');
+    //     postsContainer.innerHTML = ''; // Clear previous content
+
+    //     posts.forEach(post => {
+    //         const postElement = document.createElement('div');
+    //         postElement.className = 'post';
+    //         postElement.innerHTML = `
+    //             <h3>${post.title}</h3>
+    //             <p>${post.content}</p>
+    //             <small>Post ID: ${post.id} | User ID: ${post.user_id}</small>
+    //             <button onclick="deletePost(${post.id})">Delete</button>
+    //         `;
+    //         postsContainer.appendChild(postElement);
+    //     });
+    // }
+
+    async function fetchPosts() {
+        try {
+            const response = await fetch('http://localhost:3000/posts');
+            if (!response.ok) throw new Error(`Error: ${response.statusText}`);
+            const posts = await response.json();
+
+            const postsContainer = document.getElementById('posts');
+            postsContainer.innerHTML = ''; // Clear previous content
+
+            posts.forEach(post => {
+                const postElement = document.createElement('div');
+                postElement.className = 'post';
+                postElement.innerHTML = `
+                    <h3>${post.title}</h3>
+                    <p>${post.content}</p>
+                    <small>Post ID: ${post.id} | User ID: ${post.user_id}</small>
+                    <button onclick="deletePost(${post.id})">Delete</button>
+                `;
+                postsContainer.appendChild(postElement);
+            });
+        } catch (error) {
+            console.error('Failed to fetch posts:', error);
+        }
+    }
+
+
+    // Function to delete a post
+    async function deletePost(postId) {
+        const response = await fetch(`${apiUrl}/${postId}`, { method: 'DELETE' });
+
+        if (response.ok) {
+            alert('Post deleted successfully');
+            fetchPosts();
+        } else {
+            alert('Failed to delete post');
+        }
+    }
+
+    // Clear form after submission
+    function clearForm() {
+        document.getElementById('userId').value = '';
+        document.getElementById('postId').value = '';
+        document.getElementById('title').value = '';
+        document.getElementById('content').value = '';
+    }
+
+    // Fetch posts on initial load
+    fetchPosts();
+</script>
+</html>

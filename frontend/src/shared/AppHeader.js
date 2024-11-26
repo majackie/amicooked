@@ -10,9 +10,9 @@ function AppHeader() {
     return (
         <div className="AppHeader" onClick={() => navigate((isAuthenticated()) ? "/logout" : "/home")}>
             <img src={logo} className="App-logo" alt="logo"/>
-			<p className="App-name">
-				amicooked
-			</p>
+            <p className="App-name">
+                amicooked
+            </p>
         </div>
     );
 }
