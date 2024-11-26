@@ -8,8 +8,6 @@
     pointer-events: none;
 }
 
-<<<<<<< HEAD
-=======
 .Header {
     display: flex;
     align-items: center;
@@ -57,7 +55,6 @@
     background-color: #949494;
 }
 
->>>>>>> Develop
 .Body {
     padding-top: 15vmin;
     display: flex;

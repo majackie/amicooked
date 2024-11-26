@@ -22,6 +22,7 @@ import ProtectedRoute from "./shared/ProtectedRoute.js";
 import LoadingPage from "./pages/LoadingPage";
 import About from "./pages/About";
 import Home from "./pages/Home";
+import CommunityForum from "./pages/Community-Page.js"
 
 function App() {
   return (
@@ -46,6 +47,7 @@ function App() {
         <Route path="/user-dashboard/safety-tools/privacy-checker/check-password" element={<CheckPassword />} />
         <Route path="/user-dashboard/safety-tools/privacy-checker/check-domain" element={<CheckDomain />} />
         <Route path="/user-dashboard/safety-tools/sagwa" element={<Sagwa />} />
+        <Route path="/user-dashboard/community-page" element={<CommunityForum />} />
         {/* Protected Lesson pages */}
         <Route path="/user-dashboard/safety-tools/lessons-home" element={<ProtectedRoute><LessonsHome /></ProtectedRoute>} />
         <Route path="/user-dashboard/safety-tools/lesson/:topicId" element={<ProtectedRoute><Lesson /></ProtectedRoute>} />
