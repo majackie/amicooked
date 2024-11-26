@@ -5,3 +5,5 @@ build
 backend/__pycache__
 backend/__pycache__/*
 *.pyc
+newsletter-service/newsletter.log
+newsletter-service/rss_scraper/results.json

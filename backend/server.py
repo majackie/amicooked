@@ -61,7 +61,9 @@ def get_users():
                 'id': user_record[0],         # Assuming first column is ID
                 'username': user_record[1],
                 'password': user_record[2],
-                'admin': user_record[3] # Assuming second column is Name
+                'admin': user_record[3], # Assuming second column is Name
+                'subscribe': user_record[4],
+                'email': user_record[5]
                 # Add more fields as necessary
             })
 
@@ -82,6 +84,8 @@ def signup():
     data = request.get_json()
     username = data.get("username")
     password = data.get("password")
+    subscribe = data.get("subscribe", False)
+    email = data.get("email")
     
     # Hash the password
     hashed_password = generate_password_hash(password)
@@ -101,8 +105,8 @@ def signup():
         
         # Insert the new user
         cursor.execute(
-            "INSERT INTO users (username, password, admin) VALUES (%s, %s, %s) RETURNING userid;",
-            (username, hashed_password, False)
+            "INSERT INTO users (username, password, admin, subscribe, email) VALUES (%s, %s, %s, %s, %s) RETURNING userid;",
+            (username, hashed_password, False, subscribe, email)
         )
         user_id = cursor.fetchone()[0]
         conn.commit()
@@ -153,6 +157,45 @@ def login():
             cursor.close()
         if conn is not None:
             conn.close()
+
+@app.route('/api/subscribed_users', methods=['GET'])
+def get_subscribed_users():
+    conn = None
+    cursor = None
+    user_list = []
+
+    try:
+        conn = psycopg2.connect(
+            host=host,
+            port=port,
+            user=user,
+            password=password,
+            dbname=dbname
+        )
+        cursor = conn.cursor()
+
+        cursor.execute("SELECT username, email FROM users WHERE subscribe = TRUE;")
+        users = cursor.fetchall()
+
+        # Create a list of users
+        for user_record in users:
+            user_list.append({
+                'username': user_record[0],
+                'email': user_record[1]
+            })
+
+        return jsonify(user_list), 200 
+
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+    finally:
+        # Close cursor and connection if they were created
+        if cursor is not None:
+            cursor.close()
+        if conn is not None:
+            conn.close()
+
 
 # Create a simple in-memory blacklist
 token_blacklist = set()
