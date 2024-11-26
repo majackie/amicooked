@@ -9,6 +9,7 @@ from flask_jwt_extended import JWTManager, create_access_token, jwt_required, ge
 from werkzeug.security import generate_password_hash, check_password_hash
 from datetime import timedelta
 import input_validator
+import logging
 
 app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
@@ -46,6 +47,9 @@ def get_users():
 
     try:
         # Create a connection to the PostgreSQL database
+
+        logging.debug(f"Connecting to DB at {host}:{port}")
+
         conn = psycopg2.connect(
             host=host,
             port=port,
@@ -118,7 +122,8 @@ def signup():
         return jsonify({"msg": "Signup successful", "user_id": user_id}), 201
     
     except Exception as e:
-        return jsonify({'error': str(e)}), 500
+        logging.error(f"Error fetching users: {str(e)}")  # Log the error message
+        return jsonify({'error': 'Failed to fetch users', 'message': str(e)}), 500
     
     finally:
         # Close cursor and connection if they were created
