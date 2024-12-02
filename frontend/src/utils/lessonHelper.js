@@ -3,13 +3,13 @@ import axios from "axios";
 const token = localStorage.getItem("token");
 
 export const updatePoints = async (user_id, topic_id, new_points) => {
-    const data = {
-        userid: parseInt(user_id),
-        topicid: parseInt(topic_id),
-        points: parseInt(new_points)
-    }
-
     try {
+        const data = {
+            userid: parseInt(user_id),
+            topicid: parseInt(topic_id),
+            points: parseInt(new_points)
+        }
+
         const response = await axios.post(`http://127.0.0.1:5000/update_points`, data, {
             headers: {
                 Authorization: `Bearer ${token}`
@@ -21,11 +21,12 @@ export const updatePoints = async (user_id, topic_id, new_points) => {
 }
 
 export const completeLesson = async (user_id, topic_id) => {
-    const data = {
-        userid: parseInt(user_id),
-        topicid: parseInt(topic_id)
-    }
     try {
+        const data = {
+            userid: parseInt(user_id),
+            topicid: parseInt(topic_id)
+        }
+    
         const response = await axios.post(`http://127.0.0.1:5000/complete_lesson`, data, {
             headers: {
                 Authorization: `Bearer ${token}`
