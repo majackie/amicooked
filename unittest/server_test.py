@@ -5,12 +5,9 @@ import sys
 import os
 
 # Add the root directory to sys.path
-sys.path.append('../backend/api')
-from server import app
-from flask_jwt_extended import JWTManager
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'backend/api')))
 
-app = Flask(__name__)
-app.config["JWT_SECRET_KEY"] = "your_secret_key"
+from server import app
 
 @pytest.fixture
 def client():
