@@ -25,7 +25,6 @@ app.use(cors());
 app.use(morgan('dev'));
 
 // Routes
-
 app.get('/', (req, res) => {
     res.sendFile(__dirname + '/public/index.html');
 });
@@ -54,6 +53,7 @@ app.post('/comments', async (req, res) => {
     }
 });
 
+// Get all comments for a specific post
 app.get('/posts/:postId/comments', async (req, res) => {
     const { postId } = req.params;
     try {

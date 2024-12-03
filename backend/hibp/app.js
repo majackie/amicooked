@@ -9,6 +9,7 @@ dotenv.config();
 const app = express();
 const port = 5555;
 
+// Configure CORS to allow requests from specific origins
 app.use(cors({
 	origin: ["http://127.0.0.1:3000", "http://localhost:3000"],
 	credentials: true,
@@ -16,6 +17,7 @@ app.use(cors({
 	allowedHeaders: ["Content-Type", "Authorization"],
 }));
 
+// Route to check if an email has been breached
 app.get("/api/hibp/email/:email", async (req, res) => {
 	const email = req.params.email;
 	try {
@@ -37,6 +39,10 @@ app.get("/api/hibp/email/:email", async (req, res) => {
 	}
 });
 
+// Route to check if a password has been breached
+// Hash the password using SHA-1 and convert to uppercase
+// Send the first 5 characters of the hash to the API
+// Find the matching hash suffix in the response
 app.get("/api/hibp/password/:password", async (req, res) => {
 	const password = req.params.password;
 	const hash = crypto.createHash('sha1').update(password).digest('hex').toUpperCase();
@@ -68,6 +74,7 @@ app.get("/api/hibp/password/:password", async (req, res) => {
 	}
 });
 
+// Route to check if a domain has been breached
 app.get("/api/hibp/domain/:domain", async (req, res) => {
 	const domain = req.params.domain;
 	try {
