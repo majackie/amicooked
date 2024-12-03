@@ -1,6 +1,6 @@
 # amicooked
 
-This project is intended for course COMP 7082 of Fall 2024. It uses React JS for the front end and Flask, Express JS for the back end with Postgresql. This project has also been set up with Git Action for automatic unit tests.
+This project is intended for course COMP 7082 - Software Engineering for Fall 2024. It uses React JS for the front end and Flask, Express JS for the back end with Postgresql. This project has also been set up with Git Action for automated unit tests.
 
 ## Description
 amicooked is a web application that utilizes microservices to support its features. Such features like login/signup, educational materials, community forum, newsletter, and privacy checkers.
