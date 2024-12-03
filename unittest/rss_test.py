@@ -1,3 +1,7 @@
+import sys
+import os
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'newsletter_service')))
+
 from newsletter_service.rss_scraper.rss import load_config, fetch_rss, search_keywords, main
 import json
 import unittest
