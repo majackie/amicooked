@@ -5,7 +5,6 @@ import sys
 import os
 
 # Add the root directory to sys.path
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../backend/api')))
 sys.path.append('../backend/api')
 from server import app
 from flask_jwt_extended import create_access_token
