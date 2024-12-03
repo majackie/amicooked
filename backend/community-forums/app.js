@@ -96,11 +96,11 @@ app.get('/posts/:postId', async (req, res) => {
 
 // Create a new post
 app.post('/posts', async (req, res) => {
-    const { username, title, content } = req.body; // Replaced user_id with username
+    const { username, title, content } = req.body;
     try {
         const result = await pool.query(
             'INSERT INTO posts (username, title, content) VALUES ($1, $2, $3) RETURNING *',
-            [username, title, content] // Updated query to use username
+            [username, title, content]
         );
         res.status(201).json(result.rows[0]);
     } catch (error) {

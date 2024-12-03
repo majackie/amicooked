@@ -33,7 +33,7 @@ check_error "Back-End"
 
 # Start Community Forums
 echo "Starting Community Forums"
-(cd ./backend/community-forums && npm install && node server.js) > community-forums.log 2>&1 &
+(cd ./backend/community-forums && python3 -m venv venv && source venv/bin/activate && pip install psycopg2 && python3 setup_db.py npm install && node server.js) > community-forums.log 2>&1 &
 check_error "Community Forums"
 
 # Start Compromised Checker

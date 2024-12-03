@@ -1,5 +1,5 @@
 {
-    "timestamp": "2024-12-03T08:47:20.480656",
+    "timestamp": "2024-12-03T10:44:12.870662",
     "results": [
         {
             "title": "Top US Consumer Watchdog Has a Plan to Fight Predatory Data Brokers",
@@ -338,11 +338,11 @@
             "keyword": "phishing"
         },
         {
-            "title": "RSA Conference 2025 Innovation Sandbox Contest Celebrates 20th Anniversary",
-            "link": "https://www.darkreading.com/cybersecurity-operations/rsa-conference-2025-innovation-sandbox-contest-celebrates-20th-anniversary",
-            "published": "Thu, 21 Nov 2024 22:07:37 GMT",
-            "summary": "Starting in 2025, the RSAC Innovation Sandbox Top 10 Finalists will each receive a $5 million investment to drive cybersecurity innovation.",
-            "keyword": "cybersecurity"
+            "title": "Why Phishers Love New TLDs Like .shop, .top and .xyz",
+            "link": "https://krebsonsecurity.com/2024/12/why-phishers-love-new-tlds-like-shop-top-and-xyz/",
+            "published": "Tue, 03 Dec 2024 13:27:31 +0000",
+            "summary": "Phishing attacks increased nearly 40 percent in the year ending August 2024, with much of that growth concentrated at a small number of new generic top-level domains (gTLDs) -- such as .shop, .top, .xyz -- that attract scammers with rock-bottom prices and no meaningful registration requirements, new research finds. Meanwhile, the nonprofit entity that oversees the domain name industry is moving forward with plans to introduce a slew of new gTLDs.",
+            "keyword": "phishing"
         },
         {
             "title": "Hacker in Snowflake Extortions May Be a U.S. Soldier",
@@ -427,13 +427,6 @@
             "published": "Wed, 30 Oct 2024 13:34:08 +0000",
             "summary": "Change Healthcare says it has notified approximately 100 million Americans that their personal, financial and healthcare records may have been stolen in a February 2024 ransomware attack that caused the largest ever known data breach of protected health information.",
             "keyword": "ransomware"
-        },
-        {
-            "title": "The Global Surveillance Free-for-All in Mobile Ad Data",
-            "link": "https://krebsonsecurity.com/2024/10/the-global-surveillance-free-for-all-in-mobile-ad-data/",
-            "published": "Wed, 23 Oct 2024 11:30:18 +0000",
-            "summary": "Not long ago, the ability to remotely track someone\u2019s daily movements just by knowing their home address, employer, or place of worship was considered a powerful surveillance tool that should only be in the purview of nation states. But a new lawsuit in a likely constitutional battle over a New Jersey privacy law shows that anyone can now access this capability, thanks to a proliferation of commercial services that hoover up the digital exhaust emitted by widely-used mobile apps and websites.",
-            "keyword": "privacy"
         },
         {
             "title": "NachoVPN Tool Exploits Flaws in Popular VPN Clients for System Compromise",
@@ -798,6 +791,20 @@
             "published": "Thu, 21 Nov 2024 17:34:00 +0530",
             "summary": "Threat actors with ties to the Democratic People's Republic of Korea (DPRK) are impersonating U.S.-based software and technology consulting businesses in order to further their financial objectives as part of a broader information technology (IT) worker scheme.\n\"Front companies, often based in China, Russia, Southeast Asia, and Africa, play a key role in masking the workers' true origins and",
             "keyword": "technology"
+        },
+        {
+            "title": "Veeam warns of critical RCE bug in Service Provider Console",
+            "link": "https://www.bleepingcomputer.com/news/security/veeam-warns-of-critical-rce-bug-in-service-provider-console/",
+            "published": "Tue, 03 Dec 2024 13:07:39 -0500",
+            "summary": "\u200bVeeam released security updates today to address two Service Provider Console (VSPC) vulnerabilities, including a critical remote code execution (RCE) discovered during internal testing. [...]",
+            "keyword": "vulnerabilities"
+        },
+        {
+            "title": "Police seizes largest German online crime marketplace, arrests admin",
+            "link": "https://www.bleepingcomputer.com/news/security/police-seizes-largest-german-online-crime-marketplace-arrests-admin/",
+            "published": "Tue, 03 Dec 2024 12:16:33 -0500",
+            "summary": "Germany has taken down the largest online cybercrime marketplace in the country, named \"Crimenetwork,\"\u00a0and arrested its administrator for facilitating the sale\u00a0of drugs, stolen data, and illegal services. [...]",
+            "keyword": "cybercrime"
         },
         {
             "title": "BootKitty UEFI malware exploits LogoFAIL to infect Linux systems",
