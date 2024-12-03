@@ -1,5 +1,3 @@
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'newsletter_service')))
-
 import feedparser
 import json
 import re
