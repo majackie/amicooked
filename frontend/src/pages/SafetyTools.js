@@ -5,12 +5,16 @@ import "../style/SafetyTools.css"
 import PrivacyTracker from "./PrivacyTracker";
 import { isAuthenticated } from "../shared/ProtectedRoute";
 
+/**
+ * A SafeTools component displaying safety tool options.
+ */
 function SafetyTools() {
     const navigate = useNavigate();
     return (
         <div className="SafetyTools">
             <Navbar type={"default"} />
             <div className="Body">
+                {/* Only display PrivacyTracker is user has an account, i.e. authentication token */}
                 {isAuthenticated() ? (
                     <PrivacyTracker />
                 ) : (

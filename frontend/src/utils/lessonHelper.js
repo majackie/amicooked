@@ -1,7 +1,10 @@
 import axios from "axios";
 
+// Helper functions to help with Lesson-related pages
+
 const token = localStorage.getItem("token");
 
+// Update new points to a topic when a user completes a lesson
 export const updatePoints = async (user_id, topic_id, new_points) => {
     try {
         const data = {
@@ -20,6 +23,7 @@ export const updatePoints = async (user_id, topic_id, new_points) => {
     }
 }
 
+// Completes a lesson
 export const completeLesson = async (user_id, topic_id) => {
     try {
         const data = {
@@ -37,6 +41,8 @@ export const completeLesson = async (user_id, topic_id) => {
     }
 }
 
+// Gets the current status of a lesson
+// True for completed, else false.
 export const getLessonStatus = async (user_id, topic_id) => {
     try {
         const response = await axios.get(`http://127.0.0.1:5000/get_lesson_status/${user_id}/${topic_id}`, {
@@ -50,6 +56,7 @@ export const getLessonStatus = async (user_id, topic_id) => {
     }
 }
 
+// Handles finished lessons
 export const handleFinishLesson = (user_id, topic_id, points) => {
 
     const fetchStatus = async () => {

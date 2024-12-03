@@ -10,6 +10,9 @@ import HtmlRenderer from "../shared/HtmlRenderer";
 import { TipColor } from "../shared/TipColor";
 import Loading from "../pages/Loading"
 
+/**
+ * A Tips component displaying fetched tips from DB in carousel style.
+ */
 function Tips() {
     const { topicId } = useParams();
     const [tips, setTips] = useState([]);
@@ -48,9 +51,11 @@ function Tips() {
             {tips[0] && (
                 <>
                 <h3 >{tips[0]["topicname"]}</h3>
+                {/* Display tip contents in a carousel style with randomly generated background-color */}
                 <Carousel className="Carousel" show={1} slide={1} swiping={true} leftArrow={<Button theme="round">{'<'}</Button>} rightArrow={<Button theme="round">{'>'}</Button>}>
                     {tips.map((tip, index) => {
                         return (
+                            // Dynamically rendering tip content to each carousel item/card
                             <div className="Carousel-item"key={index} style={{ padding: '20px', backgroundColor: TipColor[Math.floor(Math.random() * 16)] }}><h3>{index+1}</h3><HtmlRenderer htmlString={tip.tipcontent}/></div>
                         )
                     })}

@@ -4,6 +4,9 @@ import { useNavigate } from "react-router-dom";
 import Button from "../shared/Button"
 import Navbar from "../shared/Navbar";
 
+/**
+ * A PrivacyChecker component displaying options for privacy checking.
+ */
 function PrivacyChecker() {
     const navigate = useNavigate();
     return (

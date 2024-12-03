@@ -9,6 +9,10 @@ import "../style/Lesson.css";
 import HtmlRenderer from "../shared/HtmlRenderer";
 import { getLessonStatus, handleFinishLesson, updatePoints } from "../utils/lessonHelper";
 
+/**
+ * A Lesson component displaying fetched contents from DB.
+ * This is visible only to users with accounts.
+ */
 function Lesson() {
     const token = localStorage.getItem("token");
     const userid = localStorage.getItem("id")
@@ -65,6 +69,7 @@ function Lesson() {
                     <>
                         <h2>{lesson.topicName}</h2>
                         <HtmlRenderer classNameString="Lesson-content" htmlString={lesson.topicContent} />
+                        {/* Updating partial user score if lesson has interactive content */}
                         <Button style={{ display: lesson.isInteractive ? 'block' : 'none'}} theme="primary" onClick={() => {
                             if (!lessonStatus)
                             {
@@ -78,6 +83,7 @@ function Lesson() {
                             navigate(`/user-dashboard/safety-tools/lesson/${topicId}/interactive`)
                             }
                         }>Continue</Button>
+                        {/* Completing lesson and updating user score */}
                         <Button theme="back" onClick={() => {
                             if (!lessonStatus && !lesson.isInteractive)
                             {

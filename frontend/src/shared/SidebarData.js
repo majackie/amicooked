@@ -2,6 +2,8 @@ import React from "react";
 import * as AiIcons from "react-icons/ai";
 import { isAuthenticated } from "../shared/ProtectedRoute";
 
+// Sidebar Data for default type, i.e. common pages
+// To be passed with Navbar
 export const SidebarData = [
   {
     title: "User Dashboard",
