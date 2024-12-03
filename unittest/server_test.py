@@ -7,7 +7,13 @@ import os
 # Add the root directory to sys.path
 sys.path.append('../backend/api')
 from server import app
-from flask_jwt_extended import create_access_token
+from flask_cors import CORS
+from flask_jwt_extended import JWTManager
+
+app = Flask(__name__)
+CORS(app)  # Enable CORS for all routes
+app.config["JWT_SECRET_KEY"] = "your_secret_key"
+jwt = JWTManager(app)
 
 @pytest.fixture
 def client():
