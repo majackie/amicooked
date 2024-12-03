@@ -28,6 +28,14 @@ npm install
 
 ## Build & Run Locally
 
+### Bash Script
+You can create an executable for the bash script and run it with the commands below
+
+```
+chmod +x start-services.sh
+./start-services.sh
+```
+
 ### Micro services
 There are four total micro services available for internal and external uses. Here is how to run them:
 
