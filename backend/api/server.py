@@ -8,7 +8,7 @@ from flask_cors import CORS
 from flask_jwt_extended import JWTManager, create_access_token, jwt_required, get_jwt_identity
 from werkzeug.security import generate_password_hash, check_password_hash
 from datetime import timedelta
-import input_validator
+import backend.api.input_validator as input_validator
 import logging
 
 app = Flask(__name__)
