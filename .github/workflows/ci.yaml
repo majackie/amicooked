@@ -29,13 +29,9 @@ jobs:
 
       - name: Set environment variables
         run: |
-          echo "JWT_SECRET_KEY=your-secret-key" >> $GITHUB_ENV
-          echo "DB_USER=postgres" >> $GITHUB_ENV
-          echo "DB_HOST=lazily-forgiving-hairtail.data-1.use1.tembo.io" >> $GITHUB_ENV
-          echo "DB_DATABASE=postgres" >> $GITHUB_ENV
-          echo "DB_PASSWORD=d1QVQlVnkfeULGNe" >> $GITHUB_ENV
-          echo "DB_PORT=5432" >> $GITHUB_ENV
-          echo "PORT=5000" >> $GITHUB_ENV
+          echo "${{ secrets.env }}" | while IFS='=' read -r key value; do
+            echo "$key=$value" >> $GITHUB_ENV
+          done
       - name: Run tests
         run: |
           cd unittest
