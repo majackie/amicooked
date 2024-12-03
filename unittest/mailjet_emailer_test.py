@@ -1,6 +1,6 @@
 import sys
 import os
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'newsletter_service')))
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 from datetime import datetime
 from unittest import TestCase
@@ -8,7 +8,7 @@ import json
 from unittest.mock import patch
 import unittest
 from unittest.mock import patch, mock_open, MagicMock
-from emailer.mailjet import load_results, generate_email_content
+from newsletter_service.emailer.mailjet import load_results, generate_email_content
 
 ARTICLES_TO_SEND = 5
 
