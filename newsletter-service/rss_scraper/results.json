@@ -1,6 +1,20 @@
 {
-    "timestamp": "2024-11-25T20:58:47.787239",
+    "timestamp": "2024-12-03T08:47:20.480656",
     "results": [
+        {
+            "title": "Top US Consumer Watchdog Has a Plan to Fight Predatory Data Brokers",
+            "link": "https://www.wired.com/story/cfpb-fcra-data-broker-oversight/",
+            "published": "Tue, 03 Dec 2024 13:00:00 +0000",
+            "summary": "A new proposal by the Consumer Financial Protection Bureau would use a 54-year-old privacy law to impose new oversight of the data broker industry. But first, the agency must survive Elon Musk.",
+            "keyword": "privacy"
+        },
+        {
+            "title": "Malicious Ads in Search Results Are Driving New Generations of Scams",
+            "link": "https://www.wired.com/story/malicious-ads-in-search-results-are-driving-new-generations-of-scams/",
+            "published": "Mon, 02 Dec 2024 12:00:00 +0000",
+            "summary": "The scourge of \u201cmalvertising\u201d is nothing new, but the tactic is still so effective that it's contributing to the rise of investment scams and the spread of new strains of malware.",
+            "keyword": "malware"
+        },
         {
             "title": "Russian Spies Jumped From One Network to Another Via Wi-Fi in an Unprecedented Hack",
             "link": "https://www.wired.com/story/russia-gru-apt28-wifi-daisy-chain-breach/",
@@ -23,18 +37,18 @@
             "keyword": "cybersecurity"
         },
         {
-            "title": "The Real Problem With Banning Masks at Protests",
-            "link": "https://www.wired.com/story/the-real-problem-with-banning-masks-at-protests/",
-            "published": "Tue, 12 Nov 2024 11:00:00 +0000",
-            "summary": "Privacy advocates worry banning masks at protests will encourage harassment, while cops\u2019 high-tech tools render the rules unnecessary.",
-            "keyword": "privacy"
+            "title": "No company too small for Phobos ransomware gang, indictment reveals",
+            "link": "https://www.malwarebytes.com/blog/news/2024/12/no-company-too-small-for-phobos-ransomware-gang-indictment-reveals",
+            "published": "Mon, 02 Dec 2024 09:37:26 GMT",
+            "summary": "The US indictment against an alleged Phobos ransomware kingpin reveals that no company was too small for the cybercriminal gang to hit.",
+            "keyword": "ransomware"
         },
         {
-            "title": "Auto-Rebooting iPhones Are Causing Chaos for Cops",
-            "link": "https://www.wired.com/story/mysterious-iphone-reboot-ios-18-police/",
-            "published": "Sat, 09 Nov 2024 11:30:00 +0000",
-            "summary": "Plus: Hot Topic confirms a customer data breach, Germany arrests a US citizen for allegedly passing military secrets to Chinese intelligence, and more.",
-            "keyword": "data breach"
+            "title": "Medical testing company LifeLabs failed to protect customer data, report finds",
+            "link": "https://www.malwarebytes.com/blog/news/2024/11/medical-testing-company-lifelabs-failed-to-protect-customer-data-report-finds",
+            "published": "Wed, 27 Nov 2024 14:28:21 GMT",
+            "summary": "LifeLabs managed to hold up a report about a ransomware incident in court for four years. It's now been published.",
+            "keyword": "ransomware"
         },
         {
             "title": "Update now! Apple confirms vulnerabilities are already being exploited",
@@ -56,6 +70,195 @@
             "published": "Fri, 15 Nov 2024 16:25:51 GMT",
             "summary": "A QR code in a physical letter is a method of spreading malware that may find its way to your mailbox too.",
             "keyword": "malware"
+        },
+        {
+            "title": "Venom Spider Spins Web of New Malware for MaaS Platform",
+            "link": "https://www.darkreading.com/cyberattacks-data-breaches/venom-spider-malware-maas-platform",
+            "published": "Tue, 03 Dec 2024 16:19:13 GMT",
+            "summary": "A novel backdoor malware and a loader that customizes payload names for each victim have been added to the threat group's cybercriminal tool set.",
+            "keyword": "malware"
+        },
+        {
+            "title": "Ransomware's Grip on Healthcare",
+            "link": "https://www.darkreading.com/cyberattacks-data-breaches/ransomware-grip-healthcare",
+            "published": "Tue, 03 Dec 2024 15:00:00 GMT",
+            "summary": "Until C-level executives fully understand potential threats and implement effective mitigation strategies, healthcare organizations will remain vulnerable and at risk of disruption.",
+            "keyword": "ransomware"
+        },
+        {
+            "title": "'White FAANG' Data Export Attack: A Gold Mine for PII Threats",
+            "link": "https://www.darkreading.com/cyber-risk/white-faang-data-export-attack-pii-threats",
+            "published": "Tue, 03 Dec 2024 13:30:00 GMT",
+            "summary": "Websites these days know everything about you \u2014 even some details you might not realize. Hackers can take advantage of that with a sharp-toothed attack that exploits Europe's GDPR-mandated data portability rules.",
+            "keyword": "GDPR"
+        },
+        {
+            "title": "'Bootkitty' First Bootloader to Take Aim at Linux",
+            "link": "https://www.darkreading.com/cyber-risk/bootkitty-first-bootloader-target-linux-systems",
+            "published": "Mon, 02 Dec 2024 21:52:54 GMT",
+            "summary": "Though it's still just a proof of concept, the malware is functional and can evade the Secure Boot process on devices from multiple vendors.",
+            "keyword": "malware"
+        },
+        {
+            "title": "Interpol Cyber-Fraud Action Nets More Than 5K Arrests",
+            "link": "https://www.darkreading.com/cybersecurity-operations/interpol-cyber-fraud-action-5k-arrests",
+            "published": "Mon, 02 Dec 2024 20:58:33 GMT",
+            "summary": "Chalk up another win for global cooperation among law enforcement, this time targeting seven types of cyber fraud, including voice phishing and business email compromise.",
+            "keyword": "phishing"
+        },
+        {
+            "title": "AWS Launches New Incident Response Service",
+            "link": "https://www.darkreading.com/threat-intelligence/aws-launches-new-incident-response-service",
+            "published": "Mon, 02 Dec 2024 20:57:29 GMT",
+            "summary": "AWS Security Incident Response will help security teams defend their organizations from account takeovers, breaches, ransomware attacks, and other types of security threats.",
+            "keyword": "ransomware"
+        },
+        {
+            "title": "Does Your Company Need a Virtual CISO?",
+            "link": "https://www.darkreading.com/cybersecurity-operations/does-your-company-need-virtual-ciso",
+            "published": "Mon, 02 Dec 2024 17:42:32 GMT",
+            "summary": "With cybersecurity talent hard to come by and companies increasingly looking for guidance and best practices, virtual and fractional chief information security officers can make a lot of sense.",
+            "keyword": "cybersecurity"
+        },
+        {
+            "title": "2 UK Hospitals Targeted in Separate Cyberattacks",
+            "link": "https://www.darkreading.com/cyberattacks-data-breaches/two-nhs-hospitals-targeted-in-separate-cyberattacks",
+            "published": "Mon, 02 Dec 2024 16:33:20 GMT",
+            "summary": "Alder Hey Children's Hospital got hit with a ransomware attack, while the nature of an incident at Wirral University Teaching Hospital remains undisclosed.",
+            "keyword": "ransomware"
+        },
+        {
+            "title": "How AI Is Enhancing Security in Ridesharing",
+            "link": "https://www.darkreading.com/vulnerabilities-threats/ai-enhancing-ridesharing-security",
+            "published": "Fri, 29 Nov 2024 17:00:00 GMT",
+            "summary": "Whether it's detecting fraudulent activity, preventing phishing, or protecting sensitive data, AI is transforming cybersecurity in ridesharing.",
+            "keyword": "cybersecurity"
+        },
+        {
+            "title": "How AI Is Enhancing Security in Ridesharing",
+            "link": "https://www.darkreading.com/vulnerabilities-threats/ai-enhancing-ridesharing-security",
+            "published": "Fri, 29 Nov 2024 17:00:00 GMT",
+            "summary": "Whether it's detecting fraudulent activity, preventing phishing, or protecting sensitive data, AI is transforming cybersecurity in ridesharing.",
+            "keyword": "phishing"
+        },
+        {
+            "title": "Ransomware Gangs Seek Pen Testers to Boost Quality",
+            "link": "https://www.darkreading.com/threat-intelligence/ransomware-gangs-seek-pen-testers-boost-professionalism",
+            "published": "Fri, 29 Nov 2024 14:00:00 GMT",
+            "summary": "Qualified applicants must be able to test ransomware encryption and find bugs that might enable defenders to jailbreak the malware.",
+            "keyword": "malware"
+        },
+        {
+            "title": "Ransomware Gangs Seek Pen Testers to Boost Quality",
+            "link": "https://www.darkreading.com/threat-intelligence/ransomware-gangs-seek-pen-testers-boost-professionalism",
+            "published": "Fri, 29 Nov 2024 14:00:00 GMT",
+            "summary": "Qualified applicants must be able to test ransomware encryption and find bugs that might enable defenders to jailbreak the malware.",
+            "keyword": "ransomware"
+        },
+        {
+            "title": "Ransomware Gangs Seek Pen Testers to Boost Quality",
+            "link": "https://www.darkreading.com/threat-intelligence/ransomware-gangs-seek-pen-testers-boost-professionalism",
+            "published": "Fri, 29 Nov 2024 14:00:00 GMT",
+            "summary": "Qualified applicants must be able to test ransomware encryption and find bugs that might enable defenders to jailbreak the malware.",
+            "keyword": "encryption"
+        },
+        {
+            "title": "Sneaky Skimmer Malware Targets Magento Sites Ahead of Black Friday",
+            "link": "https://www.darkreading.com/application-security/sneaky-skimmer-malware-magento-sites-black-friday",
+            "published": "Wed, 27 Nov 2024 17:19:41 GMT",
+            "summary": "A stealthy JavaScript injection attack steals data from the checkout page of sites, either by creating a fake credit card form or extracting data directly from payment fields.",
+            "keyword": "malware"
+        },
+        {
+            "title": "How Learning to Fly Made Me a Better Cybersecurity CEO",
+            "link": "https://www.darkreading.com/cybersecurity-operations/how-learning-fly-made-better-cybersecurity-ceo",
+            "published": "Wed, 27 Nov 2024 15:00:00 GMT",
+            "summary": "The lessons I've learned soaring through the skies have extended far beyond the runway.",
+            "keyword": "cybersecurity"
+        },
+        {
+            "title": "Russian Script Kiddie Assembles Massive DDoS Botnet",
+            "link": "https://www.darkreading.com/cyberattacks-data-breaches/russian-script-kiddie-assembles-massive-ddos-botnet",
+            "published": "Wed, 27 Nov 2024 14:00:00 GMT",
+            "summary": "Over the past year, &quot;Matrix&quot; has used publicly available malware tools and exploit scripts to target weakly secured IoT devices \u2014 and enterprise servers.",
+            "keyword": "malware"
+        },
+        {
+            "title": "News Desk 2024: The Rise of Cybersecurity Platforms",
+            "link": "https://www.darkreading.com/cloud-security/rise-of-cybersecurity-platform-news-desk-black-hat-2024",
+            "published": "Wed, 27 Nov 2024 13:37:44 GMT",
+            "summary": "Enterprise cybersecurity teams tell Omdia's Maxine Holt that they want to dig out from underneath mounting tech and pivot to a simpler platform model \u2014 but they are finding that tricky to pull off.",
+            "keyword": "cybersecurity"
+        },
+        {
+            "title": "News Desk 2024: Can GenAI Write Secure Code?",
+            "link": "https://www.darkreading.com/application-security/can-genai-write-secure-code-news-desk-black-hat-2024",
+            "published": "Wed, 27 Nov 2024 13:10:10 GMT",
+            "summary": "GenAI's 30%-50% coding productivity boost comes with a downside \u2014 it's also generating vulnerabilities. Veracode's Chris Wysopal talks about what he finds out in this News Desk interview during Black Hat USA.",
+            "keyword": "vulnerabilities"
+        },
+        {
+            "title": "Israel Defies VC Downturn With More Cybersecurity Investments",
+            "link": "https://www.darkreading.com/application-security/israel-defies-downturn-security-funding",
+            "published": "Wed, 27 Nov 2024 07:00:00 GMT",
+            "summary": "With a focus on creating technologies for other markets, Israel continues to be a valued destination for venture capital in cybersecurity outside the US and Europe.",
+            "keyword": "cybersecurity"
+        },
+        {
+            "title": "8 Tips for Hiring and Training Neurodivergent Talent",
+            "link": "https://www.darkreading.com/cybersecurity-careers/8-tips-hiring-training-neurodivergent-talent",
+            "published": "Tue, 26 Nov 2024 21:38:00 GMT",
+            "summary": "Neurodivergent talent can add so much to a cybersecurity team. How can companies ensure they have the right hiring and onboarding practices in place to help these employees succeed?",
+            "keyword": "cybersecurity"
+        },
+        {
+            "title": "'RomCom' APT Mounts Zero-Day, Zero-Click Browser Escapes in Firefox, Tor",
+            "link": "https://www.darkreading.com/application-security/romcom-apt-zero-day-zero-click-browser-escapes-firefox-tor",
+            "published": "Tue, 26 Nov 2024 21:36:42 GMT",
+            "summary": "The innocuously named Russian-sponsored cyber threat actor has combined critical and serious vulnerabilities in Windows and Firefox products in a zero-click code execution exploit.",
+            "keyword": "vulnerabilities"
+        },
+        {
+            "title": "Salt Typhoon Builds Out Malware Arsenal With GhostSpider",
+            "link": "https://www.darkreading.com/application-security/salt-typhoon-malware-arsenal-ghostspider",
+            "published": "Tue, 26 Nov 2024 20:13:20 GMT",
+            "summary": "The APT, aka Earth Estries, is one of China's most effective threat actors, performing espionage for sometimes years on end against telcos, ISPs, and governments before being detected.",
+            "keyword": "malware"
+        },
+        {
+            "title": "AWS Rolls Out Updates to Amazon Cognito",
+            "link": "https://www.darkreading.com/identity-access-management-security/aws-rolls-out-updates-to-amazon-cognito",
+            "published": "Tue, 26 Nov 2024 19:02:53 GMT",
+            "summary": "Amazon Web Services' identity and access management platform has added new features that help developers implement secure, scalable, and customizable authentication solutions for their applications.",
+            "keyword": "authentication"
+        },
+        {
+            "title": "CyCognito Report Highlights Rising Cybersecurity Risks in Holiday E-Commerce",
+            "link": "https://www.darkreading.com/application-security/cycognito-report-highlights-rising-cybersecurity-risks-holiday-e-commerce",
+            "published": "Tue, 26 Nov 2024 16:11:46 GMT",
+            "summary": "Findings reveal growing cybersecurity risks in ecommerce, exposing vulnerabilities in PII handling and lack of basic security protections like HTTPS and WAFs",
+            "keyword": "cybersecurity"
+        },
+        {
+            "title": "CyCognito Report Highlights Rising Cybersecurity Risks in Holiday E-Commerce",
+            "link": "https://www.darkreading.com/application-security/cycognito-report-highlights-rising-cybersecurity-risks-holiday-e-commerce",
+            "published": "Tue, 26 Nov 2024 16:11:46 GMT",
+            "summary": "Findings reveal growing cybersecurity risks in ecommerce, exposing vulnerabilities in PII handling and lack of basic security protections like HTTPS and WAFs",
+            "keyword": "vulnerabilities"
+        },
+        {
+            "title": "CyCognito Report Highlights Rising Cybersecurity Risks in Holiday E-Commerce",
+            "link": "https://www.darkreading.com/application-security/cycognito-report-highlights-rising-cybersecurity-risks-holiday-e-commerce",
+            "published": "Tue, 26 Nov 2024 16:11:46 GMT",
+            "summary": "Findings reveal growing cybersecurity risks in ecommerce, exposing vulnerabilities in PII handling and lack of basic security protections like HTTPS and WAFs",
+            "keyword": "HTTPs"
+        },
+        {
+            "title": "My Car Knows My Secrets, and I'm (Mostly) OK With That",
+            "link": "https://www.darkreading.com/vulnerabilities-threats/my-car-knows-my-secrets",
+            "published": "Tue, 26 Nov 2024 15:00:00 GMT",
+            "summary": "Imagine your car gossiping to insurance companies about your lead foot, or data brokers peddling your daily coffee run. Welcome to the world of connected cars, where convenience and privacy are locked in a head-on collision.",
+            "keyword": "privacy"
         },
         {
             "title": "Ransomware Attack on Blue Yonder Hits Starbucks, Supermarkets",
@@ -142,123 +345,11 @@
             "keyword": "cybersecurity"
         },
         {
-            "title": "Chinese APT Gelsemium Deploys 'Wolfsbane' Linux Variant",
-            "link": "https://www.darkreading.com/threat-intelligence/chinese-apt-gelsemium-wolfsbane-linux-variant",
-            "published": "Thu, 21 Nov 2024 20:02:21 GMT",
-            "summary": "In a sign of the times, a backdoor malware whose ancestors date back to 2005 has morphed to target Linux systems.",
-            "keyword": "malware"
-        },
-        {
-            "title": "Scattered Spider Cybercrime Members Face Prison Time",
-            "link": "https://www.darkreading.com/cybersecurity-operations/scattered-spider-cybercrime-members-face-prison-time",
-            "published": "Thu, 21 Nov 2024 18:47:58 GMT",
-            "summary": "Four of the arrested individuals of the cybercriminal gang, known for hacking MGM and Caesars, are American, all of whom could face up to 27 years in prison for the charges against them.",
-            "keyword": "hacking"
-        },
-        {
-            "title": "Scattered Spider Cybercrime Members Face Prison Time",
-            "link": "https://www.darkreading.com/cybersecurity-operations/scattered-spider-cybercrime-members-face-prison-time",
-            "published": "Thu, 21 Nov 2024 18:47:58 GMT",
-            "summary": "Four of the arrested individuals of the cybercriminal gang, known for hacking MGM and Caesars, are American, all of whom could face up to 27 years in prison for the charges against them.",
+            "title": "Hacker in Snowflake Extortions May Be a U.S. Soldier",
+            "link": "https://krebsonsecurity.com/2024/11/hacker-in-snowflake-extortions-may-be-a-u-s-soldier/",
+            "published": "Wed, 27 Nov 2024 00:45:48 +0000",
+            "summary": "Two men have been arrested for allegedly stealing data from and extorting dozens of companies that used the cloud data storage company Snowflake, but a third suspect -- a prolific hacker known as Kiberphant0m -- remains at large and continues to publicly extort victims. However, this person's identity may not remain a secret for long: A careful review of Kiberphant0m's daily chats across multiple cybercrime personas suggests they are a U.S. Army soldier who is or was recently stationed in South Korea.",
             "keyword": "cybercrime"
-        },
-        {
-            "title": "How a Mental Health Nonprofit Secures Endpoints for Compassionate Care",
-            "link": "https://www.darkreading.com/endpoint-security/how-a-mental-health-non-profit-secure-systems-for-compassionate-care",
-            "published": "Thu, 21 Nov 2024 18:16:08 GMT",
-            "summary": "Consolidating endpoint management boosts cybersecurity while keeping an Oklahoma-based nonprofit focused on community mental health.",
-            "keyword": "cybersecurity"
-        },
-        {
-            "title": "Cybersecurity Is Critical, but Breaches Don't Have to Be Disasters",
-            "link": "https://www.darkreading.com/cyberattacks-data-breaches/cybersecurity-critical-breaches-disasters",
-            "published": "Thu, 21 Nov 2024 15:00:00 GMT",
-            "summary": "The future of cybersecurity isn't about preventing every breach \u2014 it's about learning and growing stronger with each attack.",
-            "keyword": "cybersecurity"
-        },
-        {
-            "title": "How Can PR Protect Companies During a Cyberattack?",
-            "link": "https://www.darkreading.com/cyberattacks-data-breaches/how-can-pr-protect-companies-during-a-cyberattack-",
-            "published": "Thu, 21 Nov 2024 13:12:23 GMT",
-            "summary": "When a cybersecurity incident occurs, it's not just IT systems and data that are at risk \u2014 a company's reputation is on the line, too.",
-            "keyword": "cybersecurity"
-        },
-        {
-            "title": "It's Near-Unanimous: AI, ML Make the SOC Better",
-            "link": "https://www.darkreading.com/cybersecurity-operations/survey-report-ai-ml-make-soc-better",
-            "published": "Wed, 20 Nov 2024 21:27:02 GMT",
-            "summary": "Efficiency is the name of the game for the security operations center \u2014 and 91% of cybersecurity pros say artificial intelligence and machine learning are winning that game.",
-            "keyword": "cybersecurity"
-        },
-        {
-            "title": "Alleged Ford 'Breach' Encompasses Auto Dealer Info",
-            "link": "https://www.darkreading.com/cyberattacks-data-breaches/alleged-ford-breach-auto-dealer-info",
-            "published": "Wed, 20 Nov 2024 18:10:48 GMT",
-            "summary": "Cybersecurity investigators found the leaked data to be information from a third party, not Ford itself, that is already accessible to the public and not sensitive in nature.",
-            "keyword": "cybersecurity"
-        },
-        {
-            "title": "Small US Cyber Agencies Are Underfunded &amp; That's a Problem",
-            "link": "https://www.darkreading.com/vulnerabilities-threats/us-cyber-agencies-underfunded-problem",
-            "published": "Wed, 20 Nov 2024 15:00:00 GMT",
-            "summary": "If the US wants to maintain its lead in cybersecurity, it needs to make the tough funding decisions that are demanded of it.",
-            "keyword": "cybersecurity"
-        },
-        {
-            "title": "'Water Barghest' Sells Hijacked IoT Devices for Proxy Botnet Misuse",
-            "link": "https://www.darkreading.com/cloud-security/water-barghest-sells-hijacked-iot-devices-proxy-botnet-misuse",
-            "published": "Wed, 20 Nov 2024 14:14:02 GMT",
-            "summary": "An elusive, sophisticated cybercriminal group has used known and zero-day vulnerabilities to compromise more than 20,000 SOHO routers and other IoT devices so far, and then puts them up for sale on a residential proxy marketplace for state-sponsored cyber-espionage actors and others to use.",
-            "keyword": "vulnerabilities"
-        },
-        {
-            "title": "RIIG Launches With Risk Intelligence Solutions",
-            "link": "https://www.darkreading.com/cyber-risk/riig-launches-risk-intelligence-solutions",
-            "published": "Wed, 20 Nov 2024 00:50:33 GMT",
-            "summary": "RIIG is a risk intelligence and cybersecurity solutions provider offering open source intelligence solutions designed for zero-trust environments.",
-            "keyword": "cybersecurity"
-        },
-        {
-            "title": "SWEEPS Educational Initiative Offers Application Security Training",
-            "link": "https://www.darkreading.com/application-security/sweeps-educational-initiative-application-security-training",
-            "published": "Wed, 20 Nov 2024 00:33:51 GMT",
-            "summary": "The secure coding curriculum, funded by a $2.5 million grant, is available for students and professionals at all stages of their careers.",
-            "keyword": "secure coding"
-        },
-        {
-            "title": "Linux Variant of Helldown Ransomware Targets VMware ESXi Systems",
-            "link": "https://www.darkreading.com/cyberattacks-data-breaches/linux-variant-helldown-ransomware-targets-vmware",
-            "published": "Tue, 19 Nov 2024 21:48:38 GMT",
-            "summary": "Since surfacing in August, the likely LockBit variant has claimed more than two dozen victims and appears poised to strike many more.",
-            "keyword": "ransomware"
-        },
-        {
-            "title": "Russian Ransomware Gangs on the Hunt for Pen Testers",
-            "link": "https://www.darkreading.com/vulnerabilities-threats/russian-ransomware-gangs-hunt-pen-testers",
-            "published": "Tue, 19 Nov 2024 18:54:36 GMT",
-            "summary": "In further proof of the professionalization of Russian cybercriminal groups, ransomware gangs have been posting job ads for security positions such as pen testers, looking to boost their ransomware deployment operations.",
-            "keyword": "ransomware"
-        },
-        {
-            "title": "'Phobos' Ransomware Cybercriminal Extradited From South Korea",
-            "link": "https://www.darkreading.com/cyberattacks-data-breaches/phobos-ransomware-cybercriminal-extradited-south-korea",
-            "published": "Tue, 19 Nov 2024 18:09:26 GMT",
-            "summary": "According to the unsealed criminal charges, the operation is believed to have running for nearly four years.",
-            "keyword": "ransomware"
-        },
-        {
-            "title": "Kyndryl &amp; Microsoft Unveil New Services to Advance Cyber Resilience for Customers",
-            "link": "https://www.darkreading.com/cybersecurity-operations/kyndryl-microsoft-unveil-new-services-to-advance-cyber-resilience-for-customers",
-            "published": "Mon, 18 Nov 2024 21:54:40 GMT",
-            "summary": "",
-            "keyword": "cyber resilience"
-        },
-        {
-            "title": "Akira Ransomware Racks Up 30+ Victims in a Single Day",
-            "link": "https://www.darkreading.com/cyberattacks-data-breaches/akira-ransomware-30-victims-single-day",
-            "published": "Mon, 18 Nov 2024 19:49:30 GMT",
-            "summary": "Of the numerous victims, at least three refused to pay the demanded ransom, with the rest seemingly in talks with the cybercriminal group.",
-            "keyword": "ransomware"
         },
         {
             "title": "Feds Charge Five Men in \u2018Scattered Spider\u2019 Roundup",
@@ -345,6 +436,244 @@
             "keyword": "privacy"
         },
         {
+            "title": "NachoVPN Tool Exploits Flaws in Popular VPN Clients for System Compromise",
+            "link": "https://thehackernews.com/2024/12/nachovpn-tool-exploits-flaws-in-popular.html",
+            "published": "Tue, 03 Dec 2024 15:47:00 +0530",
+            "summary": "Cybersecurity researchers have disclosed a set of flaws impacting Palo Alto Networks and SonicWall virtual private network (VPN) clients that could be potentially exploited to gain remote code execution on Windows and macOS systems.\n\"By targeting the implicit trust VPN clients place in servers, attackers can manipulate client behaviours, execute arbitrary commands, and gain high levels of access",
+            "keyword": "cybersecurity"
+        },
+        {
+            "title": "North Korean Kimsuky Hackers Use Russian Email Addresses for Credential Theft Attacks",
+            "link": "https://thehackernews.com/2024/12/north-korean-kimsuky-hackers-use.html",
+            "published": "Tue, 03 Dec 2024 15:21:00 +0530",
+            "summary": "The North Korea-aligned threat actor known as Kimsuky has been linked to a series of phishing attacks that involve sending email messages that originate from Russian sender addresses to ultimately conduct credential theft.\n\"Phishing emails were sent mainly through email services in Japan and Korea until early September,\" South Korean cybersecurity company Genians said. \"Then, from mid-September,",
+            "keyword": "cybersecurity"
+        },
+        {
+            "title": "North Korean Kimsuky Hackers Use Russian Email Addresses for Credential Theft Attacks",
+            "link": "https://thehackernews.com/2024/12/north-korean-kimsuky-hackers-use.html",
+            "published": "Tue, 03 Dec 2024 15:21:00 +0530",
+            "summary": "The North Korea-aligned threat actor known as Kimsuky has been linked to a series of phishing attacks that involve sending email messages that originate from Russian sender addresses to ultimately conduct credential theft.\n\"Phishing emails were sent mainly through email services in Japan and Korea until early September,\" South Korean cybersecurity company Genians said. \"Then, from mid-September,",
+            "keyword": "phishing"
+        },
+        {
+            "title": "Horns&Hooves Campaign Delivers RATs via Fake Emails and JavaScript Payloads",
+            "link": "https://thehackernews.com/2024/12/horns-campaign-delivers-rats-via-fake.html",
+            "published": "Tue, 03 Dec 2024 10:53:00 +0530",
+            "summary": "A newly discovered malware campaign has been found to target private users, retailers, and service businesses mainly located in Russia to deliver NetSupport RAT and BurnsRAT.\nThe campaign, dubbed Horns&amp;Hooves by Kaspersky, has hit more than 1,000 victims since it began around March 2023. The end goal of these attacks is to leverage the access afforded by these trojans to install stealer",
+            "keyword": "malware"
+        },
+        {
+            "title": "A Guide to Securing AI App Development: Join This Cybersecurity Webinar",
+            "link": "https://thehackernews.com/2024/12/a-guide-to-securing-ai-app-development.html",
+            "published": "Mon, 02 Dec 2024 19:41:00 +0530",
+            "summary": "Artificial Intelligence (AI) is no longer a far-off dream\u2014it\u2019s here, changing the way we live. From ordering coffee to diagnosing diseases, it\u2019s everywhere. But while you\u2019re creating the next big AI-powered app, hackers are already figuring out ways to break it.\nEvery AI app is an opportunity\u2014and a potential risk. The stakes are huge: data leaks, downtime, and even safety threats if security",
+            "keyword": "cybersecurity"
+        },
+        {
+            "title": "SmokeLoader Malware Resurfaces, Targeting Manufacturing and IT in Taiwan",
+            "link": "https://thehackernews.com/2024/12/smokeloader-malware-resurfaces.html",
+            "published": "Mon, 02 Dec 2024 19:31:00 +0530",
+            "summary": "Taiwanese entities in manufacturing, healthcare, and information technology sectors have become the target of a new campaign distributing the SmokeLoader malware.\n\"SmokeLoader is well-known for its versatility and advanced evasion techniques, and its modular design allows it to perform a wide range of attacks,\" Fortinet FortiGuard Labs said in a report shared with The Hacker News.\n\"While",
+            "keyword": "technology"
+        },
+        {
+            "title": "SmokeLoader Malware Resurfaces, Targeting Manufacturing and IT in Taiwan",
+            "link": "https://thehackernews.com/2024/12/smokeloader-malware-resurfaces.html",
+            "published": "Mon, 02 Dec 2024 19:31:00 +0530",
+            "summary": "Taiwanese entities in manufacturing, healthcare, and information technology sectors have become the target of a new campaign distributing the SmokeLoader malware.\n\"SmokeLoader is well-known for its versatility and advanced evasion techniques, and its modular design allows it to perform a wide range of attacks,\" Fortinet FortiGuard Labs said in a report shared with The Hacker News.\n\"While",
+            "keyword": "malware"
+        },
+        {
+            "title": "THN Recap: Top Cybersecurity Threats, Tools and Tips (Nov 25 - Dec 1)",
+            "link": "https://thehackernews.com/2024/12/thn-recap-top-cybersecurity-threats.html",
+            "published": "Mon, 02 Dec 2024 16:44:00 +0530",
+            "summary": "Ever wonder what happens in the digital world every time you blink? Here's something wild - hackers launch about 2,200 attacks every single day, which means someone's trying to break into a system somewhere every 39 seconds.\nAnd get this - while we're all worried about regular hackers, there are now AI systems out there that can craft phishing emails so convincingly, that even cybersecurity",
+            "keyword": "cybersecurity"
+        },
+        {
+            "title": "THN Recap: Top Cybersecurity Threats, Tools and Tips (Nov 25 - Dec 1)",
+            "link": "https://thehackernews.com/2024/12/thn-recap-top-cybersecurity-threats.html",
+            "published": "Mon, 02 Dec 2024 16:44:00 +0530",
+            "summary": "Ever wonder what happens in the digital world every time you blink? Here's something wild - hackers launch about 2,200 attacks every single day, which means someone's trying to break into a system somewhere every 39 seconds.\nAnd get this - while we're all worried about regular hackers, there are now AI systems out there that can craft phishing emails so convincingly, that even cybersecurity",
+            "keyword": "phishing"
+        },
+        {
+            "title": "8 Million Android Users Hit by SpyLoan Malware in Loan Apps on Google Play",
+            "link": "https://thehackernews.com/2024/12/8-million-android-users-hit-by-spyloan.html",
+            "published": "Mon, 02 Dec 2024 15:16:00 +0530",
+            "summary": "Over a dozen malicious Android apps identified on the Google Play Store that have been collectively downloaded over 8 million times contain malware known as SpyLoan, according to new findings from McAfee Labs.\n\"These PUP (potentially unwanted programs) applications use social engineering tactics to trick users into providing sensitive information and granting extra mobile app permissions, which",
+            "keyword": "malware"
+        },
+        {
+            "title": "8 Million Android Users Hit by SpyLoan Malware in Loan Apps on Google Play",
+            "link": "https://thehackernews.com/2024/12/8-million-android-users-hit-by-spyloan.html",
+            "published": "Mon, 02 Dec 2024 15:16:00 +0530",
+            "summary": "Over a dozen malicious Android apps identified on the Google Play Store that have been collectively downloaded over 8 million times contain malware known as SpyLoan, according to new findings from McAfee Labs.\n\"These PUP (potentially unwanted programs) applications use social engineering tactics to trick users into providing sensitive information and granting extra mobile app permissions, which",
+            "keyword": "social engineering"
+        },
+        {
+            "title": "INTERPOL Arrests 5,500 in Global Cybercrime Crackdown, Seizes Over $400 Million",
+            "link": "https://thehackernews.com/2024/12/interpol-arrests-5500-in-global.html",
+            "published": "Mon, 02 Dec 2024 12:32:00 +0530",
+            "summary": "A global law enforcement operation has led to the arrest of more than 5,500 suspects involved in financial crimes and the seizure of more than $400 million in virtual assets and government-backed currencies.\nThe coordinated exercise saw the participation of authorities from 40 countries, territories, and regions as part of the latest wave of Operation HAECHI-V, which took place between July and",
+            "keyword": "cybercrime"
+        },
+        {
+            "title": "Wanted Russian Hacker Linked to Hive and LockBit Ransomware Arrested",
+            "link": "https://thehackernews.com/2024/11/wanted-russian-cybercriminal-linked-to.html",
+            "published": "Sat, 30 Nov 2024 12:44:00 +0530",
+            "summary": "A Russian cybercriminal wanted in the U.S. in connection with LockBit and Hive ransomware operations has been arrested by law enforcement authorities in the country.\nAccording to a news report from Russian media outlet RIA Novosti, Mikhail Pavlovich Matveev has been accused of developing a malicious program designed to encrypt files and seek ransom in return for a decryption key.\n\"At present,",
+            "keyword": "ransomware"
+        },
+        {
+            "title": "Phishing-as-a-Service \"Rockstar 2FA\" Targets Microsoft 365 Users with AiTM Attacks",
+            "link": "https://thehackernews.com/2024/11/phishing-as-service-rockstar-2fa.html",
+            "published": "Fri, 29 Nov 2024 15:36:00 +0530",
+            "summary": "Cybersecurity researchers are warning about malicious email campaigns leveraging a phishing-as-a-service (PhaaS) toolkit called Rockstar 2FA with an aim to steal Microsoft 365 account credentials.\n\"This campaign employs an AitM [adversary-in-the-middle] attack, allowing attackers to intercept user credentials and session cookies, which means that even users with multi-factor authentication (MFA)",
+            "keyword": "cybersecurity"
+        },
+        {
+            "title": "Phishing-as-a-Service \"Rockstar 2FA\" Targets Microsoft 365 Users with AiTM Attacks",
+            "link": "https://thehackernews.com/2024/11/phishing-as-service-rockstar-2fa.html",
+            "published": "Fri, 29 Nov 2024 15:36:00 +0530",
+            "summary": "Cybersecurity researchers are warning about malicious email campaigns leveraging a phishing-as-a-service (PhaaS) toolkit called Rockstar 2FA with an aim to steal Microsoft 365 account credentials.\n\"This campaign employs an AitM [adversary-in-the-middle] attack, allowing attackers to intercept user credentials and session cookies, which means that even users with multi-factor authentication (MFA)",
+            "keyword": "phishing"
+        },
+        {
+            "title": "Phishing-as-a-Service \"Rockstar 2FA\" Targets Microsoft 365 Users with AiTM Attacks",
+            "link": "https://thehackernews.com/2024/11/phishing-as-service-rockstar-2fa.html",
+            "published": "Fri, 29 Nov 2024 15:36:00 +0530",
+            "summary": "Cybersecurity researchers are warning about malicious email campaigns leveraging a phishing-as-a-service (PhaaS) toolkit called Rockstar 2FA with an aim to steal Microsoft 365 account credentials.\n\"This campaign employs an AitM [adversary-in-the-middle] attack, allowing attackers to intercept user credentials and session cookies, which means that even users with multi-factor authentication (MFA)",
+            "keyword": "authentication"
+        },
+        {
+            "title": "Over Two Dozen Flaws Identified in Advantech Industrial Wi-Fi Access Points \u2013 Patch ASAP",
+            "link": "https://thehackernews.com/2024/11/over-two-dozen-flaws-identified-in.html",
+            "published": "Thu, 28 Nov 2024 22:27:00 +0530",
+            "summary": "Nearly two dozen security vulnerabilities have been disclosed in Advantech EKI industrial-grade wireless access point devices, some of which could be weaponized to bypass authentication and execute code with elevated privileges.\n\"These vulnerabilities pose significant risks, allowing unauthenticated remote code execution with root privileges, thereby fully compromising the confidentiality,",
+            "keyword": "vulnerabilities"
+        },
+        {
+            "title": "Over Two Dozen Flaws Identified in Advantech Industrial Wi-Fi Access Points \u2013 Patch ASAP",
+            "link": "https://thehackernews.com/2024/11/over-two-dozen-flaws-identified-in.html",
+            "published": "Thu, 28 Nov 2024 22:27:00 +0530",
+            "summary": "Nearly two dozen security vulnerabilities have been disclosed in Advantech EKI industrial-grade wireless access point devices, some of which could be weaponized to bypass authentication and execute code with elevated privileges.\n\"These vulnerabilities pose significant risks, allowing unauthenticated remote code execution with root privileges, thereby fully compromising the confidentiality,",
+            "keyword": "authentication"
+        },
+        {
+            "title": "XML-RPC npm Library Turns Malicious, Steals Data, Deploys Crypto Miner",
+            "link": "https://thehackernews.com/2024/11/xmlrpc-npm-library-turns-malicious.html",
+            "published": "Thu, 28 Nov 2024 16:18:00 +0530",
+            "summary": "Cybersecurity researchers have discovered a software supply chain attack that has remained active for over a year on the npm package registry by starting off as an innocuous library and later adding malicious code to steal sensitive data and mine cryptocurrency on infected systems.\nThe package, named @0xengine/xmlrpc, was originally published on October 2, 2023 as a JavaScript-based XML-RPC",
+            "keyword": "cybersecurity"
+        },
+        {
+            "title": "Cybercriminals Exploit Popular Game Engine Godot to Distribute Cross-Platform Malware",
+            "link": "https://thehackernews.com/2024/11/cybercriminals-exploit-popular-game.html",
+            "published": "Thu, 28 Nov 2024 14:59:00 +0530",
+            "summary": "A popular open-source game engine called Godot Engine is being misused as part of a new GodLoader malware campaign, infecting over 17,000 systems since at least June 2024.\n\"Cybercriminals have been taking advantage of Godot Engine to execute crafted GDScript code which triggers malicious commands and delivers malware,\" Check Point said in a new analysis published Wednesday. \"The technique",
+            "keyword": "malware"
+        },
+        {
+            "title": "Researchers Discover \"Bootkitty\" \u2013 First UEFI Bootkit Targeting Linux Kernels",
+            "link": "https://thehackernews.com/2024/11/researchers-discover-bootkitty-first.html",
+            "published": "Wed, 27 Nov 2024 21:35:00 +0530",
+            "summary": "Cybersecurity researchers have shed light on what has been described as the first Unified Extensible Firmware Interface (UEFI) bootkit designed for Linux systems.\nDubbed Bootkitty by its creators who go by the name BlackCat, the bootkit is assessed to be a proof-of-concept (PoC) and there is no evidence that it has been put to use in real-world attacks. Also tracked as IranuKit, it was uploaded",
+            "keyword": "cybersecurity"
+        },
+        {
+            "title": "APT-C-60 Hackers Exploit StatCounter and Bitbucket in SpyGlace Malware Campaign",
+            "link": "https://thehackernews.com/2024/11/apt-c-60-exploits-wps-office.html",
+            "published": "Wed, 27 Nov 2024 16:44:00 +0530",
+            "summary": "The threat actor known as APT-C-60 has been linked to a cyber attack targeting an unnamed organization in Japan that used a job application-themed lure to deliver the SpyGlace backdoor.\nThat's according to findings from JPCERT/CC, which said the intrusion leveraged legitimate services like Google Drive, Bitbucket, and StatCounter. The attack was carried out around August 2024.\n\"In this attack,",
+            "keyword": "malware"
+        },
+        {
+            "title": "APT-C-60 Hackers Exploit StatCounter and Bitbucket in SpyGlace Malware Campaign",
+            "link": "https://thehackernews.com/2024/11/apt-c-60-exploits-wps-office.html",
+            "published": "Wed, 27 Nov 2024 16:44:00 +0530",
+            "summary": "The threat actor known as APT-C-60 has been linked to a cyber attack targeting an unnamed organization in Japan that used a job application-themed lure to deliver the SpyGlace backdoor.\nThat's according to findings from JPCERT/CC, which said the intrusion leveraged legitimate services like Google Drive, Bitbucket, and StatCounter. The attack was carried out around August 2024.\n\"In this attack,",
+            "keyword": "cyber attack"
+        },
+        {
+            "title": "INTERPOL Busts African Cybercrime: 1,006 Arrests, 134,089 Malicious Networks Dismantled",
+            "link": "https://thehackernews.com/2024/11/interpol-busts-african-cybercrime-1006.html",
+            "published": "Wed, 27 Nov 2024 12:50:00 +0530",
+            "summary": "An INTERPOL-led operation has led to the arrest of 1,006 suspects across 19 African countries and the takedown of 134,089 malicious infrastructures and networks as part of a coordinated effort to disrupt cybercrime in the continent.\nDubbed Serengeti, the law enforcement exercise took place between September 2 and October 31, 2024, and targeted criminals behind ransomware, business email",
+            "keyword": "ransomware"
+        },
+        {
+            "title": "INTERPOL Busts African Cybercrime: 1,006 Arrests, 134,089 Malicious Networks Dismantled",
+            "link": "https://thehackernews.com/2024/11/interpol-busts-african-cybercrime-1006.html",
+            "published": "Wed, 27 Nov 2024 12:50:00 +0530",
+            "summary": "An INTERPOL-led operation has led to the arrest of 1,006 suspects across 19 African countries and the takedown of 134,089 malicious infrastructures and networks as part of a coordinated effort to disrupt cybercrime in the continent.\nDubbed Serengeti, the law enforcement exercise took place between September 2 and October 31, 2024, and targeted criminals behind ransomware, business email",
+            "keyword": "cybercrime"
+        },
+        {
+            "title": "Matrix Botnet Exploits IoT Devices in Widespread DDoS Botnet Campaign",
+            "link": "https://thehackernews.com/2024/11/matrix-botnet-exploits-iot-devices-in.html",
+            "published": "Wed, 27 Nov 2024 10:51:00 +0530",
+            "summary": "A threat actor named Matrix has been linked to a widespread distributed denial-of-service (DDoS) campaign that leverages vulnerabilities and misconfigurations in Internet of Things (IoT) devices to co-opt them into a disruptive botnet.\n\"This operation serves as a comprehensive one-stop shop for scanning, exploiting vulnerabilities, deploying malware, and setting up shop kits, showcasing a",
+            "keyword": "malware"
+        },
+        {
+            "title": "Matrix Botnet Exploits IoT Devices in Widespread DDoS Botnet Campaign",
+            "link": "https://thehackernews.com/2024/11/matrix-botnet-exploits-iot-devices-in.html",
+            "published": "Wed, 27 Nov 2024 10:51:00 +0530",
+            "summary": "A threat actor named Matrix has been linked to a widespread distributed denial-of-service (DDoS) campaign that leverages vulnerabilities and misconfigurations in Internet of Things (IoT) devices to co-opt them into a disruptive botnet.\n\"This operation serves as a comprehensive one-stop shop for scanning, exploiting vulnerabilities, deploying malware, and setting up shop kits, showcasing a",
+            "keyword": "vulnerabilities"
+        },
+        {
+            "title": "Critical WordPress Anti-Spam Plugin Flaws Expose 200,000+ Sites to Remote Attacks",
+            "link": "https://thehackernews.com/2024/11/critical-wordpress-anti-spam-plugin.html",
+            "published": "Tue, 26 Nov 2024 18:53:00 +0530",
+            "summary": "Two critical security flaws impacting the Spam protection, Anti-Spam, and FireWall plugin for WordPress could allow an unauthenticated attacker to install and enable malicious plugins on susceptible sites and potentially achieve remote code execution.\nThe vulnerabilities, tracked as CVE-2024-10542 and CVE-2024-10781, carry a CVSS score of 9.8 out of a maximum of 10.0. They were addressed in",
+            "keyword": "vulnerabilities"
+        },
+        {
+            "title": "Intruder Launches Intel: A Free Vulnerability Intelligence Platform For Staying Ahead of the Latest Threats",
+            "link": "https://thehackernews.com/2024/11/intruder-launches-intel-free.html",
+            "published": "Tue, 26 Nov 2024 17:00:00 +0530",
+            "summary": "When CVEs go viral, separating critical vulnerabilities from the noise is essential to protecting your organization. That\u2019s why Intruder, a leader in attack surface management, built Intel - a free vulnerability intelligence platform designed to help you act fast and prioritize real threats.\nWhat is Intel?\nIntel was created to fill a gap in the resources available for tracking emerging",
+            "keyword": "vulnerabilities"
+        },
+        {
+            "title": "Chinese Hackers Use GHOSTSPIDER Malware to Hack Telecoms Across 12+ Countries",
+            "link": "https://thehackernews.com/2024/11/chinese-hackers-use-ghostspider-malware.html",
+            "published": "Tue, 26 Nov 2024 15:49:00 +0530",
+            "summary": "The China-linked threat actor known as Earth Estries has been observed using a previously undocumented backdoor called GHOSTSPIDER as part of its attacks targeting Southeast Asian telecommunications companies.&nbsp;\nTrend Micro, which described the hacking group as an aggressive advanced persistent threat (APT), said the intrusions also involved the use of another cross-platform backdoor dubbed",
+            "keyword": "malware"
+        },
+        {
+            "title": "Chinese Hackers Use GHOSTSPIDER Malware to Hack Telecoms Across 12+ Countries",
+            "link": "https://thehackernews.com/2024/11/chinese-hackers-use-ghostspider-malware.html",
+            "published": "Tue, 26 Nov 2024 15:49:00 +0530",
+            "summary": "The China-linked threat actor known as Earth Estries has been observed using a previously undocumented backdoor called GHOSTSPIDER as part of its attacks targeting Southeast Asian telecommunications companies.&nbsp;\nTrend Micro, which described the hacking group as an aggressive advanced persistent threat (APT), said the intrusions also involved the use of another cross-platform backdoor dubbed",
+            "keyword": "hacking"
+        },
+        {
+            "title": "CISA Urges Agencies to Patch Critical \"Array Networks\" Flaw Amid Active Attacks",
+            "link": "https://thehackernews.com/2024/11/cisa-urges-agencies-to-patch-critical.html",
+            "published": "Tue, 26 Nov 2024 10:33:00 +0530",
+            "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a now-patched critical security flaw impacting Array Networks AG and vxAG secure access gateways to its Known Exploited Vulnerabilities (KEV) catalog following reports of active exploitation in the wild.\nThe vulnerability, tracked as CVE-2023-28461 (CVSS score: 9.8), concerns a case of missing authentication that",
+            "keyword": "cybersecurity"
+        },
+        {
+            "title": "CISA Urges Agencies to Patch Critical \"Array Networks\" Flaw Amid Active Attacks",
+            "link": "https://thehackernews.com/2024/11/cisa-urges-agencies-to-patch-critical.html",
+            "published": "Tue, 26 Nov 2024 10:33:00 +0530",
+            "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a now-patched critical security flaw impacting Array Networks AG and vxAG secure access gateways to its Known Exploited Vulnerabilities (KEV) catalog following reports of active exploitation in the wild.\nThe vulnerability, tracked as CVE-2023-28461 (CVSS score: 9.8), concerns a case of missing authentication that",
+            "keyword": "vulnerabilities"
+        },
+        {
+            "title": "CISA Urges Agencies to Patch Critical \"Array Networks\" Flaw Amid Active Attacks",
+            "link": "https://thehackernews.com/2024/11/cisa-urges-agencies-to-patch-critical.html",
+            "published": "Tue, 26 Nov 2024 10:33:00 +0530",
+            "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a now-patched critical security flaw impacting Array Networks AG and vxAG secure access gateways to its Known Exploited Vulnerabilities (KEV) catalog following reports of active exploitation in the wild.\nThe vulnerability, tracked as CVE-2023-28461 (CVSS score: 9.8), concerns a case of missing authentication that",
+            "keyword": "authentication"
+        },
+        {
             "title": "THN Recap: Top Cybersecurity Threats, Tools, and Practices (Nov 18 - Nov 24)",
             "link": "https://thehackernews.com/2024/11/thn-recap-top-cybersecurity-threats_25.html",
             "published": "Mon, 25 Nov 2024 17:00:00 +0530",
@@ -376,7 +705,7 @@
             "title": "Cybersecurity Blind Spots in IaC and PaC Tools Expose Cloud Platforms to New Attacks",
             "link": "https://thehackernews.com/2024/11/cybersecurity-flaws-in-iac-and-pac.html",
             "published": "Mon, 25 Nov 2024 16:54:00 +0530",
-            "summary": "Cybersecurity researchers have disclosed two new attack techniques against infrastructure-as-code (IaC) and policy-as-code (PaC) tools like HashiCorp's Terraform and Open Policy Agent (OPA) that leverage dedicated, domain-specific languages (DSLs) to breach cloud platforms and exfiltrate data.\n\"Since these are hardened languages with limited capabilities, they're supposed to be more secure than",
+            "summary": "Cybersecurity researchers have disclosed two new attack techniques against infrastructure-as-code (IaC) and policy-as-code (PaC) tools like HashiCorp's Terraform and Styra's Open Policy Agent (OPA) that leverage dedicated, domain-specific languages (DSLs) to breach cloud platforms and exfiltrate data.\n\"Since these are hardened languages with limited capabilities, they're supposed to be more",
             "keyword": "cybersecurity"
         },
         {
@@ -471,249 +800,25 @@
             "keyword": "technology"
         },
         {
-            "title": "5 Scattered Spider Gang Members Indicted in Multi-Million Dollar Cybercrime Scheme",
-            "link": "https://thehackernews.com/2024/11/5-scattered-spider-gang-members.html",
-            "published": "Thu, 21 Nov 2024 14:46:00 +0530",
-            "summary": "Five alleged members of the infamous Scattered Spider cybercrime crew have been indicted in the U.S. for targeting employees of companies across the country using social engineering techniques to harvest credentials and using them to gain unauthorized access to sensitive data and break into crypto accounts to steal digital assets worth millions of dollars.\nAll of the accused parties have been",
-            "keyword": "cybercrime"
-        },
-        {
-            "title": "5 Scattered Spider Gang Members Indicted in Multi-Million Dollar Cybercrime Scheme",
-            "link": "https://thehackernews.com/2024/11/5-scattered-spider-gang-members.html",
-            "published": "Thu, 21 Nov 2024 14:46:00 +0530",
-            "summary": "Five alleged members of the infamous Scattered Spider cybercrime crew have been indicted in the U.S. for targeting employees of companies across the country using social engineering techniques to harvest credentials and using them to gain unauthorized access to sensitive data and break into crypto accounts to steal digital assets worth millions of dollars.\nAll of the accused parties have been",
-            "keyword": "social engineering"
-        },
-        {
-            "title": "Google's AI-Powered OSS-Fuzz Tool Finds 26 Vulnerabilities in Open-Source Projects",
-            "link": "https://thehackernews.com/2024/11/googles-ai-powered-oss-fuzz-tool-finds.html",
-            "published": "Thu, 21 Nov 2024 12:43:00 +0530",
-            "summary": "Google has revealed that its AI-powered fuzzing tool, OSS-Fuzz, has been used to help identify 26 vulnerabilities in various open-source code repositories, including a medium-severity flaw in the OpenSSL cryptographic library.\n\"These particular vulnerabilities represent a milestone for automated vulnerability finding: each was found with AI, using AI-generated and enhanced fuzz targets,\"",
-            "keyword": "vulnerabilities"
-        },
-        {
-            "title": "NodeStealer Malware Targets Facebook Ad Accounts, Harvesting Credit Card Data",
-            "link": "https://thehackernews.com/2024/11/nodestealer-malware-targets-facebook-ad.html",
-            "published": "Thu, 21 Nov 2024 12:04:00 +0530",
-            "summary": "Threat hunters are warning about an updated version of the Python-based NodeStealer that's now equipped to extract more information from victims' Facebook Ads Manager accounts and harvest credit card data stored in web browsers.\n\"They collect budget details of Facebook Ads Manager accounts of their victims, which might be a gateway for Facebook malvertisement,\" Netskope Threat Labs researcher",
+            "title": "BootKitty UEFI malware exploits LogoFAIL to infect Linux systems",
+            "link": "https://www.bleepingcomputer.com/news/security/bootkitty-uefi-malware-exploits-logofail-to-infect-linux-systems/",
+            "published": "Mon, 02 Dec 2024 13:07:03 -0500",
+            "summary": "The recently uncovered 'Bootkitty' UEFI bootkit, the first malware of its kind targeting Linux systems, exploits CVE-2023-40238, aka 'LogoFAIL,' to infect computers running on a vulnerable UEFI firmware. [...]",
             "keyword": "malware"
         },
         {
-            "title": "NHIs Are the Future of Cybersecurity: Meet NHIDR",
-            "link": "https://thehackernews.com/2024/11/nhis-are-future-of-cybersecurity-meet.html",
-            "published": "Wed, 20 Nov 2024 17:00:00 +0530",
-            "summary": "The frequency and sophistication of modern cyberattacks are surging, making it increasingly challenging for organizations to protect sensitive data and critical infrastructure. When attackers compromise a non-human identity (NHI), they can swiftly exploit it to move laterally across systems, identifying vulnerabilities and compromising additional NHIs in minutes. While organizations often take",
-            "keyword": "cybersecurity"
-        },
-        {
-            "title": "NHIs Are the Future of Cybersecurity: Meet NHIDR",
-            "link": "https://thehackernews.com/2024/11/nhis-are-future-of-cybersecurity-meet.html",
-            "published": "Wed, 20 Nov 2024 17:00:00 +0530",
-            "summary": "The frequency and sophistication of modern cyberattacks are surging, making it increasingly challenging for organizations to protect sensitive data and critical infrastructure. When attackers compromise a non-human identity (NHI), they can swiftly exploit it to move laterally across systems, identifying vulnerabilities and compromising additional NHIs in minutes. While organizations often take",
-            "keyword": "vulnerabilities"
-        },
-        {
-            "title": "Decades-Old Security Vulnerabilities Found in Ubuntu's Needrestart Package",
-            "link": "https://thehackernews.com/2024/11/decades-old-security-vulnerabilities.html",
-            "published": "Wed, 20 Nov 2024 14:46:00 +0530",
-            "summary": "Multiple decade-old security vulnerabilities have been disclosed in the needrestart package installed by default in Ubuntu Server (since version 21.04) that could allow a local attacker to gain root privileges without requiring user interaction.\nThe Qualys Threat Research Unit (TRU), which identified and reported the flaws early last month, said they are trivial to exploit, necessitating that",
-            "keyword": "vulnerabilities"
-        },
-        {
-            "title": "China-Backed Hackers Leverage SIGTRAN, GSM Protocols to Infiltrate Telecom Networks",
-            "link": "https://thehackernews.com/2024/11/china-backed-hackers-leverage-sigtran.html",
-            "published": "Wed, 20 Nov 2024 12:28:00 +0530",
-            "summary": "A new China-linked cyber espionage group has been attributed as behind a series of targeted cyber attacks targeting telecommunications entities in South Asia and Africa since at least 2020 with the goal of enabling intelligence collection.\nCybersecurity company CrowdStrike is tracking the adversary under the name Liminal Panda, describing it as possessing deep knowledge about telecommunications",
-            "keyword": "cybersecurity"
-        },
-        {
-            "title": "Apple Releases Urgent Updates to Patch Actively Exploited Zero-Day Vulnerabilities",
-            "link": "https://thehackernews.com/2024/11/apple-releases-urgent-updates-to-patch.html",
-            "published": "Wed, 20 Nov 2024 10:07:00 +0530",
-            "summary": "Apple has released security updates for iOS, iPadOS, macOS, visionOS, and its Safari web browser to address two zero-day flaws that have come under active exploitation in the wild.\nThe flaws are listed below -\n\nCVE-2024-44308 (CVSS score: 8.8)&nbsp;- A vulnerability in JavaScriptCore that could lead to arbitrary code execution when processing malicious web content\nCVE-2024-44309 (CVSS score: 6.1",
-            "keyword": "vulnerabilities"
-        },
-        {
-            "title": "Oracle Warns of Agile PLM Vulnerability Currently Under Active Exploitation",
-            "link": "https://thehackernews.com/2024/11/oracle-warns-of-agile-plm-vulnerability.html",
-            "published": "Wed, 20 Nov 2024 09:54:00 +0530",
-            "summary": "Oracle is warning that a high-severity security flaw impacting the Agile Product Lifecycle Management (PLM) Framework has been exploited in the wild.\nThe vulnerability, tracked as CVE-2024-21287 (CVSS score: 7.5), could be exploited sans authentication to leak sensitive information.\n\"This vulnerability is remotely exploitable without authentication, i.e., it may be exploited over a network",
-            "keyword": "authentication"
-        },
-        {
-            "title": "Ngioweb Botnet Fuels NSOCKS Residential Proxy Network Exploiting IoT Devices",
-            "link": "https://thehackernews.com/2024/11/ngioweb-botnet-fuels-nsocks-residential.html",
-            "published": "Tue, 19 Nov 2024 19:31:00 +0530",
-            "summary": "The malware known as Ngioweb has been used to fuel a notorious residential proxy service called NSOCKS, as well as by other services such as VN5Socks and Shopsocks5, new findings from Lumen Technologies reveal.\n\"At least 80% of NSOCKS bots in our telemetry originate from the Ngioweb botnet, mainly utilizing small office/home office (SOHO) routers and IoT devices,\" the Black Lotus Labs team at",
-            "keyword": "malware"
-        },
-        {
-            "title": "New 'Helldown' Ransomware Variant Expands Attacks to VMware and Linux Systems",
-            "link": "https://thehackernews.com/2024/11/new-helldown-ransomware-expands-attacks.html",
-            "published": "Tue, 19 Nov 2024 15:10:00 +0530",
-            "summary": "Cybersecurity researchers have shed light on a Linux variant of a relatively new ransomware strain called Helldown, suggesting that the threat actors are broadening their attack focus.\n\"Helldown deploys Windows ransomware derived from the LockBit 3.0 code,\" Sekoia said in a report shared with The Hacker News. \"Given the recent development of ransomware targeting ESX, it appears that the group",
-            "keyword": "cybersecurity"
-        },
-        {
-            "title": "New 'Helldown' Ransomware Variant Expands Attacks to VMware and Linux Systems",
-            "link": "https://thehackernews.com/2024/11/new-helldown-ransomware-expands-attacks.html",
-            "published": "Tue, 19 Nov 2024 15:10:00 +0530",
-            "summary": "Cybersecurity researchers have shed light on a Linux variant of a relatively new ransomware strain called Helldown, suggesting that the threat actors are broadening their attack focus.\n\"Helldown deploys Windows ransomware derived from the LockBit 3.0 code,\" Sekoia said in a report shared with The Hacker News. \"Given the recent development of ransomware targeting ESX, it appears that the group",
-            "keyword": "ransomware"
-        },
-        {
-            "title": "Warning: VMware vCenter and Kemp LoadMaster Flaws Under Active Exploitation",
-            "link": "https://thehackernews.com/2024/11/cisa-alert-active-exploitation-of.html",
-            "published": "Tue, 19 Nov 2024 12:01:00 +0530",
-            "summary": "Now-patched security flaws impacting Progress Kemp LoadMaster and VMware vCenter Server have come under active exploitation in the wild, it has emerged.\nThe U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added CVE-2024-1212 (CVSS score: 10.0), a maximum-severity security vulnerability in Progress Kemp LoadMaster to its Known Exploited Vulnerabilities (KEV) catalog. It was",
-            "keyword": "cybersecurity"
-        },
-        {
-            "title": "Warning: VMware vCenter and Kemp LoadMaster Flaws Under Active Exploitation",
-            "link": "https://thehackernews.com/2024/11/cisa-alert-active-exploitation-of.html",
-            "published": "Tue, 19 Nov 2024 12:01:00 +0530",
-            "summary": "Now-patched security flaws impacting Progress Kemp LoadMaster and VMware vCenter Server have come under active exploitation in the wild, it has emerged.\nThe U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added CVE-2024-1212 (CVSS score: 10.0), a maximum-severity security vulnerability in Progress Kemp LoadMaster to its Known Exploited Vulnerabilities (KEV) catalog. It was",
-            "keyword": "vulnerabilities"
-        },
-        {
-            "title": "New Stealthy BabbleLoader Malware Spotted Delivering WhiteSnake and Meduza Stealers",
-            "link": "https://thehackernews.com/2024/11/new-stealthy-babbleloader-malware.html",
-            "published": "Mon, 18 Nov 2024 22:18:00 +0530",
-            "summary": "Cybersecurity researchers have shed light on a new stealthy malware loader called BabbleLoader that has been observed in the wild delivering information stealer families such as WhiteSnake and Meduza.\nBabbleLoader is an \"extremely evasive loader, packed with defensive mechanisms, that is designed to bypass antivirus and sandbox environments to deliver stealers into memory,\" Intezer security",
-            "keyword": "cybersecurity"
-        },
-        {
-            "title": "New Stealthy BabbleLoader Malware Spotted Delivering WhiteSnake and Meduza Stealers",
-            "link": "https://thehackernews.com/2024/11/new-stealthy-babbleloader-malware.html",
-            "published": "Mon, 18 Nov 2024 22:18:00 +0530",
-            "summary": "Cybersecurity researchers have shed light on a new stealthy malware loader called BabbleLoader that has been observed in the wild delivering information stealer families such as WhiteSnake and Meduza.\nBabbleLoader is an \"extremely evasive loader, packed with defensive mechanisms, that is designed to bypass antivirus and sandbox environments to deliver stealers into memory,\" Intezer security",
-            "keyword": "malware"
-        },
-        {
-            "title": "THN Recap: Top Cybersecurity Threats, Tools, and Practices (Nov 11 - Nov 17)",
-            "link": "https://thehackernews.com/2024/11/thn-recap-top-cybersecurity-threats_18.html",
-            "published": "Mon, 18 Nov 2024 17:06:00 +0530",
-            "summary": "What do hijacked websites, fake job offers, and sneaky ransomware have in common? They\u2019re proof that cybercriminals are finding smarter, sneakier ways to exploit both systems and people.\nThis week makes one thing clear: no system, no person, no organization is truly off-limits. Attackers are getting smarter, faster, and more creative\u2014using everything from human trust to hidden flaws in",
-            "keyword": "cybersecurity"
-        },
-        {
-            "title": "THN Recap: Top Cybersecurity Threats, Tools, and Practices (Nov 11 - Nov 17)",
-            "link": "https://thehackernews.com/2024/11/thn-recap-top-cybersecurity-threats_18.html",
-            "published": "Mon, 18 Nov 2024 17:06:00 +0530",
-            "summary": "What do hijacked websites, fake job offers, and sneaky ransomware have in common? They\u2019re proof that cybercriminals are finding smarter, sneakier ways to exploit both systems and people.\nThis week makes one thing clear: no system, no person, no organization is truly off-limits. Attackers are getting smarter, faster, and more creative\u2014using everything from human trust to hidden flaws in",
-            "keyword": "ransomware"
-        },
-        {
-            "title": "Gmail's New Shielded Email Feature Lets Users Create Aliases for Email Privacy",
-            "link": "https://thehackernews.com/2024/11/shielded-email-googles-latest-tool-for.html",
-            "published": "Mon, 18 Nov 2024 16:45:00 +0530",
-            "summary": "Google appears to be readying a new feature called Shielded Email that allows users to create email aliases when signing up for online services and better combat spam.\nThe feature was first reported by Android Authority last week following a teardown of the latest version of Google Play Services for Android.\nThe idea is to create unique, single-use email addresses that forward the messages to",
-            "keyword": "privacy"
-        },
-        {
-            "title": "Beyond Compliance: The Advantage of Year-Round Network Pen Testing",
-            "link": "https://thehackernews.com/2024/11/beyond-compliance-advantage-of-year.html",
-            "published": "Mon, 18 Nov 2024 16:45:00 +0530",
-            "summary": "IT leaders know the drill\u2014regulators and cyber insurers demand regular network penetration testing to keep the bad guys out. But here\u2019s the thing: hackers don\u2019t wait around for compliance schedules.\nMost companies approach network penetration testing on a set schedule, with the most common frequency being twice a year (29%), followed by three to four times per year (23%) and once per year (20%),",
-            "keyword": "compliance"
-        },
-        {
-            "title": "Fake Discount Sites Exploit Black Friday to Hijack Shopper Information",
-            "link": "https://thehackernews.com/2024/11/fake-discount-sites-exploit-black.html",
-            "published": "Mon, 18 Nov 2024 16:26:00 +0530",
-            "summary": "A new phishing campaign is targeting e-commerce shoppers in Europe and the United States with bogus pages that mimic legitimate brands with the goal of stealing their personal information ahead of the Black Friday shopping season.\n\"The campaign leveraged the heightened online shopping activity in November, the peak season for Black Friday discounts. The threat actor used fake discounted products",
+            "title": "Novel phishing campaign uses corrupted Word documents to evade security",
+            "link": "https://www.bleepingcomputer.com/news/security/novel-phishing-campaign-uses-corrupted-word-documents-to-evade-security/",
+            "published": "Sun, 01 Dec 2024 10:20:30 -0500",
+            "summary": "A novel phishing attack abuses Microsoft's Word file recovery feature by sending corrupted Word documents as email attachments, allowing them to bypass security software due to their damaged state but still be recoverable by the application. [...]",
             "keyword": "phishing"
         },
         {
-            "title": "Urgent: Critical WordPress Plugin Vulnerability Exposes Over 4 Million Sites",
-            "link": "https://thehackernews.com/2024/11/urgent-critical-wordpress-plugin.html",
-            "published": "Mon, 18 Nov 2024 10:22:00 +0530",
-            "summary": "A critical authentication bypass vulnerability has been disclosed in the Really Simple Security (formerly Really Simple SSL) plugin for WordPress that, if successfully exploited, could grant an attacker to remotely gain full administrative access to a susceptible site.\nThe vulnerability, tracked as CVE-2024-10924 (CVSS score: 9.8), impacts both free and premium versions of the plugin. The",
-            "keyword": "authentication"
-        },
-        {
-            "title": "Warning: DEEPDATA Malware Exploiting Unpatched Fortinet Flaw to Steal VPN Credentials",
-            "link": "https://thehackernews.com/2024/11/warning-deepdata-malware-exploiting.html",
-            "published": "Sat, 16 Nov 2024 11:55:00 +0530",
-            "summary": "A threat actor known as BrazenBamboo has exploited an unresolved security flaw in Fortinet's FortiClient for Windows to extract VPN credentials as part of a modular framework called DEEPDATA.\nVolexity, which disclosed the findings Friday, said it identified the zero-day exploitation of the credential disclosure vulnerability in July 2024, describing BrazenBamboo as the developer behind DEEPDATA,",
+            "title": "SpyLoan Android malware on Google Play installed 8 million times",
+            "link": "https://www.bleepingcomputer.com/news/security/spyloan-android-malware-on-google-play-installed-8-million-times/",
+            "published": "Sat, 30 Nov 2024 10:11:21 -0500",
+            "summary": "A new set of 15 SpyLoan Android malware apps with over 8 million installs was discovered on Google Play, targeting primarily users from South America, Southeast Asia, and Africa. [...]",
             "keyword": "malware"
-        },
-        {
-            "title": "Iranian Hackers Deploy WezRat Malware in Attacks Targeting Israeli Organizations",
-            "link": "https://thehackernews.com/2024/11/iranian-hackers-deploy-wezrat-malware.html",
-            "published": "Fri, 15 Nov 2024 23:27:00 +0530",
-            "summary": "Cybersecurity researchers have shed light on a new remote access trojan and information stealer used by Iranian state-sponsored actors to conduct reconnaissance of compromised endpoints and execute malicious commands.\nCybersecurity company Check Point has codenamed the malware WezRat, stating it has been detected in the wild since at least September 1, 2023, based on artifacts uploaded to the",
-            "keyword": "cybersecurity"
-        },
-        {
-            "title": "Iranian Hackers Deploy WezRat Malware in Attacks Targeting Israeli Organizations",
-            "link": "https://thehackernews.com/2024/11/iranian-hackers-deploy-wezrat-malware.html",
-            "published": "Fri, 15 Nov 2024 23:27:00 +0530",
-            "summary": "Cybersecurity researchers have shed light on a new remote access trojan and information stealer used by Iranian state-sponsored actors to conduct reconnaissance of compromised endpoints and execute malicious commands.\nCybersecurity company Check Point has codenamed the malware WezRat, stating it has been detected in the wild since at least September 1, 2023, based on artifacts uploaded to the",
-            "keyword": "malware"
-        },
-        {
-            "title": "Researchers Warn of Privilege Escalation Risks in Google's Vertex AI ML Platform",
-            "link": "https://thehackernews.com/2024/11/researchers-warn-of-privilege.html",
-            "published": "Fri, 15 Nov 2024 18:05:00 +0530",
-            "summary": "Cybersecurity researchers have disclosed two security flaws in Google's Vertex machine learning (ML) platform that, if successfully exploited, could allow malicious actors to escalate privileges and exfiltrate models from the cloud.\n\"By exploiting custom job permissions, we were able to escalate our privileges and gain unauthorized access to all data services in the project,\" Palo Alto Networks",
-            "keyword": "cybersecurity"
-        },
-        {
-            "title": "Vietnamese Hacker Group Deploys New PXA Stealer Targeting Europe and Asia",
-            "link": "https://thehackernews.com/2024/11/vietnamese-hacker-group-deploys-new-pxa.html",
-            "published": "Fri, 15 Nov 2024 16:42:00 +0530",
-            "summary": "A Vietnamese-speaking threat actor has been linked to an information-stealing campaign targeting government and education entities in Europe and Asia with a new Python-based malware called PXA Stealer.\nThe malware \"targets victims' sensitive information, including credentials for various online accounts, VPN and FTP clients, financial information, browser cookies, and data from gaming software,\"",
-            "keyword": "malware"
-        },
-        {
-            "title": "QNAP addresses critical flaws across NAS, router software",
-            "link": "https://www.bleepingcomputer.com/news/security/qnap-addresses-critical-flaws-across-nas-router-software/",
-            "published": "Mon, 25 Nov 2024 17:13:59 -0500",
-            "summary": "QNAP has released security bulletins over the weekend, which address multiple vulnerabilities, including three critical severity flaws that users should address as soon as possible. [...]",
-            "keyword": "vulnerabilities"
-        },
-        {
-            "title": "Blue Yonder ransomware attack disrupts grocery store supply chain",
-            "link": "https://www.bleepingcomputer.com/news/security/blue-yonder-ransomware-attack-disrupts-grocery-store-supply-chain/",
-            "published": "Mon, 25 Nov 2024 16:11:09 -0500",
-            "summary": "Supply chain management firm Blue Yonder is warning that a ransomware attack caused significant disruption to its services, with the outages impacting grocery store chains in the UK. [...]",
-            "keyword": "ransomware"
-        },
-        {
-            "title": "DOJ: Man hacked networks to pitch cybersecurity services",
-            "link": "https://www.bleepingcomputer.com/news/security/doj-man-hacked-networks-to-pitch-cybersecurity-services/",
-            "published": "Mon, 25 Nov 2024 14:24:30 -0500",
-            "summary": "A Kansas City man has been indicted for allegedly hacking into computer networks\u00a0and using this access to promote his cybersecurity services. [...]",
-            "keyword": "cybersecurity"
-        },
-        {
-            "title": "DOJ: Man hacked networks to pitch cybersecurity services",
-            "link": "https://www.bleepingcomputer.com/news/security/doj-man-hacked-networks-to-pitch-cybersecurity-services/",
-            "published": "Mon, 25 Nov 2024 14:24:30 -0500",
-            "summary": "A Kansas City man has been indicted for allegedly hacking into computer networks\u00a0and using this access to promote his cybersecurity services. [...]",
-            "keyword": "hacking"
-        },
-        {
-            "title": "Salt Typhoon hackers backdoor telcos with new GhostSpider malware",
-            "link": "https://www.bleepingcomputer.com/news/security/salt-typhoon-hackers-backdoor-telcos-with-new-ghostspider-malware/",
-            "published": "Mon, 25 Nov 2024 11:12:22 -0500",
-            "summary": "The Chinese state-sponsored hacking group Salt Typhoon has been observed utilizing a new \"GhostSpider\" backdoor in attacks against telecommunication service providers. [...]",
-            "keyword": "malware"
-        },
-        {
-            "title": "Salt Typhoon hackers backdoor telcos with new GhostSpider malware",
-            "link": "https://www.bleepingcomputer.com/news/security/salt-typhoon-hackers-backdoor-telcos-with-new-ghostspider-malware/",
-            "published": "Mon, 25 Nov 2024 11:12:22 -0500",
-            "summary": "The Chinese state-sponsored hacking group Salt Typhoon has been observed utilizing a new \"GhostSpider\" backdoor in attacks against telecommunication service providers. [...]",
-            "keyword": "hacking"
-        },
-        {
-            "title": "Microsoft testing Windows 11 support for third-party passkeys",
-            "link": "https://www.bleepingcomputer.com/news/security/microsoft-testing-windows-11-support-for-third-party-passkeys/",
-            "published": "Sat, 23 Nov 2024 11:22:33 -0500",
-            "summary": "\u200bMicrosoft is now testing WebAuthn API updates that add support for support for using third-party passkey providers for Windows 11 passwordless authentication. [...]",
-            "keyword": "authentication"
         }
     ]
 }
