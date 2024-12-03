@@ -1,3 +1,5 @@
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'newsletter_service')))
+
 from datetime import datetime
 import mailjet_rest
 import json
