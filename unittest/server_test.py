@@ -1,7 +1,7 @@
 import pytest
 from flask import Flask
 from unittest.mock import patch, MagicMock
-from server import app  # Import your Flask app
+from backend import app, server  # Import your Flask app
 from flask_jwt_extended import create_access_token
 
 @pytest.fixture
