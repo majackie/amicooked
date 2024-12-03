@@ -4,6 +4,10 @@ import AppHeader from '../shared/AppHeader';
 import '../style/Home.css';
 import Button from '../shared/Button'
 
+/**
+ * A Home component containing navigations to Dashboard, Login, and Signup.
+ * It automatically redirects user to Dashboard after 1 minute.
+ */
 function Home() {
 	const navigate = useNavigate();
 

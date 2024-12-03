@@ -1,5 +1,8 @@
 import React from 'react';
 
+const CustomButton = ({ label, onClick }) => (
+  <button onClick={onClick}>{label}</button>
+);
 function AppBar() {
   return (
     <div style={styles.appBar}>

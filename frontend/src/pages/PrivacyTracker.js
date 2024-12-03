@@ -4,10 +4,10 @@ import * as IoIcons from "react-icons/io";
 import "../style/PrivacyTracker.css";
 import logo from '../asset/logo.png';
 
-// TODO - Billy:
-// 4. More input validation, implement more from lectures
-// 5. Implement CI/CD (let team know)
-
+/**
+ * A PrivacyTracker component tracking user scores.
+ * This is visible only to users with accounts.
+ */
 function PrivacyTracker() {
     const token = localStorage.getItem("token")
     const userid = localStorage.getItem("id")
@@ -54,6 +54,7 @@ function PrivacyTracker() {
 
     if (loading)
     {
+        // Hides PrivacyTracker with placeholder text if loading
         return (
             <div className="PrivacyTracker" style={{height: "50vmin"}}>
                 <h1 style={{fontWeight: "bold"}}>Calculating your score...</h1>
@@ -64,17 +65,20 @@ function PrivacyTracker() {
     return(
         <div className="PrivacyTracker">
             <h3>YOUR PRIVACY SCORE</h3>
+            {/*  The score */}
             {score ? (
                 <h2>{score} / {100 * totalLessons}</h2>
             ) : (
                 <h2>0</h2>
             )}
+            {/* The progress bar */}
             <div className="PrivacyTrackerStatusBar">
                 <div className="SafeBlock"></div>
                 <div className="SemiSafeBlock"></div>
                 <div className="RiskBlock"></div>
                 <div className="DangerousBlock"></div>
             </div>
+            {/* The progress pointer */}
             <div className="PrivacyTrackerPointer" style={{left: `${(score && totalLessons) ? (-1 * (score / totalLessons) + 50 ).toString() : "50"}%`}}>
                 <IoIcons.IoMdArrowDropup className="Pointer"/>
                 <img src={logo} className="App-logo-pointer" alt="logo" />

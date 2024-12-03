@@ -3,6 +3,8 @@ import * as FaIcons from "react-icons/fa";
 import * as AiIcons from "react-icons/ai";
 import * as IoIcons from "react-icons/io";
 
+// Sidebar Data for non-default type, specifically Tips page
+// To be passed with Navbar
 export const SidebarTipData = [
   {
     title: "Phishing Email",

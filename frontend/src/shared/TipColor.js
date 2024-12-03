@@ -1,3 +1,4 @@
+// A list of colors to be randomly picked for Tips page's Carousel card.
 export const TipColor = [
     '#c2f0c2',
     '#ffddc1',

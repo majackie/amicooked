@@ -1,5 +1,9 @@
 import styled from "styled-components";
 
+/**
+ * A Button component with custom styling themes.
+ */
+
 const theme = {
   primary: {
     default: "#1A73E8",

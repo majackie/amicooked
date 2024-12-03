@@ -8,6 +8,10 @@ import "../style/Navbar.css";
 import { IconContext } from "react-icons";
 import AppHeader from "./AppHeader";
 
+/**
+ * A Navbar component helps with navigations 
+ * and to be used for all amicooked pages.
+ */
 function Navbar(props) {
   const [sidebar, setSidebar] = useState(false);
 
@@ -17,6 +21,7 @@ function Navbar(props) {
     <div className="Navbar-container">
         <AppHeader />
         <IconContext.Provider value={{ color: "undefined" }}>
+        {/* Hamburger menu */}
         <div className="Navbar">
             <Link to="#" className="Menu-bars">
             <FaIcons.FaBars onClick={showSidebar} />
@@ -30,8 +35,10 @@ function Navbar(props) {
                     <AiIcons.AiOutlineClose />
                     </Link>
                 </li>
+                {/* Switch sidebar navigation based on type */}
                 {(props.type === "default" ? SidebarData : SidebarTipData).map((item, index) => {
                     return (
+                    // Dynamically rendering each data as a link
                     <li key={index} className={item.cName} style={{display: item.display}}>
                         <Link to={item.path}>
                         {item.icon}

@@ -3,6 +3,10 @@ import Button from "../shared/Button"
 import Navbar from "../shared/Navbar";
 import PrivacyTracker from "./PrivacyTracker";
 
+/**
+ * A LessonHome component displaying available lessons.
+ * This is visible only to users with accounts.
+ */
 function LessonsHome() {
     const navigate = useNavigate();
     return (
