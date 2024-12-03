@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# amicooked
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is intended for course COMP 7082 - Software Engineering for Fall 2024. It uses React JS for the front end and Flask, Express JS for the back end with Postgresql. This project has also been set up with Git Action for automated unit tests.
 
-## Available Scripts
+## Description
+amicooked is a web application that utilizes microservices to support its features. Such features like login/signup, educational materials, community forum, newsletter, and privacy checkers.
 
-In the project directory, you can run:
+## Installation
+Prior to the listed installations, Node JS must be installed on your local machine. You can install Node JS [here](https://nodejs.org/en/).
 
-### `npm start`
+amicooked's web application and microservices are built using a variety of node modules and react libraries. Here is how to install them:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Run the following commands:
+```
+# 1st Backend
+cd backend
+npm install
+python -m pip install --upgrade pip
+pip install -r requirements.txt
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# 2nd Backend
+cd hibp
+npm install
 
-### `npm test`
+# Frontend
+cd ../../frontend
+npm install
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Build & Run Locally
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Run amicooked Completely
+We have created a shell script to help run all microservices, and the web application simultaneously. Here is how to run it:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+In the root directory, open up a terminal:
+```
+./start-services.sh
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Run Microservices Independently
+There are four total microservices available for internal and external uses. Here is how to run them independently:
 
-### `npm run eject`
+On two separate terminals, run: 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+cd backend
+python server.py
+```
+And
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+cd backend/hibp
+node app.js
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Run Web application Independently
+You can also build and run the web application independently. Here is how to do so:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+On a separate terminal, run:
 
-## Learn More
+```
+cd frontend
+npm run build
+npm start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+*Happy cooking!*

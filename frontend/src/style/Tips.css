@@ -1,0 +1,25 @@
+h2 {
+    font-size: 6vmin;
+}
+
+.Tips-body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 5vmin;
+}
+
+Button {
+    height: 10vmin;
+    width: 10vmin;
+}
+
+.Carousel {
+    margin-top: 3vmin
+}
+
+.Carousel-item {
+    height: 40vmin;
+    width: 100%;
+}

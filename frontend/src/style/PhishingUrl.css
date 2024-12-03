@@ -1,0 +1,31 @@
+.PhishingUrl-body {
+    margin: 5vmin;
+    scroll-behavior: smooth;
+}
+
+.Scam-alert {
+    height: 20vmin;
+    width: 100%;
+    background-color: #E81A2F;
+    color: white;
+    vertical-align: bottom;
+    margin-bottom: 3vmin;
+}
+
+p {
+    font-size: 4vmin;
+}
+
+.PhishingUrl-backBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.PhishingUrl-backBtn > Button {
+    height: 15vmin;
+    width: 50vmin;
+    font-size: 3vmin;
+    font-weight: bold;
+}

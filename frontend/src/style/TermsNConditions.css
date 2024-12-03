@@ -1,0 +1,53 @@
+.TermsNConditions-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5vmin;
+    scroll-behavior: smooth;
+}
+
+.TermsNConditions-body > h2 {
+    font-size: 8vmin;
+}
+
+.TermsNConditions-body > p {
+    font-size: 4vmin
+}
+
+h3 {
+    font-size: 5vmin
+}
+
+p, ul, ol {
+    font-size: 4vmin;
+}
+
+.TermsNConditions-example {
+    border: 2px solid black;
+    padding: 5vmin 10vmin;
+}
+
+.TermsNConditions-quiz {
+    width: 100%;
+}
+
+.custom-toggle-group {
+    display: grid;
+    margin: 5vmin;
+}
+
+.custom-toggle-btn {
+    border: none;
+    color: black;
+    background-color: white;
+    font-size: 5vmin;
+    box-shadow: 1px 1px 10px 0px black;
+}
+
+.TermsNConditions-body > Button {
+    height: 15vmin;
+    width: 50vmin;
+    font-size: 3vmin;
+    font-weight: bold;
+}

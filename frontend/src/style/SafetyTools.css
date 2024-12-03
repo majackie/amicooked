@@ -1,0 +1,33 @@
+.SafetyTools {
+    scroll-behavior: smooth;
+}
+
+.SafetyTools > * > h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    width: 55vmin;
+    text-align: center;
+}
+
+.PrivacyTracker {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    width: 55vmin;
+    text-align: center;
+}
+
+.PrivacyTracker > h3 {
+    font-size: 5vmin;
+}
+
+.PrivacyTracker > h2 {
+    font-size: 8vmin;
+}
+
+.PrivacyTracker > p {
+    font-size: 4vmin;
+}
