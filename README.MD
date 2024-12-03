@@ -1,20 +1,22 @@
 # amicooked
 
-This project is intended for course COMP 7082 of Fall 2024. It uses React JS for the front-end, and Flask, Express JS for back-end with Postgresql.
+This project is intended for course COMP 7082 of Fall 2024. It uses React JS for the front end and Flask, Express JS for the back end with Postgresql. This project has also been set up with Git Action for automatic unit tests.
 
 ## Description
-amicooked is a web application that utilizes micro services to support its features. Such features like: login/signup, educational materials, community forum, news letter, and privacy checkers.
+amicooked is a web application that utilizes microservices to support its features. Such features like login/signup, educational materials, community forum, newsletter, and privacy checkers.
 
 ## Installation
 Prior to the listed installations, Node JS must be installed on your local machine. You can install Node JS [here](https://nodejs.org/en/).
 
-amicooked web application and micro services are built using a variety of node modules and react libraries. Here is how to install them:
+amicooked's web application and microservices are built using a variety of node modules and react libraries. Here is how to install them:
 
 Run the following commands:
 ```
 # 1st Backend
 cd backend
 npm install
+python -m pip install --upgrade pip
+pip install -r requirements.txt
 
 # 2nd Backend
 cd hibp
@@ -28,36 +30,34 @@ npm install
 
 ## Build & Run Locally
 
-### Bash Script
-You can create an executable for the bash script and run it with the commands below
+### Run amicooked Completely
+We have created a shell script to help run all microservices, and the web application simultaneously. Here is how to run it:
 
+In the root directory, open up a terminal:
 ```
-chmod +x start-services.sh
 ./start-services.sh
 ```
 
-### Micro services
-There are four total micro services available for internal and external uses. Here is how to run them:
+### Run Microservices Independently
+There are four total microservices available for internal and external uses. Here is how to run them independently:
 
-On the first terminal: 
+On two separate terminals, run: 
 
 ```
 cd backend
 python server.py
 ```
-On the second terminal: 
+And
 
 ```
 cd backend/hibp
 node app.js
 ```
 
+### Run Web application Independently
+You can also build and run the web application independently. Here is how to do so:
 
-
-### Web application
-Once the backends are up and running. You can start building and running the web application. Here is how to do so:
-
-On the third terminal:
+On a separate terminal, run:
 
 ```
 cd frontend
