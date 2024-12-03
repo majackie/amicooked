@@ -17,6 +17,7 @@ const Login = () => {
       });
       localStorage.setItem("token", response.data.access_token);
       localStorage.setItem("id", response.data.userid);
+      localStorage.setItem("username", username);
       alert("Login successful!");
 
       navigate("/user-dashboard");
