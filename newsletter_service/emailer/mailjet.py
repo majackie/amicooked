@@ -31,7 +31,7 @@ def load_results(file_path):
         raise Exception(f"Error loading results: {e}")
 
 
-def generate_email_content(results, unsubscribe_url):
+def generate_email_content(results):
     current_date = datetime.now().strftime('%Y-%m-%d')
     count = 0
     html_content = f"""
@@ -57,15 +57,6 @@ def generate_email_content(results, unsubscribe_url):
         count+=1
         if count >= ARTICLES_TO_SEND:
             break
-
-
-    unsubscribe_html = f"<p style='font-family: Helvetica, sans-serif;'>If you no longer wish to receive these emails, please <a href='{unsubscribe_url}' style='color: #ff0000;'>unsubscribe here</a>.</p>"
-    unsubscribe_text = f"If you no longer wish to receive these emails, please unsubscribe here: {unsubscribe_url}\n"
-
-
-    html_content += unsubscribe_html
-    text_content += unsubscribe_text
-
 
     html_content += "</body></html>"
 
